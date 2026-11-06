@@ -1,0 +1,149 @@
+### 0000-symbolic-00
+A: Let's think step by step. The whale is 210 feet, or 210 × 12 = 2520 inches. The 7 remoras are 7 × 72 = 504 inches combined. 504 / 2520 = 0.20, which is 20%. The final answer is 20.
+
+### 0001-symbolic-00
+A: Let's think step by step. The fog covers 77 miles in 50 minutes, and the city is 77 miles across. So it covers the whole city in 50 minutes. The final answer is 50.
+
+### 0002-symbolic-00
+A: Let's think step by step. A greater-than-2 roll on a 4-sided die is 3 or 4, so P = 2/4 = 50%. Two odd numbers in a row has probability (2/4) × (2/4) = 25%. The relative difference is (50 − 25) / 25 = 100%, so it is 100% more likely. The final answer is 100.
+
+### 0003-symbolic-00
+A: Let's think step by step. Hikers are twice the football players, so 2 × 7 = 14. Bakers are the rest: 190 − 19 − 7 − 14 = 150. The final answer is 150.
+
+### 0004-symbolic-00
+A: Let's think step by step. First 30 seconds: 60 pops. Next 30 seconds: 4 × 60 = 240. Next 30 seconds: 6 × 60 = 360. Final 30 seconds: 360 / 2 = 180. Residual heat: 180 / 4 = 45. Total: 60 + 240 + 360 + 180 + 45 = 885. The final answer is 885.
+
+### 0005-symbolic-00
+A: Let's think step by step. The ratio parts total 97 + 37 = 134. Each part is 1474 / 134 = 11. Sugar is 97 × 11 = 1067 teaspoonfuls. The final answer is 1067.
+
+### 0006-symbolic-00
+A: Let's think step by step. Each harvest is 30 × 94 = 2820 oranges. He harvests once every 12 months, so within a year he harvests 2820. The final answer is 2820.
+
+### 0007-symbolic-00
+A: Let's think step by step. Oats: 5 × 3 = 15 kg. Cucumbers: 13 × 6 = 78 kg. Apples: 31 × 42 = 1302 kg. Wheat: 15 × 15 = 225 kg. Total: 15 + 78 + 1302 + 225 = 1620 kg. Trips: 1620 / 180 = 9. The final answer is 9.
+
+### 0008-symbolic-00
+A: Let's think step by step. Tennis balls are 640 / 8 = 80. White ones are 80 / 10 = 8. The final answer is 8.
+
+### 0009-symbolic-00
+A: Let's think step by step. The blocks, animals and rings total 71 + 45 + 29 = 145. The total is 204, so the bouncy balls are 204 − 145 = 59. The final answer is 59.
+
+### 0010-symbolic-00
+A: Let's think step by step. The first 20 minutes cost 20 × 0.9 = 18. The remaining 86 − 20 = 66 minutes cost 66 × 0.5 = 33. Total: 18 + 33 = 51. The final answer is 51.
+
+### 0011-symbolic-00
+A: Let's think step by step. Giant cubes use 8 × 12 = 96 grams. Small cubes use 15 × 1/5 = 3 grams. Medium cubes use 13 × 11 = 143 grams. Total used: 96 + 3 + 143 = 242 grams. Left: 328 − 242 = 86 grams. The final answer is 86.
+
+### 0012-symbolic-00
+A: Let's think step by step. Seven trays hold 7 × 28 = 196 crackers. He has 252, so 252 − 196 = 56 cannot be placed. The final answer is 56.
+
+### 0013-symbolic-00
+A: Let's think step by step. The ledges hold 52 × 7 = 364 plants, plus 29 new ones, for 393. She gives away 52 × 6 = 312. Remaining: 393 − 312 = 81. The final answer is 81.
+
+### 0014-symbolic-00
+A: Let's think step by step. The walk to the cinema and then the bank takes 27 + 31 = 58 minutes. They have 109 − 58 = 51 minutes left. The final answer is 51.
+
+### 0015-symbolic-00
+A: Let's think step by step. Total puppies: 1000 + 640 = 1640. Puppies with spots: 270 + 140 = 410. 410 / 1640 = 0.25, which is 25%. The final answer is 25.
+
+### 0016-symbolic-00
+A: Let's think step by step. On Wednesday he sold 27 boxes of orange pie, so on Tuesday he sold 27 − 18 = 9. On Wednesday he sold 21 + 13 = 34 brownies. Tuesday earnings: 21 × 8 + 9 × 28 = 168 + 252 = 420. Wednesday earnings: 34 × 8 + 27 × 28 = 272 + 756 = 1028. Total: 420 + 1028 = 1448. The final answer is 1448.
+
+### 0017-symbolic-00
+A: Let's think step by step. On the beach he walks 12 km in 60 minutes. On the sidewalk he walks at twice the speed, so 12 km takes 60 / 2 = 30 minutes. Total: 60 + 30 = 90 minutes. The final answer is 90.
+
+### 0018-symbolic-00
+A: Let's think step by step. Rulers: 22 × 4.5 = 99. Colored pencils: 8 × 14 = 112. Bond paper: 22. Total: 99 + 112 + 22 = 233. The final answer is 233.
+
+### 0019-symbolic-00
+A: Let's think step by step. History questions are 60% of 150 = 90. Literature and chemistry together are 60, so each is 30. Mia gets 40% of 90 = 36 history points correct. She gets 1/10 of 60 = 6 literature and chemistry points correct. Total: 36 + 6 = 42. The final answer is 42.
+
+### 0020-symbolic-00
+A: Let's think step by step. Wednesday: 205. Thursday: 97. Friday: 4 × 205 = 820. Total: 205 + 97 + 820 = 1122. The final answer is 1122.
+
+### 0021-symbolic-00
+A: Let's think step by step. Tuesday and Wednesday: 4 + 4 = 8 hours. Friday: 6 hours and 15 minutes. Saturday: 2 × 4 = 8 hours. Known total: 8 + 6 + 8 = 22 hours, plus 15 minutes, which is 22.25 hours. The week was 23 hours, so Thursday was 0.75 hours, or 45 minutes. That is one 45-minute episode. The final answer is 1.
+
+### 0022-symbolic-00
+A: Let's think step by step. Emma started with no spoons, so the package she bought is P. The husband added 18. She used 10 and had 30 left. So P + 18 − 10 = 30, which gives P = 22. The final answer is 22.
+
+### 0023-symbolic-00
+A: Let's think step by step. One child needs 17 + 11 + 18 + 12 + 6 = 64 skeins. For two children: 2 × 64 = 128. The final answer is 128.
+
+### 0024-symbolic-00
+A: Let's think step by step. Each serving is 275 / 5 = 55 ounces and 475 calories, so 475 / 55 calories per ounce. Remaining calories: 2395 − 1350 = 1045. Ounces: 1045 × 55 / 475 = 121. The final answer is 121.
+
+### 0025-symbolic-00
+A: Let's think step by step. Basketball players: 20% of 35 = 7. The remaining 28 students include 25% = 7 dancers or robotics members. Leaving early: 7 + 7 = 14. The final answer is 14.
+
+### 0026-symbolic-00
+A: Let's think step by step. Daily tacos: 6 + 3 + 6 = 15. Weekly: 15 × 7 = 105. The final answer is 105.
+
+### 0027-symbolic-00
+A: Let's think step by step. Emails that need no response: 32% of 150 = 48. Emails that need a response: 150 − 48 = 102 per day. Over 6 days: 102 × 6 = 612. The final answer is 612.
+
+### 0028-symbolic-00
+A: Let's think step by step. Initially occupied: 1800 / 4 = 450. Unoccupied: 1800 − 450 = 1350. Three weeks is 21 days, so 40 × 21 = 840 patients are admitted. Unoccupied after that: 1350 − 840 = 510. The final answer is 510.
+
+### 0029-symbolic-00
+A: Let's think step by step. Pavel is 13. In 3 years Valentina will be 3 × 13 = 39. Right now she is 39 − 3 = 36. The final answer is 36.
+
+### 0030-symbolic-00
+A: Let's think step by step. 25 washers cost 25 × 0.98 = 24.5. Left: 102.5 − 24.5 = 78. The final answer is 78.
+
+### 0031-symbolic-00
+A: Let's think step by step. Mateo is 35 and younger, so Santiago is 45. The average is (35 + 45) / 2 = 40. The final answer is 40.
+
+### 0032-symbolic-00
+A: Let's think step by step. Brokerage fee: 3% of 340000 = 10200. Transfer fee: 10% of 340000 = 34000. Total: 340000 + 10200 + 34000 = 384200. Over budget by 384200 − 360000 = 24200. The final answer is 24200.
+
+### 0033-symbolic-00
+A: Let's think step by step. They have 35 + 30 = 65 signatures. The goal is 120, so they need 120 − 65 = 55 more. The final answer is 55.
+
+### 0034-symbolic-00
+A: Let's think step by step. Registration fees: 3% of 880000 = 26400. Agent fee: 5% of 880000 = 44000. Net proceeds: 880000 − 26400 − 44000 − 440000 = 369600. The final answer is 369600.
+
+### 0035-symbolic-00
+A: Let's think step by step. The charity covers 1/5 of 210 = 42. Wei must cover 210 − 42 = 168. He has 30, so he is missing 168 − 30 = 138. The final answer is 138.
+
+### 0036-symbolic-00
+A: Let's think step by step. Danishes: 1 dozen × 17 = 17. Tarts: 8 × 74 = 592. Scones: 3 × 113 = 339. Total: 17 + 592 + 339 = 948. The final answer is 948.
+
+### 0037-symbolic-00
+A: Let's think step by step. Nadia eats 5 per day and Leon eats 5 × 5 = 25 per day. Together they eat 30 per day. The 30-piece lasagna lasts 30 / 30 = 1 day. The final answer is 1.
+
+### 0038-symbolic-00
+A: Let's think step by step. Six loaves cost 6 × 8 = 48. Four muffins cost 4 × 4 = 16. The difference is 48 − 16 = 32. The final answer is 32.
+
+### 0039-symbolic-00
+A: Let's think step by step. Cleaning time: 210 floors × 20 minutes = 4200 minutes = 70 hours. Available time: 10 days × 10 hours = 100 hours. Percentage: 70 / 100 = 70%. The final answer is 70.
+
+### 0040-symbolic-00
+A: Let's think step by step. Cotton candy: 15 pounds × 23 = 345. The other 5 pounds cost 5 × 23 × 3/4 = 86.25. Cotton candy total: 431.25. Coral: 11.75. Pins: 11 × 21 = 231. Total spent: 431.25 + 11.75 + 231 = 674. Left: 1400 − 674 = 726. The final answer is 726.
+
+### 0041-symbolic-00
+A: Let's think step by step. Orange tiles: 3 × 8 = 24. White and orange together: 8 + 24 = 32. Green tiles: 38 − 32 = 6. The final answer is 6.
+
+### 0042-symbolic-00
+A: Let's think step by step. The expensive tea costs 20 × 1.45 = 29 per kilogram. A week uses 7 kilograms: 7 × 29 = 203. Add the bagel for 3: 203 + 3 = 206. The final answer is 206.
+
+### 0043-symbolic-00
+A: Let's think step by step. Caterpillars: 3/5 × 25 = 15. Total insects: 25 + 15 = 40. The final answer is 40.
+
+### 0044-symbolic-00
+A: Let's think step by step. Girls are two-thirds of the boys, so boys = 18 × 3/2 = 27. Total kids: 18 + 27 = 45. The final answer is 45.
+
+### 0045-symbolic-00
+A: Let's think step by step. Twelve plants fit: 12 × 3 + 11 × 15.5 = 36 + 170.5 = 206.5 meters, which is within 217. Thirteen would need 39 + 12 × 15.5 = 225 meters, which is too long. She already has 11, so she needs 1 more at €14. The final answer is 14.
+
+### 0046-symbolic-00
+A: Let's think step by step. Seats left for guests: 7300 − 1200 − 100 = 6000. Each of the 1200 graduates gets 6000 / 1200 = 5 tickets. The final answer is 5.
+
+### 0047-symbolic-00
+A: Let's think step by step. Six dozen eggs is 72. Quinn finds 12. Isabella finds 2 × 12 = 24. Mia finds 24 − 4 = 20. Nia finds 20 / 4 = 5. Total found: 12 + 24 + 20 + 5 = 61. Still hidden: 72 − 61 = 11. The final answer is 11.
+
+### 0048-symbolic-00
+A: Let's think step by step. Peeling 120 mushrooms at 6 per minute takes 20 minutes. Sauteing 40 takes 17 minutes, so 120 takes 3 × 17 = 51 minutes. Done in sequence: 20 + 51 = 71 minutes. The final answer is 71.
+
+### 0049-symbolic-00
+A: Let's think step by step. The first two complexes have 450 + 450 = 900 apartments. The third has 1.2 × 900 = 1080. Total apartments: 900 + 1080 = 1980. Collections per week: 2 × 1980 = 3960. Pay: 3960 × 0.45 = 1782. The final answer is 1782.

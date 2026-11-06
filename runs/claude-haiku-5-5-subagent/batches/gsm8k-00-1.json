@@ -1,0 +1,16 @@
+{
+ "batch_id": "gsm8k-00-1",
+ "model": "claude-haiku-5-5",
+ "route": "claude-code-subagent",
+ "tool_uses": 1,
+ "non_handoff_tools": [],
+ "valid": true,
+ "usage": {
+  "input": 4,
+  "cache_creation": 124154,
+  "cache_read": 0,
+  "output": 24354
+ },
+ "total_tokens": 148512,
+ "date_utc": "2026-11-06T23:10:06.427Z"
+}

@@ -1,0 +1,237 @@
+Rules for this task:
+- Answer by reasoning only. Do not run code and do not use Bash, file, web or any other tool. The only
+  tool call allowed is the final hand-off that returns your answer.
+- Solve every problem independently, in order.
+- For each problem, write its marker line exactly as given (for example `### 0012-symbolic-03`), then on the next
+  line continue the answer in the style of the examples: `A: Let's think step by step. <reasoning>. The final answer is <number>.`
+- Write nothing else: no introduction, no summary, no tables.
+
+Examples:
+
+As an expert problem solver, solve step by step the following mathematical questions.
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today?
+A: Let's think step by step. There are 15 trees originally. Then there were 21 trees after some more were planted. So there must have been 21 - 15 = 6. The final answer is 6.
+
+Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+A: Let's think step by step. There are originally 3 cars. 2 more cars arrive. 3 + 2 = 5. The final answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+A: Let's think step by step. Originally, Leah had 32 chocolates. Her sister had 42. So in total they had 32 + 42 = 74. After eating 35, they had 74 - 35 = 39. The final answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did Jason give to Denny?
+A: Let's think step by step. Jason started with 20 lollipops. Then he had 12 after giving some to Denny. So he gave Denny 20 - 12 = 8. The final answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+A: Let's think step by step. Shawn started with 5 toys. If he got 2 toys each from his mom and dad, then that is 4 more toys. 5 + 4 = 9. The final answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+A: Let's think step by step. There were originally 9 computers. For each of 4 days, 5 more computers were added. So 5 * 4 = 20 computers were added. 9 + 20 is 29. The final answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+A: Let's think step by step. Michael started with 58 golf balls. After losing 23 on tuesday, he had 58 - 23 = 35. After losing 2 more, he had 35 - 2 = 33 golf balls. The final answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+A: Let's think step by step. Olivia had 23 dollars. 5 bagels for 3 dollars each will be 5 x 3 = 15 dollars. So she has 23 - 15 dollars left. 23 - 15 is 8. The final answer is 8.
+
+Problems:
+
+### 0050-p1-00
+Q: The area of Yuki's rectangular office is 92 square feet. If the length of his room is 19 feet longer that its width, what is the perimeter of the room in feet?
+A: Let's think step by step.
+
+### 0051-p1-00
+Q: Leilani has a herb stand at the town square. Leilani sells three kinds of herbs: sunflowers, lilies and daisies. Leilani usually sells sunflowers for $1.59 per bundle, lilies for $4.87 per bundle and daisies for $5.16 per bundle. Leilani has no change today, so Leilani has decided to round all his prices to the nearest dollar. Leilani sells 11 bundles of sunflowers, 23 bundles of lilies and 39 bundles of daisies. How much will Leilani make, after receiving a 25% tip on every purchase?
+A: Let's think step by step.
+
+### 0052-p1-00
+Q: Tariq has 9 ₣10 bills. He buys 2 coloring books for ₣2 each. He also buys 2 packs of trading cards for ₣5 each. How much money does he have left, if he receives a 25% discount on the coloring book and a 20% on the trading card?
+A: Let's think step by step.
+
+### 0053-p1-00
+Q: Viktor scored 496 points in one game of darts. Diego scored 48 points more than 2/4 as many as Viktor. What is the average of their scores?
+A: Let's think step by step.
+
+### 0054-p1-00
+Q: Uma sliced a whole pear into 44 pieces. She ate 3 slices, her sister ate 7 more than her, and her friend ate 10 more than her sister. How many slices of pear did they all eat on average?
+A: Let's think step by step.
+
+### 0055-p1-00
+Q: Uma is learning to write and decides to keep re-writing the alphabet until she knows it. She writes it in full eight times, writes two-fourths of it once, then re-writes everything she has already written. After some rest, again she re-writes everything she has written so far. How many letters has Uma written in total?
+A: Let's think step by step.
+
+### 0056-p1-00
+Q: A cup of juice is 6 ounces of juice. Jin drinks 5 cups of juice and adds 3 teaspoons of sugar to each cup. Each teaspoon of sugar adds 8 calories. If the juice has 3 calories per ounces how many calories did he consume?
+A: Let's think step by step.
+
+### 0057-p1-00
+Q: Thiago has 2 tubes of pink paint and 14 tubes of indigo paint. Leon has one-half as many tubes of pink paint as Thiago, and seven times as many tubes of indigo paint as Thiago. James has twice as many tubes of turquoise paint as the combined number of pink tubes that Thiago and Leon have, and 5 fewer tubes of white paint than the combined number of indigo tubes that Thiago and Leon have. How many tubes of paint does James have?
+A: Let's think step by step.
+
+### 0058-p1-00
+Q: One miner can mine 5 pounds of ore per day with wooden pickaxe. He can mine thrice as much with one silver pickaxe and 60% more with a mithril pickaxe than with one silver pickaxe. How many pounds of ore can 8 miners mine in a month with 28 days if they all use silver pickaxe in the first half, and then switch to mithril pickaxes in the second half of the month?
+A: Let's think step by step.
+
+### 0059-p1-00
+Q: I have 14 liters of mango drink that is 1/2 water and I wish to add it to 30 liters of peach drink that is 1/3 water. But as I pour it, I spill 10 liters of the mango drink. To make up for that, I add 10 liters of water to the mix. What percentage of the final mix is water?
+A: Let's think step by step.
+
+### 0060-p1-00
+Q: Andre works a 9-hour shift each day, 3 days a week. He earns ₺13 per hour and gets a ₺578 bonus each week if the company performs well. Andre also has to pay 25% as income tax. How much money did Andre make after tax in June if the company performed very well for the whole month?
+A: Let's think step by step.
+
+### 0061-p1-00
+Q: Luis has a bag of beads with 54 inside. He tripped over a stick while carrying it and dropped two-fourths of them. He scrambled to search for them but only came up with 13. When he went back home, he inspected the beads further. Three of them he picked up weren't beads, but actually coins, so he got rid of them. Seeing how upset Luis was, his father gave him a pouch of beads with 7 beads inside. How many beads did Luis end up with?
+A: Let's think step by step.
+
+### 0062-p1-00
+Q: In a set of magician's cards, there are 115 green cards, and 40% more blue cards. Pink cards are as many as the sum of green and blue cards. On average, how many cards per color are there?
+A: Let's think step by step.
+
+### 0063-p1-00
+Q: A child has 16 marbles. His friend has 4 fewer marbles than three times what he has. How many marbles do they have together?
+A: Let's think step by step.
+
+### 0064-p1-00
+Q: Leilani has 4 jars of sprinkles in her pantry. Each jar of sprinkles can decorate 16 cupcakes. Leilani wants to bake enough cupcakes to use up all of her sprinkles. Leilani has 9 pans, each can hold 8 cupcakes. After using all her sprinkles to bake cupcakes and putting them in pans, how many empty pans will Leilani be left with?
+A: Let's think step by step.
+
+### 0065-p1-00
+Q: Yara is trying to decide whether to do her taxes herself or hire an accountant. If she does them herself, she'll be able to do 7 fewer hours of part-time work, losing €25/hour in missed income. Additionally, if she does her taxes herself, she'll need to spend 3 hours mailing the completed tax documents, further reducing her part-time time. An accountant charges €121. How much more money will she have if she hires an accountant?
+A: Let's think step by step.
+
+### 0066-p1-00
+Q: Amelia has 26 light green spools of thread, 44 dark green spools of thread, 21 light red spools of thread, and 19 dark red spools of thread. She also has two times as many white spools as green spools. What percent of her spools are green?
+A: Let's think step by step.
+
+### 0067-p1-00
+Q: Leon's SUV breaks down. The SUV weighs 1300 kilograms and he has furniture in it weighing 375 kilograms. He also has his 3 young teammates who weigh 55 kilograms each in it. In addition, the SUV comes with two spare tires, each weighing 80 kilograms. If the force need to move the SUV is 3% of the total weight, how much force does Leon need to push the SUV?
+A: Let's think step by step.
+
+### 0068-p1-00
+Q: It takes Yara 18 minutes to finish a word puzzle and 13 minutes to finish a riddle. Yara solved 3 word puzzles and 14 riddles over the course of 4 days. On average, how much time per day (in minutes) did she spend playing these games?
+A: Let's think step by step.
+
+### 0069-p1-00
+Q: On Saturday, Mohammed wants to exercise for ten times the amount of time he did on Friday and Thursday combined. On Thursday he exercised for 33 minutes. On Friday he exercised for 45 minutes. How many hours does he have to exercise on Saturday to reach his goal?
+A: Let's think step by step.
+
+### 0070-p1-00
+Q: A carpenter works for 2 weeks every month and 4 days every week. He gets paid ₣25 every day. How much does he earn in a year after paying 20% in taxes?
+A: Let's think step by step.
+
+### 0071-p1-00
+Q: Sanjay is feeding his livestock silage. Each cow needs 7 pounds, and each horse needs 6 pounds less than twice the amount each cow needs. Each alpaca eats as much as a cow and horse eat combined. If there are 17 cows, 8 horses, and 20 alpacas, how many pounds of silage does Sanjay need?
+A: Let's think step by step.
+
+### 0072-p1-00
+Q: Thiago was a pen pal with 8 people. He stopped being penpals with 3 of them. They each send 4 letters a week that are 9 pages long. He responds in kind. He can write a page every 7 minutes. On average, how many hours does Thiago spend writing in a day?
+A: Let's think step by step.
+
+### 0073-p1-00
+Q: Comet Hyakutake orbits the Sun every 62 years. Sanjay's dad saw the comet when he was 32 years old. Sanjay saw the comet for the second time when he was two times the age his dad was when he first saw the comet. How much older is Sanjay's dad than Sanjay?
+A: Let's think step by step.
+
+### 0074-p1-00
+Q: There are 81 second-graders at Oak Ridge School. 36 of them are girls. On Tuesday, 8 second-grade girls and 3 second-grade boys were absent. On Tuesday, what percentage of the present second grade students were boys?
+A: Let's think step by step.
+
+### 0075-p1-00
+Q: There are currently 14 pink balls, 12 purple balls, and 22 red balls in the shop. Pink balls cost ¥6, red balls cost ¥4, and purple balls cost ¥4. The shop has a promotion that gives a 10% discount on all purchases. How much will the shop have received after all the balls are sold?
+A: Let's think step by step.
+
+### 0076-p1-00
+Q: Gabriel caught 5 trouts last Monday, the first trout he caught weighs 74 kgs, the second trout he caught weighs 33 kgs, and each of the rest trout he caught weighs 18 kgs more than the second one. If a kg of trout costs ¥2.0, how much will he earn after selling all the trouts to the market?
+A: Let's think step by step.
+
+### 0077-p1-00
+Q: Zahra is required to submit a 310-page essay. She already finished writing 3/5 of the essay, and she has 4 more days until the submission deadline. On average, how many pages does she have left to write per day?
+A: Let's think step by step.
+
+### 0078-p1-00
+Q: There are 5 periods in the day for a normal student but Liam has to take 3 extra classes. Each class is 35 minutes long, but he spends 5 minutes before each class to review the study materials and prepare. He goes to class for 5 days a week. He then spends one-tenth of his weekly minutes each on Saturday and Sunday as extra learning time. How many hours a week does he spend learning?
+A: Let's think step by step.
+
+### 0079-p1-00
+Q: Yusuf finished 1/10 of a 420 piece puzzle, and then started and finished two-sixths of another 330 piece puzzle within an hour. How many puzzle pieces did Yusuf place during that hour?
+A: Let's think step by step.
+
+### 0080-p1-00
+Q: The vending machine sells cookies for 50 cents, popcorn packs for 100 cents, and crackers for ₤13. James spent ₤60 and got 2 bags of cookies, 3 packs of crackers, and had 5% of his money left in change. How many popcorn packs did he buy?
+A: Let's think step by step.
+
+### 0081-p1-00
+Q: The Treasure hunt team hid 100 toys. The Lee twins each found 13 toys. All the remaining toys except 5 were found by their friends. What percentage of the initially hidden toys did the friends find?
+A: Let's think step by step.
+
+### 0082-p1-00
+Q: At the beginning of the party, there were 76 people, of which 33 were artists, and the rest were engineers. After half an hour, two-fourths of the total number of people left. How many engineers have stayed at the party, if 14 artists remained?
+A: Let's think step by step.
+
+### 0083-p1-00
+Q: The Williams family is busy making brownies. So far, they've made 7150 brownies. They have 1184 blueberry brownies, 1676 lemon brownies, and some vanilla brownies. What percentage of the brownies they have made are vanilla brownies?
+A: Let's think step by step.
+
+### 0084-p1-00
+Q: Keisha buys 8 shares of a stock for €44 each. The stock price increases 75% in the first year Keisha holds it, then decreases 50% in the second year. In the third year, the stock price increases by 25%. By the end of the third year, how much profit has Keisha made?
+A: Let's think step by step.
+
+### 0085-p1-00
+Q: Santiago, Camila, and Ibrahim have 780 feet of fence between them. They agree to split it with Camila getting 180 feet more than Santiago, and Ibrahim getting 120 feet more than Camila. How much is left over for Santiago?
+A: Let's think step by step.
+
+### 0086-p1-00
+Q: Daphne qualified for a spot on the volleyball team, so she went shopping for some athletic gear. She bought a jersey for ₺13, a pair of volleyball leggings for ₺4 more than the jersey cost, and a pair of cleats that were originally ₺32 but were on sale for two-fourths price. She had a coupon for ₺3 off the package of ₺11 athletic headbands that she also bought. Finally, she got a duffle bag for ₺40 but with a 50% discount, and a water bottle for ₺3. How much did she spend on athletic gear?
+A: Let's think step by step.
+
+### 0087-p1-00
+Q: The biggest waterslide at Neptunes Kingdom is 250 meters long, and people slide down at 50 meters/minute. The second biggest waterslide is 210 meters long, but steeper, so people slide down at 70 meters/minute. How much longer does it take to ride the biggest slide compared to the second biggest slide?
+A: Let's think step by step.
+
+### 0088-p1-00
+Q: Nadia can run two times faster than she can walk, but she can skip at a rate of speed that is 2/5 as fast as she can run. If she can skip at 4 miles per hour, how many miles can she travel in 10 hours if she spends 1/10 of the time running, 2/5 of the time skipping, and the remaining of the time walking?
+A: Let's think step by step.
+
+### 0089-p1-00
+Q: Yusuf hires a boat from 2 PM to 8 PM. He gets 2 hours free. There is a fixed insurance cost of $10 as well. The first paid hour is $24 and each hour after that is twice the cost. How much did he pay?
+A: Let's think step by step.
+
+### 0090-p1-00
+Q: Ravi has five times as many LinkedIn friends as Andre. Ali has thrice as many friends on LinkedIn as Andre. Ravi has 90 friends on LinkedIn. On average, how many LinkedIn friends do Ravi, Andre, and Ali have?
+A: Let's think step by step.
+
+### 0091-p1-00
+Q: At Ali's house, there are eight times as many bananas as grapes. He has a total of 37 grapes in his house. Ali then bought 55 more grapes at the store and 14 fewer bananas than the number of grapes. He later bought 11 bananas and 16 fewer than two times as many grapes. How many bananas and grapes does Ali have in the house combined?
+A: Let's think step by step.
+
+### 0092-p1-00
+Q: Arjun slew 200 trolls with his mighty war hammer, while Leon, using a halberd, slew 1/5 as many trolls as Arjun. Using a bone dagger, Alejandro slew nine times as many trolls as Leon. But Xavier, having forgot his hammer at home, slew one-tenth as many trolls as Alejandro using a feather. How many trolls each person have slew on average?
+A: Let's think step by step.
+
+### 0093-p1-00
+Q: When the water is cold, Sophia swims a mile in 16 minutes. When the water is warm, Sophia swims a mile in 2 minutes more than two times as long. How much longer does Sophia take to swim 9 miles on a warm day than 7 miles on a cold day?
+A: Let's think step by step.
+
+### 0094-p1-00
+Q: 160 people apply for a job at Facebook. Of the people that apply, only 45% receive interviews. Of those who receive interviews, 25% receive a job offer. Of those who receive a job offer, three-sixths of the people accept the position. Of those who accept the position, one-ninth of the people will relocate. How many people relocate?
+A: Let's think step by step.
+
+### 0095-p1-00
+Q: There are 8 students playing table tennis and two times that number playing football. There are 20 boys and 24 girls playing basketball. The number of students playing golf is nine times the combined number of students who play other sports. If each student only participates in one sport, how many students are there in total?
+A: Let's think step by step.
+
+### 0096-p1-00
+Q: Olga's uncle said that she had $260 budgeted for her birthday party. She wants to make sure she and her friends each get to play one round of laser tag, have $6 in pinball tokens, and get to ride the roller coaster seven times. A round of laser tag is $3. The roller coaster costs $13 per ride. For the transportation of the birthday party guests, Olga needs to rent a bus for the day, which costs $60. How many friends can she invite?
+A: Let's think step by step.
+
+### 0097-p1-00
+Q: Nadia operates the cash register exactly seven times as fast as her less-experienced colleague Xena. Sakura, being more experienced than Xena but less experienced than Nadia, operates at the same speed as the average of Xena and Nadia. Daily, Xena processes 7 customers. What is the total weekly production for the three if they work all days of the week?
+A: Let's think step by step.
+
+### 0098-p1-00
+Q: A new virus infects 17 people. Every day, each infected person infects 3 others. How many people are infected after 4 days?
+A: Let's think step by step.
+
+### 0099-p1-00
+Q: If Gabrielle eats 9 brownies a day for 20 days and then increases it to 12 brownies a day for the rest of the days, how many dozens of brownies will Gabrielle need for 12 weeks?
+A: Let's think step by step.

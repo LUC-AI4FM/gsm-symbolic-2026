@@ -1,0 +1,149 @@
+### 0000-gsm8k-00
+A: Let's think step by step. The shark is 10 feet, which is 120 inches. The two remoras are 2 × 6 = 12 inches combined. 12 / 120 = 0.10, which is 10%. The final answer is 10.
+
+### 0001-gsm8k-00
+A: Let's think step by step. The city is 42 miles across, and the fog covers 3 miles every 10 minutes. 42 / 3 = 14 blocks of 3 miles. 14 × 10 = 140 minutes. The final answer is 140.
+
+### 0002-gsm8k-00
+A: Let's think step by step. The chance of rolling a number greater than 3 is 3/6 = 1/2 = 50%. The chance of two even numbers in a row is (1/2) × (1/2) = 1/4 = 25%. The difference is 50% - 25% = 25 percentage points, or relative to 25%, (50 - 25) / 25 = 100% more likely. The final answer is 100.
+
+### 0003-gsm8k-00
+A: Let's think step by step. 10 bake and 5 play basketball, so 50 - 10 - 5 = 35 like video games or music. Music is twice basketball, so 2 × 5 = 10. Video games are 35 - 10 = 25. The final answer is 25.
+
+### 0004-gsm8k-00
+A: Let's think step by step. First 30 seconds: 20 popped. Next 30 seconds: 3 × 20 = 60. Next 30 seconds: 4 × 20 = 80. Final 30 seconds: half of 80 = 40. Total while cooking: 20 + 60 + 80 + 40 = 200. Residual heat: a quarter of 40 = 10. Total: 200 + 10 = 210. The final answer is 210.
+
+### 0005-gsm8k-00
+A: Let's think step by step. The ratio 7:13 has 7 + 13 = 20 parts. The total is 120, so each part is 120 / 20 = 6. Sugar is 7 × 6 = 42 teaspoonfuls. The final answer is 42.
+
+### 0006-gsm8k-00
+A: Let's think step by step. 10 hectares × 100 pineapples = 1000 pineapples per harvest. A year has 12 months, and harvests happen every 3 months, so 12 / 3 = 4 harvests. 1000 × 4 = 4000. The final answer is 4000.
+
+### 0007-gsm8k-00
+A: Let's think step by step. Sugar cubes: 2 × 1 = 2 pounds. Carrots: 4 × 12 = 48 pounds. Hay: 42 × 75 = 3150 pounds. Oats: 20 × 65 = 1300 pounds. Total: 2 + 48 + 3150 + 1300 = 4500 pounds. The truck carries 2250 pounds per trip, so 4500 / 2250 = 2 trips. The final answer is 2.
+
+### 0008-gsm8k-00
+A: Let's think step by step. Half of 16 balls are golf balls: 8. Half of the golf balls are blue: 8 / 2 = 4. The final answer is 4.
+
+### 0009-gsm8k-00
+A: Let's think step by step. The building blocks (31), stuffed animals (8), and stacking rings (9) total 31 + 8 + 9 = 48. The total with bouncy balls is 62, so the bouncy balls are 62 - 48 = 14. The final answer is 14.
+
+### 0010-gsm8k-00
+A: Let's think step by step. The first 16 minutes cost 16 × $0.25 = $4.00. The remaining 36 - 16 = 20 minutes cost 20 × $0.20 = $4.00. The total is $4.00 + $4.00 = $8.00. The final answer is 8.
+
+### 0011-gsm8k-00
+A: Let's think step by step. Giant cubes use 3 × 4 = 12 ounces. Medium cubes use 7 × 2 = 14 ounces. Small cubes use 8 × 0.5 = 4 ounces. Total used: 12 + 14 + 4 = 30 ounces. Left: 32 - 30 = 2 ounces. The final answer is 2.
+
+### 0012-gsm8k-00
+A: Let's think step by step. Two trays hold 2 × 24 = 48 eggs. He has 64 eggs. 64 - 48 = 16 eggs cannot be placed. The final answer is 16.
+
+### 0013-gsm8k-00
+A: Let's think step by step. She already has 40 × 2 = 80 plants on the ledges. She received 18 more, so she has 80 + 18 = 98 plants. She gives away 1 per ledge, which is 40 plants. 98 - 40 = 58 remain. The final answer is 58.
+
+### 0014-gsm8k-00
+A: Let's think step by step. The walk to the library corner takes 6 minutes, and the walk to the fire station takes another 13 minutes. Total: 6 + 13 = 19 minutes. 30 - 19 = 11 minutes left before they are late. The final answer is 11.
+
+### 0015-gsm8k-00
+A: Let's think step by step. Jennifer's dog has 8 puppies with 3 spots. Brandon's dog has 12 puppies with 4 spots. Total puppies: 8 + 12 = 20. Puppies with spots: 3 + 4 = 7. 7 / 20 = 0.35, which is 35%. The final answer is 35.
+
+### 0016-gsm8k-00
+A: Let's think step by step. Saturday gingerbread is 10 boxes. Sunday gingerbread is 10 + 5 = 15 boxes. Sunday apple pie is 15 boxes. Saturday apple pie is 15 - 4 = 11 boxes. Total gingerbread: 10 + 15 = 25 boxes × $6 = $150. Total apple pie: 11 + 15 = 26 boxes × $15 = $390. Total earned: 150 + 390 = $540. The final answer is 540.
+
+### 0017-gsm8k-00
+A: Let's think step by step. The beach is 2 miles in 40 minutes, so the beach speed is 2 / 40 = 0.05 miles per minute. The sidewalk speed is twice that, 0.1 miles per minute. The sidewalk mile takes 1 / 0.1 = 10 minutes. Total: 40 + 10 = 50 minutes. The final answer is 50.
+
+### 0018-gsm8k-00
+A: Let's think step by step. Pens: 4 × $1.50 = $6. Notebooks: 2 × $4 = $8. Bond paper: $20. Total: 6 + 8 + 20 = $34. The final answer is 34.
+
+### 0019-gsm8k-00
+A: Let's think step by step. Easy questions: 40% of 60 = 24. The remaining 60 - 24 = 36 are split equally, so 18 average and 18 difficult. Aries gets 75% of 24 easy questions = 18 points. She gets half of 18 average = 9 points. She gets half of 18 difficult = 9 points. Total: 18 + 9 + 9 = 36. The final answer is 36.
+
+### 0020-gsm8k-00
+A: Let's think step by step. Wednesday: 4 bananas. Thursday: 6 bananas. Friday: triple Wednesday's 4 = 12 bananas. Total: 4 + 6 + 12 = 22. The final answer is 22.
+
+### 0021-gsm8k-00
+A: Let's think step by step. Total TV time is 7 hours = 420 minutes. Monday and Tuesday: 2 × 60 = 120 minutes. Thursday: 60 + 30 = 90 minutes. Friday: 2 × 60 = 120 minutes. Known total: 120 + 90 + 120 = 330 minutes. Wednesday: 420 - 330 = 90 minutes. Number of 30-minute episodes: 90 / 30 = 3. The final answer is 3.
+
+### 0022-gsm8k-00
+A: Let's think step by step. Let x be the number of spoons in Julia's package. Her husband added 5 spoons. She used 3 spoons. She ended with 12 spoons, so x + 5 - 3 = 12. Then x = 12 - 2 = 10. The final answer is 10.
+
+### 0023-gsm8k-00
+A: Let's think step by step. One set of winter wear needs 2 (hat) + 4 (scarf) + 12 (sweater) + 1 (mittens) + 2 (socks) = 21 skeins. There are 3 grandchildren, so 21 × 3 = 63 skeins. The final answer is 63.
+
+### 0024-gsm8k-00
+A: Let's think step by step. Each serving is 300 / 5 = 60 grams and 250 calories. The remaining calorie allowance is 2000 - 1800 = 200 calories. 200 / 250 = 0.8 servings. 0.8 × 60 = 48 grams. The final answer is 48.
+
+### 0025-gsm8k-00
+A: Let's think step by step. 20% of 30 students are football players: 6. The remaining students are 30 - 6 = 24. 25% of 24 are cheerleaders or band members: 6. Total students leaving: 6 + 6 = 12. The final answer is 12.
+
+### 0026-gsm8k-00
+A: Let's think step by step. Daily sandwiches: 5 + 4 + 2 = 11. In one week (7 days): 11 × 7 = 77. The final answer is 77.
+
+### 0027-gsm8k-00
+A: Let's think step by step. 20% of 80 emails need no response: 16. He responds to 80 - 16 = 64 emails per day. Over 5 days: 64 × 5 = 320. The final answer is 320.
+
+### 0028-gsm8k-00
+A: Let's think step by step. 1/5 of 1000 beds are occupied: 200. Unoccupied at the start: 1000 - 200 = 800. Over 2 weeks (14 days), 50 patients per day are admitted: 50 × 14 = 700. Unoccupied after: 800 - 700 = 100. The final answer is 100.
+
+### 0029-gsm8k-00
+A: Let's think step by step. In four years, Angela will be 3 × Brett's current age = 3 × 14 = 42. Angela is currently 42 - 4 = 38. The final answer is 38.
+
+### 0030-gsm8k-00
+A: Let's think step by step. 16 bolts × $0.03 = $0.48. David has $12.48 - $0.48 = $12.00 left. The final answer is 12.
+
+### 0031-gsm8k-00
+A: Let's think step by step. Mia is 40 and is 16 years younger than Emma, so Emma is 40 + 16 = 56. The average of their ages is (40 + 56) / 2 = 48. The final answer is 48.
+
+### 0032-gsm8k-00
+A: Let's think step by step. Brokerage fee: 5% of 350,000 = 17,500. Transfer fee: 12% of 350,000 = 42,000. Total price: 350,000 + 17,500 + 42,000 = 409,500. Over budget by 409,500 - 400,000 = 9,500. The final answer is 9500.
+
+### 0033-gsm8k-00
+A: Let's think step by step. Carol and Jennifer have 20 + 44 = 64 signatures. Their goal is 100. They need 100 - 64 = 36 more. The final answer is 36.
+
+### 0034-gsm8k-00
+A: Let's think step by step. Transfer fees: 3% of 400,000 = 12,000. Brokerage fee: 5% of 400,000 = 20,000. Remaining loan: 250,000. Net proceeds: 400,000 - 12,000 - 20,000 - 250,000 = 118,000. The final answer is 118000.
+
+### 0035-gsm8k-00
+A: Let's think step by step. The school covers half of the $300 trip, which is $150. John still needs to cover $150. He has $50, so he is missing 150 - 50 = $100. The final answer is 100.
+
+### 0036-gsm8k-00
+A: Let's think step by step. Donuts: 3 dozen × $68 = $204. Mini cupcakes: 2 dozen × $80 = $160. Mini cheesecakes: 6 dozen × $55 = $330. Total: 204 + 160 + 330 = $694. The final answer is 694.
+
+### 0037-gsm8k-00
+A: Let's think step by step. Abby eats 2 slices per day and Josh eats twice that, 4 slices per day. Together they eat 2 + 4 = 6 slices per day. 24 / 6 = 4 days. The final answer is 4.
+
+### 0038-gsm8k-00
+A: Let's think step by step. 3 loaves cost 3 × $2 = $6. 2 bagels cost 2 × $1 = $2. The difference is 6 - 2 = $4. The final answer is 4.
+
+### 0039-gsm8k-00
+A: Let's think step by step. Cleaning time: 80 classrooms × 15 minutes = 1200 minutes. Work time available over 5 days: 5 × 8 × 60 = 2400 minutes. Share of the day spent cleaning on average: 1200 / 2400 = 0.5, which is 50%. The final answer is 50.
+
+### 0040-gsm8k-00
+A: Let's think step by step. Taffy: first pound $3, second pound half off, so $1.50. Taffy total: $4.50. Seashells: $1.50. Magnets: 4 × $0.25 = $1.00. Total spent: 4.50 + 1.50 + 1.00 = $7.00. Left from $10: 10 - 7 = $3. The final answer is 3.
+
+### 0041-gsm8k-00
+A: Let's think step by step. Blue blocks: 4. Yellow blocks: twice as many, 8. Blue plus yellow: 12. Red blocks: 32 - 12 = 20. The final answer is 20.
+
+### 0042-gsm8k-00
+A: Let's think step by step. The expensive coffee costs 5 × 1.20 = $6 per pound. For a week at 1 pound per day, that is 7 pounds, so 7 × 6 = $42 for coffee. Plus the donut at $2. Total: 42 + 2 = $44. The final answer is 44.
+
+### 0043-gsm8k-00
+A: Let's think step by step. There are 50 ants. Bugs are half as many as ants: 25. Total insects: 50 + 25 = 75. The final answer is 75.
+
+### 0044-gsm8k-00
+A: Let's think step by step. There are 6 girls. Boys are twice that number: 12. Total kids: 6 + 12 = 18. The final answer is 18.
+
+### 0045-gsm8k-00
+A: Let's think step by step. The bed is 111 feet = 1332 inches. Each plant takes 12 inches of width plus 18 inches of space (1.5 feet) before the next plant, so 30 inches per plant. For n plants, the length needed is 12n + 18(n - 1) = 30n - 18 inches. Setting 30n - 18 ≤ 1332 gives n ≤ 45, and 45 plants fit exactly. Pat already owns 17, so she needs 45 - 17 = 28 more. 28 × $6 = $168. The final answer is 168.
+
+### 0046-gsm8k-00
+A: Let's think step by step. Seats available for tickets: 6000 - 950 - 300 = 4750. Divided equally among 950 graduates: 4750 / 950 = 5 tickets each. The final answer is 5.
+
+### 0047-gsm8k-00
+A: Let's think step by step. Three dozen eggs: 36. Lamar finds 5. Stacy finds 2 × 5 = 10. Charlie finds 10 - 2 = 8. Mei finds 8 / 2 = 4. Total found: 5 + 10 + 8 + 4 = 27. Still hidden: 36 - 27 = 9. The final answer is 9.
+
+### 0048-gsm8k-00
+A: Let's think step by step. Peeling 90 shrimp at 6 per minute takes 90 / 6 = 15 minutes. Sauteing 90 shrimp at 30 per 10 minutes takes 90 / 30 × 10 = 30 minutes. Total: 15 + 30 = 45 minutes. The final answer is 45.
+
+### 0049-gsm8k-00
+A: Let's think step by step. The first two complexes have 200 apartments each, which is 400 together. The last one is 60% bigger than 400: 400 × 1.6 = 640. Total apartments: 200 + 200 + 640 = 1040. He collects 3 times a week from each, so 1040 × 3 = 3120 collections. He is paid $0.40 per collection per apartment: 3120 × 0.40 = $1248. The final answer is 1248.

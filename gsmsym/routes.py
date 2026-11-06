@@ -7,6 +7,8 @@
 No credential, header or account identifier is ever written to the logs.
 """
 import json
+import random
+import re
 import os
 import shlex
 import subprocess
@@ -23,6 +25,28 @@ class RouteError(RuntimeError):
     pass
 
 
+TRANSIENT = ("Throttling", "ServiceUnavailable", "Bad Gateway", "502", "503", "504", "timed out",
+             "ModelNotReady", "Connection reset")
+
+
+def _aws(cmd):
+    """Run an AWS CLI call; retry transient failures; return stdout. Errors keep only the AWS message."""
+    for attempt in range(10):
+        try:
+            r = subprocess.run(cmd, capture_output=True, text=True, timeout=900)
+        except subprocess.TimeoutExpired:
+            continue
+        if r.returncode == 0:
+            return r.stdout
+        err = (r.stderr or r.stdout)[-600:]
+        if any(t in err for t in TRANSIENT):
+            time.sleep(min(90, 3 * 2 ** attempt) * (0.5 + random.random()))
+            continue
+        m = re.search(r"\((\w+Exception)\)[^:]*:\s*([^\n]*)", err)
+        raise RouteError(f"{m.group(1)}: {m.group(2)[:240]}" if m else "AWS call failed (details suppressed)")
+    raise RouteError("transient failures: retries exhausted")
+
+
 def bedrock(model_id, prompt, *, max_tokens, temperature=0.0, stop=("\nQ:",)):
     msgs = [{"role": "user", "content": [{"text": prompt}]}]
     cfg = {"maxTokens": max_tokens}
@@ -32,24 +56,13 @@ def bedrock(model_id, prompt, *, max_tokens, temperature=0.0, stop=("\nQ:",)):
         cfg["stopSequences"] = list(stop)
     cmd = AWS_CMD + ["bedrock-runtime", "converse", "--region", REGION, "--model-id", model_id,
                      "--messages", json.dumps(msgs), "--inference-config", json.dumps(cfg), "--output", "json"]
-    for attempt in range(6):
-        r = subprocess.run(cmd, capture_output=True, text=True, timeout=900)
-        if r.returncode == 0:
-            d = json.loads(r.stdout)
-            content = d["output"]["message"]["content"]
-            text = "".join(c.get("text", "") for c in content)
-            reasoning = sum(1 for c in content if "reasoningContent" in c)
-            u = d.get("usage", {})
-            return text, d.get("stopReason"), {"input": u.get("inputTokens"), "output": u.get("outputTokens"),
-                                                "reasoning_blocks": reasoning}, None
-        err = (r.stderr or r.stdout)[-400:]
-        if "ThrottlingException" in err or "ServiceUnavailable" in err or "timed out" in err.lower() or "ModelNotReady" in err:
-            time.sleep(min(60, 4 * 2 ** attempt))
-            continue
-        # Only the AWS error class and message; never the command line.
-        msg = err.split("An error occurred", 1)[-1].strip().splitlines()[0][:300]
-        raise RouteError(msg)
-    raise RouteError("retries exhausted (throttling)")
+    d = json.loads(_aws(cmd))
+    content = d["output"]["message"]["content"]
+    text = "".join(c.get("text", "") for c in content)
+    reasoning = sum(1 for c in content if "reasoningContent" in c)
+    u = d.get("usage", {})
+    return text, d.get("stopReason"), {"input": u.get("inputTokens"), "output": u.get("outputTokens"),
+                                        "reasoning_blocks": reasoning}, None
 
 
 def bedrock_completion(model_id, prompt, *, max_tokens, temperature=0.0, stop=None):
@@ -57,18 +70,9 @@ def bedrock_completion(model_id, prompt, *, max_tokens, temperature=0.0, stop=No
     body = {"prompt": prompt, "max_gen_len": max_tokens, "temperature": temperature}
     cmd = AWS_CMD + ["bedrock-runtime", "invoke-model", "--region", REGION, "--model-id", model_id,
                      "--cli-binary-format", "raw-in-base64-out", "--body", json.dumps(body), "/dev/stdout"]
-    for attempt in range(6):
-        r = subprocess.run(cmd, capture_output=True, text=True, timeout=900)
-        if r.returncode == 0:
-            d, _ = json.JSONDecoder().raw_decode(r.stdout.lstrip())
-            return d["generation"], d.get("stop_reason"), {"input": d.get("prompt_token_count"),
-                                                           "output": d.get("generation_token_count")}, None
-        err = (r.stderr or r.stdout)[-400:]
-        if "Throttling" in err or "ServiceUnavailable" in err:
-            time.sleep(min(60, 4 * 2 ** attempt))
-            continue
-        raise RouteError(err.split("An error occurred", 1)[-1].strip().splitlines()[0][:300])
-    raise RouteError("retries exhausted (throttling)")
+    d, _ = json.JSONDecoder().raw_decode(_aws(cmd).lstrip())
+    return d["generation"], d.get("stop_reason"), {"input": d.get("prompt_token_count"),
+                                                   "output": d.get("generation_token_count")}, None
 
 
 class _AlcfToken:

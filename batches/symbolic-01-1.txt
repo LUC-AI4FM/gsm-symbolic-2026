@@ -1,0 +1,237 @@
+Rules for this task:
+- Answer by reasoning only. Do not run code and do not use Bash, file, web or any other tool. The only
+  tool call allowed is the final hand-off that returns your answer.
+- Solve every problem independently, in order.
+- For each problem, write its marker line exactly as given (for example `### 0012-symbolic-03`), then on the next
+  line continue the answer in the style of the examples: `A: Let's think step by step. <reasoning>. The final answer is <number>.`
+- Write nothing else: no introduction, no summary, no tables.
+
+Examples:
+
+As an expert problem solver, solve step by step the following mathematical questions.
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today?
+A: Let's think step by step. There are 15 trees originally. Then there were 21 trees after some more were planted. So there must have been 21 - 15 = 6. The final answer is 6.
+
+Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+A: Let's think step by step. There are originally 3 cars. 2 more cars arrive. 3 + 2 = 5. The final answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+A: Let's think step by step. Originally, Leah had 32 chocolates. Her sister had 42. So in total they had 32 + 42 = 74. After eating 35, they had 74 - 35 = 39. The final answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did Jason give to Denny?
+A: Let's think step by step. Jason started with 20 lollipops. Then he had 12 after giving some to Denny. So he gave Denny 20 - 12 = 8. The final answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+A: Let's think step by step. Shawn started with 5 toys. If he got 2 toys each from his mom and dad, then that is 4 more toys. 5 + 4 = 9. The final answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+A: Let's think step by step. There were originally 9 computers. For each of 4 days, 5 more computers were added. So 5 * 4 = 20 computers were added. 9 + 20 is 29. The final answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+A: Let's think step by step. Michael started with 58 golf balls. After losing 23 on tuesday, he had 58 - 23 = 35. After losing 2 more, he had 35 - 2 = 33 golf balls. The final answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+A: Let's think step by step. Olivia had 23 dollars. 5 bagels for 3 dollars each will be 5 x 3 = 15 dollars. So she has 23 - 15 dollars left. 23 - 15 is 8. The final answer is 8.
+
+Problems:
+
+### 0050-symbolic-01
+Q: The area of Arjun's rectangular office is 684 square feet. If the length of his room is 6 yards, what is the perimeter of the room in feet?
+A: Let's think step by step.
+
+### 0051-symbolic-01
+Q: Oscar has a flower stand at the community market. He sells three kinds of flowers: daisies, sunflowers and orchids. He usually sells daisies for ₺1.92 per basket, sunflowers for ₺3.83 per basket and orchids for ₺5.16 per basket. Oscar has no change today, so he has decided to round all his prices to the nearest dollar. If Oscar sells 6 baskets of daisies, 15 baskets of sunflowers and 40 baskets of orchids, how much will he make?
+A: Let's think step by step.
+
+### 0052-symbolic-01
+Q: Leon has 8 $50 bills. He buys 7 toy cars for $3 each. He also buys 4 packs of stickers for $1 each. How much money does he have left?
+A: Let's think step by step.
+
+### 0053-symbolic-01
+Q: Yara scored 315 points in one game of archery. Bodhi scored 27 points more than four-fifths as many as Yara. How many points did Yara and Bodhi have in total?
+A: Let's think step by step.
+
+### 0054-symbolic-01
+Q: Kayla sliced a whole mango into 30 pieces. She ate 4 slices, her brother ate 6 more than her, and her cousin ate 4 more than her brother. How many slices of mango did they all eat?
+A: Let's think step by step.
+
+### 0055-symbolic-01
+Q: Olivia is learning to write and decides to keep re-writing the hiragana (with 48 letters) until she knows it. She writes it in full three times, writes four-sixths of it once, then re-writes everything she has already written. How many letters has Olivia written in total?
+A: Let's think step by step.
+
+### 0056-symbolic-01
+Q: A carton of sparkling water is 9 ounces of sparkling water. Thiago drinks 5 cartons of sparkling water. If sparkling water has 2 calories per ounce how many calories did he consume?
+A: Let's think step by step.
+
+### 0057-symbolic-01
+Q: Mateo has 6 tubes of purple paint and 14 tubes of orange paint. Alejandro has two-thirds as many tubes of purple paint as Mateo, and five times as many tubes of orange paint as Mateo. How many tubes of paint does Alejandro have?
+A: Let's think step by step.
+
+### 0058-symbolic-01
+Q: One troll can mine 5 kgs of ore per day with wooden pickaxe. He can mine two times as much with a silver pickaxe and 40% more with a titanium pickaxe than with a silver pickaxe. How many kgs of ore can 25 trolls with titanium pickaxes mine in a month with 28 days?
+A: Let's think step by step.
+
+### 0059-symbolic-01
+Q: I have 9 liters of apple drink that are 1/2 water and I wish to add it to 18 liters of mango drink that is four-sixths water. But as I pour it, I spill 5 liters of the apple drink. How much water is in the remaining 22 liters?
+A: Let's think step by step.
+
+### 0060-symbolic-01
+Q: Ali works a 6-hour shift each day, 3 days a week. He earns ¥11 per hour and gets a ¥432 bonus each week if the company performs well. How much money did Ali make in July if the company performed very well for the whole month?
+A: Let's think step by step.
+
+### 0061-symbolic-01
+Q: Gabriel has a bag of coins with 94 inside. He tripped over rock while carrying it and dropped three-sixths of them. He scrambled to search for them but only came up with 11. When he went back home, he inspected the coins further. Six of them he picked up weren't coins, but actually buttons so he got rid of it. How many coins did Gabriel end up with?
+A: Let's think step by step.
+
+### 0062-symbolic-01
+Q: In a set of magician's cards, there are 28 green cards, and 50% more purple cards. Yellow cards are as many as the sum of green and purple cards. How many cards of all mentioned colors are there?
+A: Let's think step by step.
+
+### 0063-symbolic-01
+Q: A boy has 14 stickers. His brother has 5 fewer stickers than he has. How many stickers do they have together?
+A: Let's think step by step.
+
+### 0064-symbolic-01
+Q: Jasmine has 7 jars of icing in her kitchen cabinet. Each jar of icing can decorate 16 brownies. Jasmine wants to bake enough brownies to use up all of her icing. If each baking sheet holds 14 brownies, how many baking sheets worth of brownies should she bake?
+A: Let's think step by step.
+
+### 0065-symbolic-01
+Q: Amelia is trying to decide whether to do her taxes herself or hire one accountant. If she does it herself, she'll be able to do 4 fewer hours of freelance work, losing €65/hour in missed income. The accountant charges €89. How much more money will she have if she hires the accountant?
+A: Let's think step by step.
+
+### 0066-symbolic-01
+Q: Ava has 58 light black spools of thread, 124 dark black spools of thread, 66 light turquoise spools of thread, and 77 dark turquoise spools of thread. What percent of the spools are black?
+A: Let's think step by step.
+
+### 0067-symbolic-01
+Q: Ibrahim's truck breaks down. The truck weighs 1350 pounds and he has equipment in it weighing 200 pounds. He also has his 4 young colleagues who weigh 75 pounds each in it. If the force to move the truck is 2% of the weight, how much force does he need to push the truck?
+A: Let's think step by step.
+
+### 0068-symbolic-01
+Q: It takes Camila 8 minutes to finish a jigsaw puzzle and 6 minutes to finish a word puzzle. Over the day off she solved 4 jigsaw puzzles and 10 word puzzles. How much time did she spend playing these games?
+A: Let's think step by step.
+
+### 0069-symbolic-01
+Q: On Wednesday, Nadia wants to exercise for four times the amount of time he did on Tuesday and Monday combined. On Monday he exercised for 43 minutes. On Tuesday he exercised for 45 minutes. How many minutes does he have to exercise on Wednesday to reach his goal?
+A: Let's think step by step.
+
+### 0070-symbolic-01
+Q: A carpenter works for 4 weeks every month and for 5 days every week. If he gets paid ¥40 every day, how much does he earn if he works for a year?
+A: Let's think step by step.
+
+### 0071-symbolic-01
+Q: Andre is feeding his livestock silage. Each donkey needs 12 kg, and each cow needs 9 kg less than twice the amount each donkey needs. If there are 20 donkeys and 17 cows, how many kg of silage does Andre need?
+A: Let's think step by step.
+
+### 0072-symbolic-01
+Q: Diego was a pen pal with 11 people. He stopped being penpals with 4 of them. They each send 4 letters a week that are 6 pages long. He responds in kind. He can write a page every 5 minutes. How many hours does he spend writing a week?
+A: Let's think step by step.
+
+### 0073-symbolic-01
+Q: Comet Hale-Bopp orbits the sun every 55 years. Yusuf's father saw the Comet when he was 24 years old. Yusuf saw the comet a second time when he was three times the age his father was when he saw the Comet. How old was Yusuf when he saw the Comet for the first time?
+A: Let's think step by step.
+
+### 0074-symbolic-01
+Q: There are 94 second-graders at Sunny Hill School. 73 of them are girls. On Tuesday, 8 second-grade girls and 5 second-grade boys were absent. How many second grade boys were at Sunny Hill School on Tuesday?
+A: Let's think step by step.
+
+### 0075-symbolic-01
+Q: There are currently 11 orange balls, 27 green balls, and 48 purple balls in the shop. Orange balls cost ₺6, purple balls cost ₺2, and green balls cost ₺4. How much will the shop have received after all the balls are sold?
+A: Let's think step by step.
+
+### 0076-symbolic-01
+Q: Andre caught 6 cods last Sunday, the first cod he caught weighs 54 kgs, the second cod he caught weighs 46 kgs, and the last cod he caught weighs 23 kgs. If a kg of cod costs €2.0, how much will he earn after selling all the cods to the market?
+A: Let's think step by step.
+
+### 0077-symbolic-01
+Q: Elena is required to submit a 272-page thesis. She already finished writing 2/4 of the thesis. How many pages does she have left to write?
+A: Let's think step by step.
+
+### 0078-symbolic-01
+Q: There are 6 periods in the day for a normal student but Umar has to take 3 extra classes. Each class is 55 minutes long. He goes to class for 6 days a week. He then spends one-half of his weekly minutes each on Saturday and Sunday as extra learning time. How many hours a week does he spend learning?
+A: Let's think step by step.
+
+### 0079-symbolic-01
+Q: Sanjay finished 2/3 of a 363 piece puzzle, and then started and finished another 471 piece puzzle within an hour. How many puzzle pieces did Sanjay place during that hour?
+A: Let's think step by step.
+
+### 0080-symbolic-01
+Q: The vending machines sell popcorn for 75 cents and cookies for 125 cents. Mateo spent ₺1200 and got 9 bags of popcorn and had 6% of his money left in change. How many cookies did he buy?
+A: Let's think step by step.
+
+### 0081-symbolic-01
+Q: The Treasure hunt team hid 200 balls. The Lopez twins each found 11 balls. All the other balls except 12 were found by their friends. How many balls did the friends find?
+A: Let's think step by step.
+
+### 0082-symbolic-01
+Q: At the beginning of the party, there were 74 artists and 54 teachers. After half an hour, 1/8 of the total number of people left. How many teachers are left if 31 artists stayed at the party?
+A: Let's think step by step.
+
+### 0083-symbolic-01
+Q: The Johnson family is busy making muffins. So far, they've made 7550 muffins. They have 1705 blueberry muffins, 1655 strawberry muffins, and some vanilla muffins. How many vanilla muffins have they made?
+A: Let's think step by step.
+
+### 0084-symbolic-01
+Q: Beatriz buys 10 shares of a stock for ₺25 each. The stock price increases 10% the first year Beatriz holds it, then decreases 20% in the second year. What is the final value of all Beatriz's shares?
+A: Let's think step by step.
+
+### 0085-symbolic-01
+Q: If Quinn and Amelia have 620 meters of fence between them, and they agree to split it with Amelia getting 140 meters more than Quinn, how much is left over for Quinn?
+A: Let's think step by step.
+
+### 0086-symbolic-01
+Q: Mei qualified for a spot on the swimming team, so she went shopping for some athletic gear. She bought a jersey for $22, a pair of swimming leggings for $9 more than the jersey cost, and a pair of cleats that were originally $78 but were on sale for two-fourths price. She had a coupon for $4 off the package of $12 athletic headbands that she also bought. How much did she spend on athletic gear?
+A: Let's think step by step.
+
+### 0087-symbolic-01
+Q: The biggest waterslide at Splash World is 300 yards long, and people slide down at 50 yards/minute. The second biggest waterslide is 240 yards long, but steeper, so people slide down at 60 yards/minute. How much longer does it take to ride the biggest slide compared to the second biggest slide?
+A: Let's think step by step.
+
+### 0088-symbolic-01
+Q: Jasmine can run five times faster than she can walk, but she can skip at a rate of speed that is 3/5 as fast as she can run. If she can skip at 6 miles per hour, how many miles can she travel in 6 hours if she spends 2/4 of the time running and three-sixths of the time walking?
+A: Let's think step by step.
+
+### 0089-symbolic-01
+Q: Gabriel hires a party bus from 7 PM to 11 PM. He gets 1 hours free. The first paid hour is €16 and each hour after that is twice the cost. How much did he pay?
+A: Let's think step by step.
+
+### 0090-symbolic-01
+Q: Bodhi has twice as many Twitter friends as Roya. Priya has eight times as many friends on Twitter as Roya. If Bodhi has 32 friends on Twitter, how many Twitter friends does Priya have?
+A: Let's think step by step.
+
+### 0091-symbolic-01
+Q: At Xavier's house, there are eight times as many bananas as oranges. He has a total of 28 oranges in his house. Xavier bought 63 more oranges at the store and 26 fewer bananas than the number of oranges. Find the combined total of the number of bananas and oranges Xavier has in the house?
+A: Let's think step by step.
+
+### 0092-symbolic-01
+Q: Kai slew 350 ogres with his mighty sword, while Jin, using a spear, slew 2/5 as many ogres as Kai. Using a rusty iron axe, Qasim slew eight times as many ogres as Jin. But Benjamin, having forgotten his sword at home, slew 1/10 as many ogres as Qasim using a nail file. How many ogres has Benjamin slain?
+A: Let's think step by step.
+
+### 0093-symbolic-01
+Q: When the water is cold Gabriel swims a mile in 12 minutes. When the water is warm Gabriel swims a mile in 8 minutes more than thrice as long. How much longer does Gabriel take to swim 3 miles on a hot day than a cold day?
+A: Let's think step by step.
+
+### 0094-symbolic-01
+Q: 800 people apply for a job at Netflix. Of the people that apply, only 30% receive interviews. Of those who receive interviews, 40% receive a job offer. Of those who receive a job offer, one-eighth of the people accept the position. How many people accept the position?
+A: Let's think step by step.
+
+### 0095-symbolic-01
+Q: There are 5 students playing volleyball and thrice that number playing football. There are 24 boys and 16 girls playing basketball. If each student only participates in one group, how many students are there in total?
+A: Let's think step by step.
+
+### 0096-symbolic-01
+Q: Isabella's dad said that she had €260 budgeted for her birthday party. She wants to make sure she and her friends all get to play one round of mini-golf, have €10 in arcade tokens, and get to ride the go-karts two times. A round of mini-golf is €4. The go-karts cost €6 a ride. How many friends can she invite?
+A: Let's think step by step.
+
+### 0097-symbolic-01
+Q: Kimia operates the cash register exactly seven times as fast as her less-experienced colleague Olivia. Daily, Olivia processes 36 customers. What is the total weekly production for the two if they work all days of the week?
+A: Let's think step by step.
+
+### 0098-symbolic-01
+Q: A new bacteria infects 20 people. Every day, each infected person infects 5 others. How many people are infected after 3 days?
+A: Let's think step by step.
+
+### 0099-symbolic-01
+Q: If Beatriz eats 3 eggs a day for 20 days and then increases it to 6 eggs a day for 66 days, how many dozens of eggs will Beatriz need for 86 days?
+A: Let's think step by step.

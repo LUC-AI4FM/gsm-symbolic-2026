@@ -22,7 +22,7 @@ from .data import NOOP, _rows, gold, insert_clause
 from .models import MODELS
 from .run import parse_instances
 
-GENERATOR = "mistral-large-4"
+GENERATOR = "gemma-4-31b-it"
 JUDGES = ("gpt-oss-120b", "nemotron-3-ultra")
 
 GEN_PROMPT = """You are helping build a robustness test for math word problems.

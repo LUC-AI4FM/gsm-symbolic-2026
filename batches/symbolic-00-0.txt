@@ -1,0 +1,237 @@
+Rules for this task:
+- Answer by reasoning only. Do not run code and do not use Bash, file, web or any other tool. The only
+  tool call allowed is the final hand-off that returns your answer.
+- Solve every problem independently, in order.
+- For each problem, write its marker line exactly as given (for example `### 0012-symbolic-03`), then on the next
+  line continue the answer in the style of the examples: `A: Let's think step by step. <reasoning>. The final answer is <number>.`
+- Write nothing else: no introduction, no summary, no tables.
+
+Examples:
+
+As an expert problem solver, solve step by step the following mathematical questions.
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today?
+A: Let's think step by step. There are 15 trees originally. Then there were 21 trees after some more were planted. So there must have been 21 - 15 = 6. The final answer is 6.
+
+Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+A: Let's think step by step. There are originally 3 cars. 2 more cars arrive. 3 + 2 = 5. The final answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+A: Let's think step by step. Originally, Leah had 32 chocolates. Her sister had 42. So in total they had 32 + 42 = 74. After eating 35, they had 74 - 35 = 39. The final answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did Jason give to Denny?
+A: Let's think step by step. Jason started with 20 lollipops. Then he had 12 after giving some to Denny. So he gave Denny 20 - 12 = 8. The final answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+A: Let's think step by step. Shawn started with 5 toys. If he got 2 toys each from his mom and dad, then that is 4 more toys. 5 + 4 = 9. The final answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+A: Let's think step by step. There were originally 9 computers. For each of 4 days, 5 more computers were added. So 5 * 4 = 20 computers were added. 9 + 20 is 29. The final answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+A: Let's think step by step. Michael started with 58 golf balls. After losing 23 on tuesday, he had 58 - 23 = 35. After losing 2 more, he had 35 - 2 = 33 golf balls. The final answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+A: Let's think step by step. Olivia had 23 dollars. 5 bagels for 3 dollars each will be 5 x 3 = 15 dollars. So she has 23 - 15 dollars left. 23 - 15 is 8. The final answer is 8.
+
+Problems:
+
+### 0000-symbolic-00
+Q: Rania saw a 210-foot whale with 7 72-inch remoras attached to it. What percentage of the whale's body length is the combined length of the remoras?
+A: Let's think step by step.
+
+### 0001-symbolic-00
+Q: A fog bank rolls in from the ocean to cover a city. It takes 50 minutes to cover every 77 miles of the city. If the city is 77 miles across from the oceanfront to the opposite inland edge, how many minutes will it take for the fog bank to cover the whole city?
+A: Let's think step by step.
+
+### 0002-symbolic-00
+Q: Luis is rolling a 4-sided die. How much more likely is it (expressed as a percentage) that he rolls a number greater than 2 than that he rolls two odd numbers in a row?
+A: Let's think step by step.
+
+### 0003-symbolic-00
+Q: A group of 190 students has various hobbies. 19 like to paint, 7 like to play football, and the rest like to either bake or hike. How many like to bake if the number that like to hike is twice the number that prefer playing football?
+A: Let's think step by step.
+
+### 0004-symbolic-00
+Q: Zahra is popping popcorn for a snack. As the pan of kernels heats up, the kernels start popping faster. 60 pop in the first 30 seconds of cooking, then 4 times that amount in the next 30 seconds. The kernels increase to 6 times the initial popping rate in the next 30 seconds, but in the final 30 seconds, the popping slows down to half the rate as the past 30 seconds. After Zahra takes the pan off the heat, a quarter of the number of kernels that popped in the final 30 seconds of cooking also pop from the residual heat. How many pieces of popcorn does Zahra have to eat?
+A: Let's think step by step.
+
+### 0005-symbolic-00
+Q: Sofia makes coffee using teaspoons of sugar and cups of water in the ratio of 97:37. If she used a total of 1474 teaspoons of sugar and cups of water, calculate the number of teaspoonfuls of sugar she used.
+A: Let's think step by step.
+
+### 0006-symbolic-00
+Q: Pavel has 30 square yards of orange field. There are 94 oranges per square yard. Pavel can harvest his oranges every 12 months. How many oranges can Pavel harvest within a year?
+A: Let's think step by step.
+
+### 0007-symbolic-00
+Q: A farmer is buying feed for his alpacas. He buys a variety of apples, wheats, cucumbers and oats. Since oats are a rare treat, he only buys five 3-kg boxes of them for the whole stable. He only wants enough cucumbers to feed the alpacas while the vegetables are fresh, so he buys thirteen 6-kg bags. Apples are the main diet of his alpacas, so he buys thirty one 42-kg packs. Wheats are a staple to supplement the apples, so he buys fifteen 15-kg sacks. If his farm truck can carry 180 kgs at a time, how many trips does the farmer need to transport all the feed?
+A: Let's think step by step.
+
+### 0008-symbolic-00
+Q: A juggler can juggle 640 balls. An eighth of the balls are tennis balls, and 1/10 of the tennis balls are white. How many white tennis balls are there?
+A: Let's think step by step.
+
+### 0009-symbolic-00
+Q: When Mei watches her brother, she gets out a variety of toys for him. The bag of building blocks has 71 blocks in it. The bin of stuffed animals has 45 stuffed animals inside. The tower of stacking rings has 29 multicolored rings on it. Mei recently bought a tube of bouncy balls, bringing her total number of toys for her brother up to 204. How many bouncy balls came in the tube?
+A: Let's think step by step.
+
+### 0010-symbolic-00
+Q: To make a call from a hotel room phone, you must pay $0.9 for each minute of your call. After 20 minutes, that price drops to $0.5 per minute. How much would a 86-minute call cost?
+A: Let's think step by step.
+
+### 0011-symbolic-00
+Q: Pavel wants to make different sized ice cubes with 328 grams of water. He can make giant cubes that use 12 grams per cube, medium cubes that use 11 grams, and small cubes that use 1/5 of gram. If he makes 8 giant cubes, 15 small cubes, and 13 medium cubes, how many grams of water does he have left?
+A: Let's think step by step.
+
+### 0012-symbolic-00
+Q: Ravi places crackers on some trays. Each tray can hold 28 crackers. If he has 252 crackers and 7 trays, how many crackers won't he be able to place on the tray?
+A: Let's think step by step.
+
+### 0013-symbolic-00
+Q: Camila is an avid gardener. Two days ago, she received 29 new potted plants from her favorite plant nursery. She already has 7 potted plants on each of the 52 window ledges of her large country home. Feeling generous, she has decided that she will give 6 potted plants from each ledge to friends and family tomorrow. How many potted plants will Camila remain with?
+A: Let's think step by step.
+
+### 0014-symbolic-00
+Q: Keisha and Andre have 109 minutes to walk to the gym together. It takes them 27 minutes to get to the corner where the cinema is. It takes them another 31 minutes to get to the bank. How much longer do they have to get to gym without being late?
+A: Let's think step by step.
+
+### 0015-symbolic-00
+Q: Jasmine's dog has 1000 puppies, 270 of which have spots. Priya's dog has 640 puppies, 140 of which have spots. What percentage of all the puppies have spots?
+A: Let's think step by step.
+
+### 0016-symbolic-00
+Q: Kai is selling brownie and orange pie for a fundraiser. On Tuesday, he sold 21 boxes of brownie and 18 fewer boxes of orange pie, than on Wednesday. On Wednesday, he sold 13 more boxes of brownies than on Tuesday and 27 boxes of orange pie. If the brownie cost ¥8 and the orange pie cost ¥28, how much did Kai earn for two days?
+A: Let's think step by step.
+
+### 0017-symbolic-00
+Q: Mia walks 24 kilometers every day on her favorite walking trail, which includes 12 kilometers of walking on the beach and 12 kilometers of walking on the sidewalk. On the sidewalk, Mia walks at two times the rate of speed that she does on the beach. If 60 minutes of her walk is spent on the beach, how long does it take for her to complete the entire 24-kilometer walk, in minutes?
+A: Let's think step by step.
+
+### 0018-symbolic-00
+Q: Bodhi went to buy some school supplies. He bought 22 rulers which cost ¥4.5 each, 8 colored pencils which cost ¥14.0 each, and a rim of bond paper which cost ¥22. How much did Bodhi spend on everything?
+A: Let's think step by step.
+
+### 0019-symbolic-00
+Q: In a 150-item quiz, 60% of the questions are history, and the rest are equally divided as literature and chemistry questions. If Mia is sure to get 40% of the history questions, and 1/10 of the literature and chemistry questions correctly, how many points is she sure to get?
+A: Let's think step by step.
+
+### 0020-symbolic-00
+Q: Liam picks 205 pineapples on Wednesday. Then he picks 97 pineapples on Thursday. On Friday, he picks quadruple the number of pineapples he did on Wednesday. How many pineapples does Liam have?
+A: Let's think step by step.
+
+### 0021-symbolic-00
+Q: Benjamin watches TV after he finishes his homework every night. On Tuesday and Wednesday, he watched a 4-hour episode of his favorite show each night. On Thursday, he watched a few episodes of a 45-minute show. On Friday, he finished homework early and watched a 6-hour episode and a 15-minute show. On Saturday, he got to stay up late, so he watched two 4-hour episodes. If he watched 23 hours of TV in all, how many 45-minute episodes did he watch on Thursday?
+A: Let's think step by step.
+
+### 0022-symbolic-00
+Q: Emma was preparing for a game night at her house, where she intended to serve stuffed peppers. She noticed that she was out of plastic spoons, so she bought a new package of spoons. Later, her husband also bought a package of 18 new spoons and gave them to Emma. While Emma was making the stuffed peppers, she used ten of the spoons to sample her stuffed peppers. Later, when she went to set the table, she had a total of 30 spoons. How many spoons were in the package that Emma bought?
+A: Let's think step by step.
+
+### 0023-symbolic-00
+Q: Amelia is knitting winter wear for her 2 grandchildren. They're twins, so they're all the same size. She wants to make a vest, shawl, beanie, socks, and leg warmers for each of them. It takes 17 skeins of wool to make a vest, 11 for a shawl, 18 for a beanie, 12 for a pair of socks, and 6 for a pair of leg warmers. How many skeins of wool will she need to buy?
+A: Let's think step by step.
+
+### 0024-symbolic-00
+Q: According to its nutritional info, a bag of breads has 475 calories per serving. If a 275 ounces bag has 5 servings, how many ounces can you eat if your daily calorie target is 2395 and you have already consumed 1350 calories?
+A: Let's think step by step.
+
+### 0025-symbolic-00
+Q: In Mr. Smith's class of 35 students, 20% of the class are basketball players. Out of the remaining class, 25% of the students are dancers or part of robotics club members. These 3 groups of students will need to leave early today to travel to an away tournament. How many students are leaving early?
+A: Let's think step by step.
+
+### 0026-symbolic-00
+Q: A grandfather eats 6 tacos per day, his partner eats 3 tacos per day, and their son eats 6 tacos per day. How many tacos does this family eat in one week?
+A: Let's think step by step.
+
+### 0027-symbolic-00
+Q: Sanjay receives 150 emails a day. 32% of those emails don't require any response. Sanjay responds to the rest of them. How many emails does Sanjay respond to in a 6 day work week?
+A: Let's think step by step.
+
+### 0028-symbolic-00
+Q: A clinic has a capacity of 1800 rooms with 1/4 occupied. Due to the natural disaster, 40 patients are admitted into the clinic each day. Calculate the total number of unoccupied rooms in the clinic after 3 weeks.
+A: Let's think step by step.
+
+### 0029-symbolic-00
+Q: Pavel is 13 years old. In 3 years his sister Valentina will be 3 times as old as Pavel is now. How old is Valentina right now?
+A: Let's think step by step.
+
+### 0030-symbolic-00
+Q: Yusuf has ₣102.5 and wants to buy 25 washers from a bin at the construction supply store. Each washer costs ₣0.98. How much money does Yusuf have left after paying for the washers?
+A: Let's think step by step.
+
+### 0031-symbolic-00
+Q: Mateo and Santiago are currently 10 years apart in age. If Mateo, who is younger than Santiago, is 35 years old, what's the average of their ages?
+A: Let's think step by step.
+
+### 0032-symbolic-00
+Q: Mrs. Lee is looking for a townhouse that will not go beyond her $360000 budget. She saw a property that has a selling price of $340000. On top of that, the buyer has to pay a brokerage fee which is 3% of the selling price, and also the transfer fee that is 10% of the selling price. How much more is the total price of the townhouse than Mrs. Lee's budget?
+A: Let's think step by step.
+
+### 0033-symbolic-00
+Q: Daphne and Uma are sisters from Singapore who love collecting signatures from politicians. During their winter break from school, the sisters spend every afternoon collecting signatures. After 4 weeks, Daphne and Uma compare their autograph books, counting up the number of signatures each sister has collected. Daphne has 35 signatures in her book, and Uma has 30. The sisters have 2 more weeks of winter break, and they decide they want to reach 120 signatures between them by the end of the break. How many signatures do the sisters need to collect to reach their goal?
+A: Let's think step by step.
+
+### 0034-symbolic-00
+Q: Prof. Martinez sold his cottage for $880000. He paid the registration fees that amount to 3% of the selling price and also paid a agent fee that is 5% of the selling price. If he also paid $440000 for the remaining loan amount of the cottage, how much is Prof. Martinez's net proceeds from selling the cottage?
+A: Let's think step by step.
+
+### 0035-symbolic-00
+Q: Wei is raising money for a conference. He has applied for help from the local charity, which has decided to cover a fifth of the cost of the conference. How much money is Wei missing if he has ₣30 and the conference costs ₣210?
+A: Let's think step by step.
+
+### 0036-symbolic-00
+Q: Ava went to the cafe and bought various types of treats. She bought 1 dozen danishes which cost $17 per dozen, 8 dozen tarts which cost $74 per dozen, and 3 dozen scones for $113 per dozen. How much was the total cost?
+A: Let's think step by step.
+
+### 0037-symbolic-00
+Q: A lasagna has 30 pieces. If Nadia can eat 5 pieces a day while Leon can eat five times as much, how many days will the lasagna last?
+A: Let's think step by step.
+
+### 0038-symbolic-00
+Q: A loaf of sourdough at the cafe costs €8. Muffins cost €4 each. How much more do 6 loaves of sourdough cost than 4 muffins?
+A: Let's think step by step.
+
+### 0039-symbolic-00
+Q: A maintenance worker has to clean a university with 210 floors. They have 10 days to get it done. It takes them 20 minutes per floor. If they work 10 hours each day, what percentage of their day, on average, is spent cleaning floors?
+A: Let's think step by step.
+
+### 0040-symbolic-00
+Q: Daphne went to the coast for vacation. Her parents gave her ₣1400 to buy whatever she wanted. At the seaside store, cotton candy was on sale for "Buy 15 pounds at ₣23 per pound, get 5 pounds 1/4 off." She scooped up 22 pounds. She also bought a mixed bag of coral pieces for ₣11.75 and 11 pins that were ₣21.0 each. How much money does Daphne have left?
+A: Let's think step by step.
+
+### 0041-symbolic-00
+Q: A stack is made out of 8 white tiles, thrice as many orange tiles, and an unknown number of green tiles. If there are 38 tiles in the stack in total, how many green tiles are there?
+A: Let's think step by step.
+
+### 0042-symbolic-00
+Q: Hiroshi goes to the store to buy some tea. The normal brand of tea he buys costs ₺20 per kilogram. He had to buy a more expensive brand that costs 45% more since his favorite brand was sold out. He decides to buy a week's worth of tea and he uses 1 kilogram of tea per day. He also decided to buy himself a bagel for ₺3. How much did everything cost?
+A: Let's think step by step.
+
+### 0043-symbolic-00
+Q: Bodhi went to their orchard to pick some strawberries and found 3/5 as many caterpillars as grasshoppers in the garden. If there were 25 grasshoppers, calculate the total number of insects in the garden.
+A: Let's think step by step.
+
+### 0044-symbolic-00
+Q: There are 18 girls in the park. If there are two-thirds the number of boys in the park, how many kids are in the park?
+A: Let's think step by step.
+
+### 0045-symbolic-00
+Q: Valentina has a flower bed that is 217 meters long. Valentina wants to fill her flower bed with plants. Valentina's flowers grow 3 meters wide so she needs to leave 15.5 meters between every plant. Valentina already owns 11 flowers. Each flowering plant costs €14 at the store, how much money will Valentina spend at the store to fill up her flower bed?
+A: Let's think step by step.
+
+### 0046-symbolic-00
+Q: Oakwood High School is holding graduation in their Auditorium this year which has space for 7300 people. After accounting for 1200 seats for graduates and 100 seats for faculty attending, how many tickets would each graduate receive to give to their friends and family if the tickets are split equally?
+A: Let's think step by step.
+
+### 0047-symbolic-00
+Q: Umar hid 6 dozen eggs in the yard for the Easter egg hunt. Quinn finds 12 eggs. Isabella finds two times as many as Quinn. Mia finds 4 less than Isabella, and Nia finds a quarter as many as Mia. How many eggs are still hidden in the yard?
+A: Let's think step by step.
+
+### 0048-symbolic-00
+Q: Kayla can peel 6 mushrooms a minute and saute 40 mushrooms in 17 minutes. How long will it take her to peel and saute 120 mushrooms?
+A: Let's think step by step.
+
+### 0049-symbolic-00
+Q: Umar collects garbage from 3 different apartment complexes. The first 2 have 450 apartments each and the last one is 20% bigger than the other 2 combined. Umar collects garbage 2 times a week from each place and he gets paid ₣0.45 per collection for each apartment. How much money does he make in a week?
+A: Let's think step by step.
