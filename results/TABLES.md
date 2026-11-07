@@ -16,7 +16,7 @@ Rebuilt by `python -m gsmsym.score` from `runs/*/raw.jsonl`. Accuracy in %, mean
 | llama-3.1-8b-instruct-completion | alcf_completion | 81.0 | 74.3 (±3.1) [50] | 62.1 (±4.0) [50] | 36.4 (±5.5) [50] | 65.3 (±3.8) [50] | 69.0 (±3.6) [50] | 29.6 (±4.1) [10] | 58.1 (±14.6) [10] |
 | llama-4-scout | alcf | 88.0 | 84.4 (±2.3) [50] | 79.4 (±2.7) [50] | 67.5 (±5.2) [50] | – | – | – | – |
 | llama3-8b-instruct | bedrock_completion | 77.0 | 73.6 (±1.8) [5] | 55.8 (±3.3) [5] | 32.8 (±3.0) [5] | 61.6 (±1.3) [5] | 63.6 (±2.9) [5] | 24.7 (±3.0) [5] | 44.8 (±21.3) [5] |
-| mistral-large-2407 | alcf | 95.0 | 90.4 (±2.1) [50] | – | – | – | – | – | – |
+| mistral-large-2407 | alcf | 95.0 | 90.4 (±2.0) [50] | – | – | – | – | – | – |
 | mistral-large-3-alcf | alcf | 92.0 | 87.0 (±2.8) [50] | – | – | – | – | – | – |
 | mistral-large-4-nvfp4 | alcf | 97.0 | 96.4 (±1.4) [50] | 95.7 (±1.7) [50] | 93.1 (±2.5) [50] | 92.7 (±1.8) [50] | 97.2 (±1.5) [50] | 71.8 (±3.3) [10] | 96.6 (±6.5) [10] |
 | nemotron-3-ultra | alcf | 98.0 | 92.9 (±1.1) [10] | – | – | – | – | – | – |
@@ -102,7 +102,7 @@ Drops (points) with 95% CI:
 | llama3-8b-instruct | p1 | 5 | 3.27 | 4.97 | 8.20 | yes |
 | llama3-8b-instruct | p2 | 5 | 3.03 | 6.64 | 10.83 | yes |
 | llama3-8b-instruct | noop | 5 | 1.30 | 5.01 | 8.36 | yes |
-| mistral-large-2407 | symbolic | 50 | 2.05 | 2.95 | 3.53 | yes |
+| mistral-large-2407 | symbolic | 50 | 2.04 | 2.95 | 3.52 | yes |
 | mistral-large-3-alcf | symbolic | 50 | 2.77 | 3.36 | 4.03 | yes |
 | mistral-large-4-nvfp4 | symbolic | 50 | 1.37 | 1.85 | 2.23 | yes |
 | mistral-large-4-nvfp4 | p1 | 50 | 1.69 | 2.02 | 2.43 | yes |
@@ -135,7 +135,7 @@ The format-aware rule reads 'final answer is', \boxed{}, or 'Answer:' before fal
 | llama-3.1-8b-instruct-completion | 81.0 / 80.0 | 74.3 / 73.9 | 62.1 / 60.6 | 36.4 / 35.5 | 65.3 / 65.0 |
 | llama-4-scout | 88.0 / 88.0 | 84.4 / 84.4 | 79.4 / 79.2 | 67.5 / 67.3 | – |
 | llama3-8b-instruct | 77.0 / 77.0 | 73.6 / 72.2 | 55.8 / 54.4 | 32.8 / 32.0 | 61.6 / 61.1 |
-| mistral-large-2407 | 95.0 / 96.0 | 90.4 / 92.5 | – | – | – |
+| mistral-large-2407 | 95.0 / 96.0 | 90.4 / 92.6 | – | – | – |
 | mistral-large-3-alcf | 92.0 / 91.0 | 87.0 / 89.3 | – | – | – |
 | mistral-large-4-nvfp4 | 97.0 / 97.0 | 96.4 / 96.5 | 95.7 / 95.7 | 93.1 / 93.2 | 92.7 / 92.7 |
 | nemotron-3-ultra | 98.0 / 98.0 | 92.9 / 92.9 | – | – | – |

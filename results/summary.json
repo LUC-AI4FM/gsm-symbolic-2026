@@ -1140,20 +1140,20 @@
     "acc_final_rule": 96.0
    },
    "symbolic": {
-    "acc": 90.36949494949495,
-    "sd": 2.0546142386924946,
+    "acc": 90.4,
+    "sd": 2.0404081224408137,
     "sets": 50,
-    "templates_per_set": 99.7,
-    "acc_final_rule": 92.53636363636366,
-    "binomial_sd": 2.9545264349114877,
-    "binomial_sd_p975": 3.5311442326584075,
+    "templates_per_set": 100.0,
+    "acc_final_rule": 92.56,
+    "binomial_sd": 2.9459124223235147,
+    "binomial_sd_p975": 3.522580223156236,
     "h2_consistent_with_binomial": true,
-    "drop_paired": 4.608571428571437,
+    "drop_paired": 4.6000000000000085,
     "drop_ci95": [
-     0.3800000000000239,
-     8.900000000000006
+     0.38000000000000966,
+     8.899999999999991
     ],
-    "drop": 4.63050505050505
+    "drop": 4.599999999999994
    },
    "_meta": {
     "id": "mistralai/Mistral-Large-Instruct-2407",
