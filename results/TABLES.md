@@ -18,7 +18,7 @@ Rebuilt by `python -m gsmsym.score` from `runs/*/raw.jsonl`. Accuracy in %, mean
 | llama-4-scout | alcf | 88.0 | 84.4 (±2.3) [50] | 79.4 (±2.7) [50] | 67.5 (±5.2) [50] | 77.9 (±3.0) [50] | 82.5 (±3.0) [50] | 48.9 (±2.7) [10] | 76.9 (±15.2) [10] |
 | llama3-8b-instruct | bedrock_completion | 77.0 | 73.6 (±1.8) [5] | 55.8 (±3.3) [5] | 32.8 (±3.0) [5] | 61.6 (±1.3) [5] | 63.6 (±2.9) [5] | 24.7 (±3.0) [5] | 44.8 (±21.3) [5] |
 | mistral-large-2407 | alcf | 95.0 | 90.4 (±2.0) [50] | – | – | – | – | – | – |
-| mistral-large-3-alcf | alcf | 92.0 | 87.0 (±2.8) [50] | – | – | – | – | – | – |
+| mistral-large-3-alcf | alcf | 92.0 | 87.0 (±2.8) [50] | 80.6 (±2.5) [50] | – | – | – | – | – |
 | mistral-large-4-nvfp4 | alcf | 97.0 | 96.4 (±1.4) [50] | 95.7 (±1.7) [50] | 93.1 (±2.5) [50] | 92.7 (±1.8) [50] | 97.2 (±1.5) [50] | 71.8 (±3.3) [10] | 96.6 (±6.5) [10] |
 | nemotron-3-ultra | alcf | 98.0 | 92.9 (±1.1) [10] | – | – | – | – | – | – |
 | nemotron-35-super-vl | alcf | 98.0 | 95.9 (±1.0) [50] | 94.8 (±1.4) [50] | 90.8 (±2.6) [50] | 91.6 (±1.8) [50] | 96.7 (±1.4) [50] | 64.8 (±4.9) [10] | 94.9 (±4.1) [10] |
@@ -40,11 +40,11 @@ Drops (points) with 95% CI:
 | llama-4-scout | +3.6 [-2.3, +9.3] | +8.6 [+1.7, +15.4] | +18.5 [+7.0, +29.6] | +9.1 [+2.4, +15.6] | +6.9 [+0.5, +13.0] | +39.7 [+32.3, +47.1] | +15.5 [+3.2, +28.2] |
 | llama3-8b-instruct | +3.4 [-4.2, +10.6] | +21.2 [+13.4, +29.0] | +43.2 [+29.6, +56.4] | +15.2 [+6.9, +23.5] | +13.8 [+5.1, +22.5] | +53.1 [+44.1, +61.7] | +53.3 [+32.9, +71.4] |
 | mistral-large-2407 | +4.6 [+0.5, +8.8] | – | – | – | – | – | – |
-| mistral-large-3-alcf | +5.0 [+0.8, +9.2] | – | – | – | – | – | – |
-| mistral-large-4-nvfp4 | +0.6 [-1.7, +2.9] | +1.3 [-2.9, +5.2] | +4.9 [-1.8, +11.7] | +3.9 [+0.6, +7.9] | +0.6 [-2.2, +3.5] | +25.7 [+20.4, +31.4] | +5.0 [+0.0, +11.0] |
-| nemotron-3-ultra | +5.1 [+1.6, +8.9] | – | – | – | – | – | – |
-| nemotron-35-super-vl | +2.1 [+0.4, +4.5] | +3.2 [-0.2, +6.8] | +7.2 [+0.2, +14.8] | +5.9 [+2.8, +9.6] | +2.8 [+1.2, +4.8] | +33.5 [+28.1, +39.2] | +4.5 [+0.5, +10.0] |
-| nemotron-super-3-120b | +0.0 [-3.4, +3.6] | +2.2 [-2.4, +7.0] | +8.8 [-2.0, +19.2] | +1.9 [-2.1, +5.9] | +0.7 [-3.5, +4.8] | – | – |
+| mistral-large-3-alcf | +5.0 [+0.8, +9.2] | +11.4 [+5.4, +17.5] | – | – | – | – | – |
+| mistral-large-4-nvfp4 | +0.6 [-1.7, +3.0] | +1.3 [-2.9, +5.2] | +4.9 [-1.8, +11.7] | +3.9 [+0.5, +7.9] | +0.6 [-2.3, +3.5] | +25.7 [+20.4, +31.3] | +5.0 [+0.0, +11.0] |
+| nemotron-3-ultra | +5.1 [+1.7, +9.0] | – | – | – | – | – | – |
+| nemotron-35-super-vl | +2.1 [+0.4, +4.4] | +3.2 [-0.2, +6.8] | +7.2 [+0.0, +14.7] | +5.9 [+2.9, +9.6] | +2.8 [+1.2, +4.7] | +33.5 [+27.9, +39.2] | +4.5 [+0.5, +10.2] |
+| nemotron-super-3-120b | +0.0 [-3.4, +3.6] | +2.2 [-2.4, +7.0] | +8.8 [-1.6, +19.2] | +1.9 [-2.2, +6.1] | +0.7 [-3.4, +4.8] | – | – |
 
 ## Claude models via Claude Code subagent (not API; default sampling, Claude Code system prompt, 50 problems per context)
 
@@ -108,19 +108,20 @@ Drops (points) with 95% CI:
 | llama3-8b-instruct | noop | 5 | 1.30 | 5.01 | 8.56 | yes |
 | mistral-large-2407 | symbolic | 50 | 2.04 | 2.95 | 3.55 | yes |
 | mistral-large-3-alcf | symbolic | 50 | 2.77 | 3.36 | 4.05 | yes |
+| mistral-large-3-alcf | p1 | 50 | 2.50 | 3.95 | 4.71 | yes |
 | mistral-large-4-nvfp4 | symbolic | 50 | 1.37 | 1.85 | 2.24 | yes |
 | mistral-large-4-nvfp4 | p1 | 50 | 1.69 | 2.02 | 2.45 | yes |
-| mistral-large-4-nvfp4 | p2 | 50 | 2.46 | 3.58 | 4.35 | yes |
-| mistral-large-4-nvfp4 | noop | 50 | 1.78 | 2.70 | 3.24 | yes |
-| nemotron-3-ultra | symbolic | 10 | 1.10 | 2.57 | 3.80 | yes |
-| nemotron-35-super-vl | symbolic | 50 | 1.01 | 1.98 | 2.37 | yes |
-| nemotron-35-super-vl | p1 | 50 | 1.36 | 2.21 | 2.66 | yes |
-| nemotron-35-super-vl | p2 | 50 | 2.65 | 4.09 | 4.89 | yes |
+| mistral-large-4-nvfp4 | p2 | 50 | 2.46 | 3.58 | 4.30 | yes |
+| mistral-large-4-nvfp4 | noop | 50 | 1.78 | 2.70 | 3.23 | yes |
+| nemotron-3-ultra | symbolic | 10 | 1.10 | 2.57 | 3.79 | yes |
+| nemotron-35-super-vl | symbolic | 50 | 1.01 | 1.98 | 2.41 | yes |
+| nemotron-35-super-vl | p1 | 50 | 1.36 | 2.21 | 2.63 | yes |
+| nemotron-35-super-vl | p2 | 50 | 2.65 | 4.09 | 4.92 | yes |
 | nemotron-35-super-vl | noop | 50 | 1.76 | 2.87 | 3.46 | yes |
-| nemotron-super-3-120b | symbolic | 5 | 0.71 | 2.18 | 3.70 | yes |
-| nemotron-super-3-120b | p1 | 5 | 1.30 | 2.58 | 4.32 | yes |
-| nemotron-super-3-120b | p2 | 5 | 3.63 | 5.02 | 8.41 | yes |
-| nemotron-super-3-120b | noop | 5 | 1.98 | 2.66 | 4.49 | yes |
+| nemotron-super-3-120b | symbolic | 5 | 0.71 | 2.18 | 3.83 | yes |
+| nemotron-super-3-120b | p1 | 5 | 1.30 | 2.58 | 4.30 | yes |
+| nemotron-super-3-120b | p2 | 5 | 3.63 | 5.02 | 8.29 | yes |
+| nemotron-super-3-120b | noop | 5 | 1.98 | 2.66 | 4.42 | yes |
 
 ## Parser sensitivity: paper rule vs format-aware rule (accuracy %)
 
@@ -141,7 +142,7 @@ The format-aware rule reads 'final answer is', \boxed{}, or 'Answer:' before fal
 | llama-4-scout | 88.0 / 88.0 | 84.4 / 84.4 | 79.4 / 79.2 | 67.5 / 67.3 | 77.9 / 77.9 |
 | llama3-8b-instruct | 77.0 / 77.0 | 73.6 / 72.2 | 55.8 / 54.4 | 32.8 / 32.0 | 61.6 / 61.1 |
 | mistral-large-2407 | 95.0 / 96.0 | 90.4 / 92.6 | – | – | – |
-| mistral-large-3-alcf | 92.0 / 91.0 | 87.0 / 89.3 | – | – | – |
+| mistral-large-3-alcf | 92.0 / 91.0 | 87.0 / 89.3 | 80.6 / 87.4 | – | – |
 | mistral-large-4-nvfp4 | 97.0 / 97.0 | 96.4 / 96.5 | 95.7 / 95.7 | 93.1 / 93.2 | 92.7 / 92.7 |
 | nemotron-3-ultra | 98.0 / 98.0 | 92.9 / 92.9 | – | – | – |
 | nemotron-35-super-vl | 98.0 / 98.0 | 95.9 / 95.9 | 94.8 / 94.9 | 90.8 / 90.8 | 91.6 / 91.6 |
