@@ -1,0 +1,16 @@
+{
+ "batch_id": "p1-01-0",
+ "model": "claude-haiku-5-5",
+ "route": "claude-code-subagent",
+ "tool_uses": 1,
+ "non_handoff_tools": [],
+ "valid": true,
+ "usage": {
+  "input": 4,
+  "cache_creation": 127426,
+  "cache_read": 0,
+  "output": 30804
+ },
+ "total_tokens": 158234,
+ "date_utc": "2026-11-06T23:23:29.781Z"
+}

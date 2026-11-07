@@ -1,0 +1,226 @@
+{
+ "models": {
+  "claude-haiku-5-5-subagent": {
+   "gsm8k": {
+    "acc": 96.0,
+    "n": 100
+   },
+   "symbolic": {
+    "acc": 93.5,
+    "sd": 0.7071067811865476,
+    "sets": 2,
+    "templates_per_set": 100.0,
+    "acc_final_rule": 93.5,
+    "binomial_sd": 2.465258607124209,
+    "drop_paired": 2.5,
+    "drop_ci95": [
+     -1.0,
+     6.0
+    ],
+    "drop": 2.5
+   },
+   "p1": {
+    "acc": 94.5,
+    "sd": 0.7071067811865476,
+    "sets": 2,
+    "templates_per_set": 100.0,
+    "acc_final_rule": 94.5,
+    "binomial_sd": 2.2798026230356006,
+    "drop_paired": 1.5,
+    "drop_ci95": [
+     -2.5,
+     6.0
+    ],
+    "drop": 1.5
+   },
+   "p2": {
+    "acc": 94.0,
+    "sd": 2.8284271247461903,
+    "sets": 2,
+    "templates_per_set": 50.0,
+    "acc_final_rule": 94.0,
+    "binomial_sd": 3.3585711247493344,
+    "drop_paired": 2.0,
+    "drop_ci95": [
+     -6.0,
+     10.0
+    ],
+    "drop": 2.0
+   },
+   "noop": {
+    "acc": 92.7075420510038,
+    "sd": 0.10742805140109865,
+    "sets": 2,
+    "templates_per_set": 96.0,
+    "acc_final_rule": 92.7075420510038,
+    "binomial_sd": 2.653743134631059,
+    "drop_paired": 3.0927835051546393,
+    "drop_ci95": [
+     -1.0309278350515463,
+     7.731958762886598
+    ],
+    "drop": 3.2924579489962014
+   },
+   "noop_unanimous": {
+    "acc": 94.72222222222223,
+    "sd": 0.39283710065919414,
+    "sets": 2,
+    "templates_per_set": 19.0,
+    "acc_final_rule": 94.72222222222223,
+    "binomial_sd": 5.129495920172049,
+    "drop_paired": 0.0,
+    "drop_ci95": [
+     0.0,
+     0.0
+    ],
+    "drop": 1.2777777777777715
+   },
+   "_meta": {
+    "route": "claude-code-subagent",
+    "note": "via Claude Code subagent (not API; default sampling, Claude Code system prompt, 50 problems per context)"
+   }
+  },
+  "deepseek-v3.2": {
+   "gsm8k": {
+    "acc": 96.42857142857143,
+    "n": 28
+   },
+   "_meta": {
+    "id": "deepseek.v3.2",
+    "route": "bedrock",
+    "released": "2026-02"
+   }
+  },
+  "gemma-4-31b-it": {
+   "gsm8k": {
+    "acc": 98.0,
+    "n": 100
+   },
+   "symbolic": {
+    "acc": 95.4,
+    "sd": 1.0749676997731399,
+    "sets": 10,
+    "templates_per_set": 100.0,
+    "acc_final_rule": 95.4,
+    "binomial_sd": 2.0948508300115294,
+    "binomial_sd_p975": 3.1287200080686173,
+    "h2_consistent_with_binomial": true,
+    "drop_paired": 2.6000000000000085,
+    "drop_ci95": [
+     0.10000000000000853,
+     5.799999999999998
+    ],
+    "drop": 2.5999999999999943
+   },
+   "p1": {
+    "acc": 95.5,
+    "sd": 1.2692955176439846,
+    "sets": 10,
+    "templates_per_set": 100.0,
+    "acc_final_rule": 95.5,
+    "binomial_sd": 2.0730412441627886,
+    "binomial_sd_p975": 2.9907264074877267,
+    "h2_consistent_with_binomial": true,
+    "drop_paired": 2.499999999999986,
+    "drop_ci95": [
+     -1.2999999999999972,
+     6.299999999999998
+    ],
+    "drop": 2.5
+   },
+   "p2": {
+    "acc": 95.2,
+    "sd": 1.3984117975602022,
+    "sets": 10,
+    "templates_per_set": 50.0,
+    "acc_final_rule": 95.2,
+    "binomial_sd": 3.0231109804305873,
+    "binomial_sd_p975": 4.521553322083512,
+    "h2_consistent_with_binomial": true,
+    "drop_paired": 2.799999999999997,
+    "drop_ci95": [
+     -3.799999999999997,
+     9.599999999999994
+    ],
+    "drop": 2.799999999999997
+   },
+   "_meta": {
+    "id": "google/gemma-4-31B-it",
+    "route": "alcf",
+    "released": "2026"
+   }
+  },
+  "kimi-k3.1": {
+   "gsm8k": {
+    "acc": 97.22222222222223,
+    "n": 36
+   },
+   "_meta": {
+    "id": "us.moonshotai.kimi-k3.1",
+    "route": "bedrock",
+    "released": "2026-11"
+   }
+  },
+  "llama3-8b-instruct": {
+   "gsm8k": {
+    "acc": 77.0,
+    "n": 100
+   },
+   "symbolic": {
+    "acc": 73.6,
+    "sd": 1.816590212458495,
+    "sets": 5,
+    "templates_per_set": 100.0,
+    "acc_final_rule": 72.2,
+    "binomial_sd": 4.407992740465891,
+    "binomial_sd_p975": 7.328028384224504,
+    "h2_consistent_with_binomial": true,
+    "drop_paired": 3.40000000000002,
+    "drop_ci95": [
+     -4.0,
+     10.600000000000009
+    ],
+    "drop": 3.4000000000000057
+   },
+   "p1": {
+    "acc": 55.8,
+    "sd": 3.271085446759225,
+    "sets": 5,
+    "templates_per_set": 100.0,
+    "acc_final_rule": 54.4,
+    "binomial_sd": 4.966246067202067,
+    "binomial_sd_p975": 8.167006795638166,
+    "h2_consistent_with_binomial": true,
+    "drop_paired": 21.200000000000003,
+    "drop_ci95": [
+     13.199999999999989,
+     29.199999999999996
+    ],
+    "drop": 21.200000000000003
+   },
+   "_meta": {
+    "id": "meta.llama3-8b-instruct-v1:0",
+    "route": "bedrock_completion",
+    "released": "2024-04"
+   }
+  },
+  "nemotron-super-3-120b": {
+   "gsm8k": {
+    "acc": 85.71428571428571,
+    "n": 14
+   },
+   "_meta": {
+    "id": "nvidia.nemotron-super-3-120b",
+    "route": "bedrock",
+    "released": "2026-03"
+   }
+  }
+ },
+ "bedrock_spend_usd": {
+  "deepseek-v3.2": 0.21633911,
+  "gemma-4-31b-it": 0.0,
+  "kimi-k3.1": 0.4192551,
+  "llama3-8b-instruct": 0.662244899999999,
+  "nemotron-super-3-120b": 0.05347850000000002
+ }
+}

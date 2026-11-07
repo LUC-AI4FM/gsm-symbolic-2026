@@ -1,0 +1,134 @@
+### 0052-noop-01
+A: Let's think step by step. Leon starts with 8 x $50 = $400. Cars cost 7 x $3 = $21 and stickers cost 4 x $1 = $4, so he spends $25. $400 - $25 = $375. The final answer is 375.
+
+### 0053-noop-01
+A: Let's think step by step. Yara scored 315. Bodhi scored 27 more than four-fifths of 315, which is 252 + 27 = 279. Together they scored 315 + 279 = 594. The target width is irrelevant. The final answer is 594.
+
+### 0055-noop-01
+A: Let's think step by step. Three full copies give 3 x 48 = 144 letters. Four-sixths of 48 is 32 letters. So far she has written 144 + 32 = 176. Re-writing everything already written adds another 176, for 176 + 176 = 352. The pen colours are irrelevant. The final answer is 352.
+
+### 0056-noop-01
+A: Let's think step by step. Five cartons of 9 ounces each is 45 ounces. At 2 calories per ounce, that is 45 x 2 = 90 calories. The time window is irrelevant. The final answer is 90.
+
+### 0057-noop-01
+A: Let's think step by step. Mateo has 6 purple and 14 orange tubes. Alejandro has two-thirds of Mateo's purple, which is 4. He has five times Mateo's orange, which is 5 x 14 = 70. Together that is 4 + 70 = 74. The dents are irrelevant. The final answer is 74.
+
+### 0058-noop-01
+A: Let's think step by step. A wooden pickaxe mines 5 kg per day. A silver pickaxe mines 2 x 5 = 10 kg per day. A titanium pickaxe mines 40% more than silver, which is 14 kg per day. The pickaxe weight is irrelevant. 25 trolls x 14 kg x 28 days = 9800 kg. The final answer is 9800.
+
+### 0059-noop-01
+A: Let's think step by step. The apple drink is 9 L with half water, so 4.5 L water. Spilling 5 L of apple drink leaves 4 L, which contains 2 L water. The mango drink is 18 L with four-sixths water, which is 12 L water. Total water is 2 + 12 = 14 L. The final answer is 14.
+
+### 0060-noop-01
+A: Let's think step by step. Ali works 6 hours x 3 days = 18 hours per week at ¥11 per hour, which is ¥198. Adding the ¥432 weekly bonus gives ¥630 per week. The break is treated as not affecting paid hours. July is taken as 4 weeks, so 630 x 4 = 2520. The final answer is 2520.
+
+### 0061-noop-01
+A: Let's think step by step. Gabriel had 94 coins and dropped three-sixths of them, which is 47. The 47 remaining in the bag still count. He picked up 11 items, 6 of which were buttons, leaving 5 coins. The coin from a different country still counts as a coin. Total is 47 + 5 = 52. The final answer is 52.
+
+### 0062-noop-01
+A: Let's think step by step. There are 28 green cards. Purple is 50% more, which is 42. Yellow equals green plus purple, which is 70. The total is 28 + 42 + 70 = 140. The gold stars are irrelevant. The final answer is 140.
+
+### 0063-noop-01
+A: Let's think step by step. The boy has 14 stickers. His brother has 14 - 5 = 9. Together they have 23. The shiny gold stickers are irrelevant. The final answer is 23.
+
+### 0064-noop-01
+A: Let's think step by step. Seven jars each decorate 16 brownies, which is 112 brownies. Each baking sheet holds 14, so 112 / 14 = 8 sheets. The flavours are irrelevant. The final answer is 8.
+
+### 0065-noop-01
+A: Let's think step by step. Doing her own taxes costs her 4 hours of freelance work at €65 per hour, which is €260 in missed income. Hiring the accountant costs €89. The difference is 260 - 89 = 171. The software history is irrelevant. The final answer is 171.
+
+### 0066-noop-01
+A: Let's think step by step. Black spools are light black 58 plus dark black 124, which is 182. Turquoise spools are 66 + 77 = 143. The total is 182 + 143 = 325. The percentage of black is 182 / 325 = 56%. The bins are irrelevant. The final answer is 56.
+
+### 0067-noop-01
+A: Let's think step by step. The truck weighs 1350 lb and the equipment weighs 200 lb. The four colleagues weigh 4 x 75 = 300 lb. The total weight is 1350 + 200 + 300 = 1850 lb. The force is 2% of that, which is 37 lb. The wheel count is irrelevant. The final answer is 37.
+
+### 0068-noop-01
+A: Let's think step by step. Four jigsaw puzzles at 8 minutes each is 32 minutes. Ten word puzzles at 6 minutes each is 60 minutes. The total is 92 minutes. The table is irrelevant. The final answer is 92.
+
+### 0069-noop-01
+A: Let's think step by step. Monday was 43 minutes and Tuesday was 45 minutes, which is 88 minutes combined. Four times that is 352 minutes. The timer is irrelevant. The final answer is 352.
+
+### 0070-noop-01
+A: Let's think step by step. A year is 12 months of 4 weeks each, which is 48 weeks. At 5 days per week that is 240 working days. At ¥40 per day, he earns 240 x 40 = ¥9600. The chisels are irrelevant. The final answer is 9600.
+
+### 0071-noop-01
+A: Let's think step by step. Each donkey needs 12 kg. Each cow needs 2 x 12 - 9 = 15 kg. Twenty donkeys need 240 kg and seventeen cows need 255 kg. The total is 240 + 255 = 495 kg. The brown cows are irrelevant. The final answer is 495.
+
+### 0072-noop-01
+A: Let's think step by step. Diego keeps 11 - 4 = 7 pen pals. Each sends 4 letters of 6 pages per week, so he receives 7 x 4 x 6 = 168 pages. He replies in kind, writing 168 pages. At 5 minutes per page, that is 840 minutes, or 14 hours. The ink colours are irrelevant. The final answer is 14.
+
+### 0073-noop-01
+A: Let's think step by step. The father saw the comet at 24. Yusuf's second sighting was at three times that age, which is 72. The comet returns every 55 years, so Yusuf's first sighting was 72 - 55 = 17 years earlier in his life. The tail length is irrelevant. The final answer is 17.
+
+### 0075-noop-01
+A: Let's think step by step. Orange balls are 11 x ₺6 = ₺66. Green balls are 27 x ₺4 = ₺108. Purple balls are 48 x ₺2 = ₺96. The total is 66 + 108 + 96 = ₺270. The scratches are irrelevant. The final answer is 270.
+
+### 0076-noop-01
+A: Let's think step by step. Only three cod weights are given: 54 kg, 46 kg and 23 kg. Their total is 123 kg. At €2.0 per kg, the earnings are 123 x 2 = €246. The lure is irrelevant. The final answer is 246.
+
+### 0077-noop-01
+A: Let's think step by step. Two-fourths of 272 pages is 136 pages written. The remaining pages are 272 - 136 = 136. The research hours are irrelevant. The final answer is 136.
+
+### 0078-noop-01
+A: Let's think step by step. Umar takes 6 + 3 = 9 classes of 55 minutes each, which is 495 minutes per day. Over 6 days that is 2970 minutes per week. Saturday and Sunday each get one-half of weekly minutes, which is 1485 minutes each, or 2970 in total. Total learning is 2970 + 2970 = 5940 minutes. That is 5940 / 60 = 99 hours. The notebooks are irrelevant. The final answer is 99.
+
+### 0079-noop-01
+A: Let's think step by step. Sanjay finished 2/3 of 363 pieces, which is 242. He placed the remaining 363 - 242 = 121 pieces of the first puzzle. He then completed the 471-piece puzzle. In the hour he placed 121 + 471 = 592 pieces. The table is irrelevant. The final answer is 592.
+
+### 0080-noop-01
+A: Let's think step by step. Mateo spent 94% of ₺1200, which is ₺1128. Nine popcorn bags at 75 cents cost ₺6.75 (9 x 0.75). That leaves 1128 - 6.75 = ₺1121.25 for cookies. Each cookie costs ₺1.25 (125 cents). So he bought 1121.25 / 1.25 = 897 cookies. The salty popcorn is irrelevant. The final answer is 897.
+
+### 0081-noop-01
+A: Let's think step by step. The total is 200 balls. The Lopez twins found 11 + 11 = 22. The other balls except 12 were found by friends, so the friends found 200 - 22 - 12 = 166. The gold paint is irrelevant. The final answer is 166.
+
+### 0083-noop-01
+A: Let's think step by step. The total is 7550 muffins. Blueberry and strawberry muffins together make 1705 + 1655 = 3360. Vanilla muffins are 7550 - 3360 = 4190. The baking sheets are irrelevant. The final answer is 4190.
+
+### 0084-noop-01
+A: Let's think step by step. Ten shares at ₺25 cost ₺250. A 10% rise gives ₺275. A 20% fall from ₺275 gives 275 x 0.8 = ₺220. The folder is irrelevant. The final answer is 220.
+
+### 0085-noop-01
+A: Let's think step by step. Let Quinn's share be Q. Amelia's share is Q + 140. Together 2Q + 140 = 620, so Q = 240. Quinn's share is 240 meters. The final answer is 240.
+
+### 0086-noop-01
+A: Let's think step by step. The jersey costs $22. The leggings cost 22 + 9 = $31. The cleats cost 78 x 2/4 = $39. The headbands cost 12 - 4 = $8. The swim caps have no price given. The total is 22 + 31 + 39 + 8 = $100. The final answer is 100.
+
+### 0087-noop-01
+A: Let's think step by step. The biggest slide takes 300 / 50 = 6 minutes. The second slide takes 240 / 60 = 4 minutes. The difference is 2 minutes. The lifeguards are irrelevant. The final answer is 2.
+
+### 0088-noop-01
+A: Let's think step by step. Skipping is 6 mph. Skipping is 3/5 of running speed, so running is 10 mph. Walking is one-fifth of running, so 2 mph. She runs for 2/4 of 6 hours = 3 hours, covering 30 miles. She walks for 3/6 of 6 hours = 3 hours, covering 6 miles. The total is 36 miles. The sneakers are irrelevant. The final answer is 36.
+
+### 0089-noop-01
+A: Let's think step by step. The bus runs from 7 PM to 11 PM, which is 4 hours. One hour is free, leaving 3 paid hours. The first paid hour costs €16, and each later hour costs €32. The total is 16 + 32 + 32 = €80. The guest count is irrelevant because the price is for the bus. The final answer is 80.
+
+### 0090-noop-01
+A: Let's think step by step. Bodhi has 32 friends, which is twice Roya's count, so Roya has 16. Priya has 8 x 16 = 128 friends. The shared city is irrelevant. The final answer is 128.
+
+### 0091-noop-01
+A: Let's think step by step. Xavier has 28 oranges and 8 x 28 = 224 bananas. He buys 63 more oranges, for 28 + 63 = 91 oranges in total. He buys 26 fewer bananas than the 91 oranges, which is 65 bananas. Bananas total 224 + 65 = 289. Adding oranges gives 289 + 91 = 380. The bruised oranges are irrelevant. The final answer is 380.
+
+### 0092-noop-01
+A: Let's think step by step. Kai slew 350 ogres. Jin slew 2/5 of that, which is 140. Qasim slew 8 x 140 = 1120. Benjamin slew 1/10 of that, which is 112. The sword and nail file details are irrelevant. The final answer is 112.
+
+### 0093-noop-01
+A: Let's think step by step. In cold water Gabriel takes 12 minutes per mile, so 36 minutes for 3 miles. In warm water he takes 8 + 3 x 12 = 44 minutes per mile, so 132 minutes for 3 miles. The difference is 132 - 36 = 96 minutes. The goggles are irrelevant. The final answer is 96.
+
+### 0094-noop-01
+A: Let's think step by step. 800 people apply. 30% get interviews, which is 240. 40% of those get offers, which is 96. One-eighth of those accept, which is 12. The 14 days are irrelevant. The final answer is 12.
+
+### 0095-noop-01
+A: Let's think step by step. Five students play volleyball. Thrice that number, 15, play football. Basketball has 24 + 16 = 40 players. The total is 5 + 15 + 40 = 60. The red jerseys are irrelevant. The final answer is 60.
+
+### 0096-noop-01
+A: Let's think step by step. Each person, including Isabella, needs one mini-golf round at €4, €10 in tokens, and two go-kart rides at €6 each, which is €12. That is 4 + 10 + 12 = €26 per person. The budget is €260, so 260 / 26 = 10 people in total. Excluding Isabella, she can invite 9 friends. The final answer is 9.
+
+### 0097-noop-01
+A: Let's think step by step. Olivia processes 36 customers per day. Kimia is seven times as fast, so 252 per day. Together they process 36 + 252 = 288 per day. Over 7 days that is 288 x 7 = 2016. The registers are irrelevant. The final answer is 2016.
+
+### 0098-noop-01
+A: Let's think step by step. Day 1: 20 infected people each infect 5 others, for 100 new, so 120 infected. Day 2: 120 each infect 5, for 600 new, so 720 infected. Day 3: 720 each infect 5, for 3600 new, so 4320 infected. The laboratory researchers are irrelevant. The final answer is 4320.
+
+### 0099-noop-01
+A: Let's think step by step. For the first 20 days she eats 3 eggs per day, which is 60 eggs. For the next 66 days she eats 6 per day, which is 396 eggs. The total is 456 eggs. 456 / 12 = 38 dozen. The refrigerator capacity is irrelevant. The final answer is 38.

@@ -1,0 +1,140 @@
+### 0051-noop-00
+A: Let's think step by step. Rounded prices are tulips 2, roses 5, sunflowers 5. Tulips: 12 x 2 = 24. Roses: 29 x 5 = 145. Sunflowers: 37 x 5 = 185. Total 24 + 145 + 185 = 354. The final answer is 354.
+
+### 0052-noop-00
+A: Let's think step by step. Qasim starts with 5 x 50 = 250. Coloring books cost 6 x 8 = 48. Trading cards cost 5 x 4 = 20. Total spent 68. Left 250 - 68 = 182. The final answer is 182.
+
+### 0053-noop-00
+A: Let's think step by step. Oliver scored 354. Camila scored 42 + (2/4 of 354) = 42 + 177 = 219. Total 354 + 219 = 573. The final answer is 573.
+
+### 0054-noop-00
+A: Let's think step by step. Yara ate 4. Her sister ate 4 + 6 = 10. Her cousin ate 10 + 3 = 13. Total 4 + 10 + 13 = 27. The final answer is 27.
+
+### 0055-noop-00
+A: Let's think step by step. The alphabet has 26 letters. Two full writings give 52. Two-fourths of it is 13. So far she has written 52 + 13 = 65. Rewriting everything already written adds 65. Total 65 + 65 = 130. The final answer is 130.
+
+### 0056-noop-00
+A: Let's think step by step. Four cartons of 13 oz give 52 oz. At 8 calories per oz, 52 x 8 = 416. The final answer is 416.
+
+### 0057-noop-00
+A: Let's think step by step. Alejandro has 18 / 3 = 6 black tubes. He has 8 x 16 = 128 magenta tubes. Total 6 + 128 = 134. The final answer is 134.
+
+### 0058-noop-00
+A: Let's think step by step. Bronze pickaxe mining is 2 x 5 = 10 kg/day. Titanium is 60% more than bronze: 10 x 1.6 = 16 kg/day. Twenty trolls over 31 days: 20 x 16 x 31 = 9920. The final answer is 9920.
+
+### 0059-noop-00
+A: Let's think step by step. The peach drink has 12 kg of water in 18 liters. Spilling 3 liters removes 2 liters of water, leaving 10 water. Grape drink water is 2/3 of 21 = 14. Total water 10 + 14 = 24. The final answer is 24.
+
+### 0060-noop-00
+A: Let's think step by step. Each shift is 7 hours and he works 3 shifts a week, so 21 hours. Weekly pay is 21 x 17 = 357, plus the 582 bonus, giving 939 per week. Taking a month as 4 weeks, 939 x 4 = 3756. The final answer is 3756.
+
+### 0061-noop-00
+A: Let's think step by step. He dropped half of 62, which is 31, so 31 remain in the bag. He found 18 more, so 31 + 18 = 49. Five of the found items were beads, so 49 - 5 = 44. The final answer is 44.
+
+### 0062-noop-00
+A: Let's think step by step. Purple cards are 30. Yellow cards are 30 + 15 = 45. Blue cards are 30 + 45 = 75. Total 30 + 45 + 75 = 150. The final answer is 150.
+
+### 0063-noop-00
+A: Let's think step by step. The student has 20 marbles. His sister has 20 - 5 = 15. Together 20 + 15 = 35. The final answer is 35.
+
+### 0064-noop-00
+A: Let's think step by step. Nine jars at 11 muffins each is 99 muffins. Racks hold 11, so 99 / 11 = 9 racks. The final answer is 9.
+
+### 0065-noop-00
+A: Let's think step by step. Doing the accounting herself costs 7 hours x 42 = 294 in missed income. Hiring the bookkeeper costs 78. She gains 294 - 78 = 216 more by hiring. The final answer is 216.
+
+### 0066-noop-00
+A: Let's think step by step. White spools are 47 + 73 = 120. Total spools are 47 + 73 + 32 + 88 = 240. Percent white is 120 / 240 = 50%. The final answer is 50.
+
+### 0067-noop-00
+A: Let's think step by step. Total weight is the van 2000 + groceries 250 + two friends 2 x 75 = 150, so 2400 kg. Force is 3% of 2400 = 72. The final answer is 72.
+
+### 0068-noop-00
+A: Let's think step by step. Four brain teasers take 4 x 28 = 112 minutes. Seven chess puzzles take 7 x 4 = 28 minutes. Total 112 + 28 = 140 minutes. The final answer is 140.
+
+### 0069-noop-00
+A: Let's think step by step. Monday and Sunday combined are 55 + 23 = 78 minutes. Seven times that is 7 x 78 = 546. The final answer is 546.
+
+### 0070-noop-00
+A: Let's think step by step. He works 2 weeks a month at 6 days a week, so 12 days a month. A year has 12 months, so 12 x 12 = 144 days. Earnings are 144 x 150 = 21600. The final answer is 21600.
+
+### 0071-noop-00
+A: Let's think step by step. Alpacas need 35 x 9 = 315 kg. Each horse needs 2 x 9 - 6 = 12 kg, so 22 x 12 = 264 kg. Total 315 + 264 = 579. The final answer is 579.
+
+### 0072-noop-00
+A: Let's think step by step. Four pen pals remain. Each sends 3 letters of 9 pages, so 4 x 3 x 9 = 108 pages received. He replies with 108 pages. At 5 minutes per page, 108 x 5 = 540 minutes, which is 9 hours. The final answer is 9.
+
+### 0073-noop-00
+A: Let's think step by step. The uncle was 46 when he saw the comet. Diego saw it the second time at 2 x 46 = 92. The comet returns every 75 years, so Diego was 92 - 75 = 17 at his first sighting. The final answer is 17.
+
+### 0075-noop-00
+A: Let's think step by step. Red balls give 19 x 13 = 247. Green balls give 29 x 7 = 203. Yellow balls give 48 x 6 = 288. Total 247 + 203 + 288 = 738. The final answer is 738.
+
+### 0076-noop-00
+A: Let's think step by step. The three trout weights given sum to 70 + 33 + 32 = 135 kg. At 1.0 euro per kg, the earnings are 135. The final answer is 135.
+
+### 0077-noop-00
+A: Let's think step by step. One-fifth of 160 is 32 pages already written. Pages left are 160 - 32 = 128. The final answer is 128.
+
+### 0078-noop-00
+A: Let's think step by step. He has 7 classes a day of 60 minutes, over 6 days: 7 x 60 x 6 = 2520 minutes. One-seventh of that is 360 minutes, spent on each of Saturday and Sunday, so 720 minutes. Total 2520 + 720 = 3240 minutes, which is 54 hours. The final answer is 54.
+
+### 0079-noop-00
+A: Let's think step by step. She finished 1/3 of 315 = 105 pieces. Remaining pieces of the first puzzle are 315 - 105 = 210. She placed those 210 plus all 481 pieces of the second puzzle during the hour. Total 210 + 481 = 691. The final answer is 691.
+
+### 0080-noop-00
+A: Let's think step by step. Jamal started with $1200 and kept 7%, so he spent 93%: 0.93 x 1200 = 1116. Six bags of cookies cost 6 x 0.50 = 3. Pretzels cost 1116 - 3 = 1113. Each pretzel is 0.75, so 1113 / 0.75 = 1484 pretzels. The final answer is 1484.
+
+### 0081-noop-00
+A: Let's think step by step. The Lopez twins found 2 x 43 = 86 coins. The other coins are 180 - 86 = 94. Friends found all of them except 17, so 94 - 17 = 77. The final answer is 77.
+
+### 0083-noop-00
+A: Let's think step by step. Total brownies are 7000. Lemon and strawberry brownies total 1027 + 2009 = 3036. Peanut butter brownies are 7000 - 3036 = 3964. The final answer is 3964.
+
+### 0084-noop-00
+A: Let's think step by step. Ten shares at 56 cost 560. After a 30% rise, the value is 560 x 1.3 = 728. After a 25% drop, the value is 728 x 0.75 = 546. The final answer is 546.
+
+### 0085-noop-00
+A: Let's think step by step. Together they have 860 yards. Mateo gets Kai's amount plus 100, so 2K + 100 = 860, giving 2K = 760 and K = 380. Kai's share is 380. The final answer is 380.
+
+### 0086-noop-00
+A: Let's think step by step. The jersey costs 21. The leggings cost 21 + 4 = 25. The cleats cost 32 / 8 = 4. The headbands cost 9 - 3 = 6. Total 21 + 25 + 4 + 6 = 56. The final answer is 56.
+
+### 0087-noop-00
+A: Let's think step by step. The biggest slide takes 330 / 55 = 6 minutes. The second slide takes 240 / 80 = 3 minutes. The difference is 6 - 3 = 3 minutes. The final answer is 3.
+
+### 0088-noop-00
+A: Let's think step by step. Let walking speed be w. Running is 8w. Skipping is 3/4 of 8w = 6w, which equals 3 mph, so w = 0.5 mph and running is 4 mph. Over 8 hours he runs 4 hours and walks 4 hours. Distance is 4 x 4 + 4 x 0.5 = 16 + 2 = 18 miles. The final answer is 18.
+
+### 0089-noop-00
+A: Let's think step by step. The rental runs from 1 PM to 5 PM, which is 4 hours. The first 2 hours are free, leaving 2 paid hours. The first paid hour is 10 and the second is twice that, 20. Total 10 + 20 = 30. The final answer is 30.
+
+### 0090-noop-00
+A: Let's think step by step. Amelia has 45 friends, which is 3 times Zahra's count, so Zahra has 15. Mei has 10 x 15 = 150. The final answer is 150.
+
+### 0091-noop-00
+A: Let's think step by step. Kai has 53 bananas and 7 x 53 = 371 apples. He buys 60 bananas, so he has 113. He buys 36 fewer apples than the banana count, so 113 - 36 = 77 apples. Apples total 371 + 77 = 448. Combined total 448 + 113 = 561. The final answer is 561.
+
+### 0092-noop-00
+A: Let's think step by step. Jin slew 150. DeShawn slew 5/6 x 150 = 125. Gabriel slew 2 x 125 = 250. Oscar slew 3/6 x 250 = 125. The final answer is 125.
+
+### 0093-noop-00
+A: Let's think step by step. Cold water takes 26 minutes per mile. Warm water takes 2 x 26 + 5 = 57 minutes per mile. The difference is 31 minutes per mile. Over 6 miles, 6 x 31 = 186 minutes. The final answer is 186.
+
+### 0094-noop-00
+A: Let's think step by step. Of 1000 applicants, 40% get interviews: 400. Of those, 49% get offers: 196. Two-fourths of them accept, which is half: 98. The final answer is 98.
+
+### 0095-noop-00
+A: Let's think step by step. Football has 15 students. Badminton has 2 x 15 = 30. Table tennis has 19 + 28 = 47. Total 15 + 30 + 47 = 92. The final answer is 92.
+
+### 0096-noop-00
+A: Let's think step by step. Each person needs laser tag 10, pinball tokens 5, and 7 coaster rides at 5 each, which is 35. Each person costs 10 + 5 + 35 = 50. Her budget of 300 covers 300 / 50 = 6 people in total, including Mia. Friends invited are 6 - 1 = 5. The final answer is 5.
+
+### 0097-noop-00
+A: Let's think step by step. Sakura processes 55 customers a day. Nia processes 3 x 55 = 165. Together they process 55 + 165 = 220 a day. Over 7 days, 220 x 7 = 1540. The final answer is 1540.
+
+### 0098-noop-00
+A: Let's think step by step. Day 0 has 16 infected. Each day the infected count multiplies by 4, since each infected person infects 3 others. After day 1: 64. After day 2: 256. After day 3: 1024. The final answer is 1024.
+
+### 0099-noop-00
+A: Let's think step by step. Eating 5 eggs a day for 84 days is 420 eggs. Eating 7 eggs a day for 24 days is 168 eggs. Total 420 + 168 = 588 eggs. In dozens, 588 / 12 = 49. The final answer is 49.

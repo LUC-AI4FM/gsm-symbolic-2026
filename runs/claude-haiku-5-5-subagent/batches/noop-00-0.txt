@@ -1,0 +1,149 @@
+### 0000-noop-00
+A: Let's think step by step. The whale is 210 feet, which is 210 x 12 = 2520 inches. The 7 remoras are 7 x 72 = 504 inches combined. 504 / 2520 = 0.2, which is 20%. The final answer is 20.
+
+### 0001-noop-00
+A: Let's think step by step. The fog covers every 77 miles in 50 minutes. The city is 77 miles across, so it covers the whole city in 50 minutes. The final answer is 50.
+
+### 0002-noop-00
+A: Let's think step by step. On a 4-sided die, P(greater than 2) = 2/4 = 0.5. P(two odd numbers in a row) = (2/4) x (2/4) = 0.25. The relative difference is (0.5 - 0.25) / 0.25 = 100%. The final answer is 100.
+
+### 0003-noop-00
+A: Let's think step by step. Paint 19 and football 7 account for 26 students, leaving 190 - 26 = 164 who bake or hike. Hikers are twice the football players, so 2 x 7 = 14. Bakers are 164 - 14 = 150. The pencils are irrelevant. The final answer is 150.
+
+### 0004-noop-00
+A: Let's think step by step. First 30 seconds: 60 pop. Next 30 seconds: 4 x 60 = 240. Next 30 seconds: 6 x 60 = 360. Final 30 seconds: half of 360 = 180. Total popped during cooking = 60 + 240 + 360 + 180 = 840. Residual popping: a quarter of 180 = 45. Total = 840 + 45 = 885. The final answer is 885.
+
+### 0005-noop-00
+A: Let's think step by step. The ratio 97:37 has 97 + 37 = 134 parts. The total of sugar and water is 1474 units, so one part is 1474 / 134 = 11. Sugar is 97 x 11 = 1067. The final answer is 1067.
+
+### 0006-noop-00
+A: Let's think step by step. The field has 30 x 94 = 2820 oranges. He harvests once every 12 months, so within a year he harvests 2820. The baskets are irrelevant. The final answer is 2820.
+
+### 0007-noop-00
+A: Let's think step by step. Oats: 5 x 3 = 15 kg. Cucumbers: 13 x 6 = 78 kg. Apples: 31 x 42 = 1302 kg. Wheats: 15 x 15 = 225 kg. Total = 15 + 78 + 1302 + 225 = 1620 kg. Trips at 180 kg each: 1620 / 180 = 9 exactly. The final answer is 9.
+
+### 0008-noop-00
+A: Let's think step by step. Tennis balls are 1/8 of 640 = 80. White tennis balls are 1/10 of 80 = 8. The bag weight is irrelevant. The final answer is 8.
+
+### 0009-noop-00
+A: Let's think step by step. Blocks 71 + stuffed animals 45 + rings 29 = 145. The total is 204, so the bouncy balls are 204 - 145 = 59. The bears are irrelevant. The final answer is 59.
+
+### 0010-noop-00
+A: Let's think step by step. The first 20 minutes cost 20 x 0.9 = 18 dollars. The remaining 86 - 20 = 66 minutes cost 66 x 0.5 = 33 dollars. Total = 18 + 33 = 51 dollars. The final answer is 51.
+
+### 0011-noop-00
+A: Let's think step by step. Giant cubes: 8 x 12 = 96 grams. Small cubes: 15 x 1/5 = 3 grams. Medium cubes: 13 x 11 = 143 grams. Total used = 96 + 3 + 143 = 242 grams. Left = 328 - 242 = 86 grams. The final answer is 86.
+
+### 0012-noop-00
+A: Let's think step by step. Seven trays of 28 hold 7 x 28 = 196 crackers. He has 252 crackers, so 252 - 196 = 56 will not fit. The blue plastic detail is irrelevant. The final answer is 56.
+
+### 0013-noop-00
+A: Let's think step by step. Camila has 7 x 52 = 364 plants on the ledges plus 29 new plants, for 393 total. She gives away 6 x 52 = 312. She keeps 393 - 312 = 81. The orchids are irrelevant. The final answer is 81.
+
+### 0014-noop-00
+A: Let's think step by step. The walk to the corner and then to the bank takes 27 + 31 = 58 minutes. They have 109 minutes in total, so they have 109 - 58 = 51 minutes left to reach the gym. The coffee shops are irrelevant. The final answer is 51.
+
+### 0016-noop-00
+A: Let's think step by step. Brownies: Tuesday 21, Wednesday 21 + 13 = 34, total 55 boxes. Orange pie: Wednesday 27, Tuesday 27 - 18 = 9, total 36 boxes. Earnings: 55 x 8 = 440 and 36 x 28 = 1008. Total = 440 + 1008 = 1448. The final answer is 1448.
+
+### 0017-noop-00
+A: Let's think step by step. Beach speed: 12 km in 60 minutes, so 0.2 km per minute. Sidewalk speed is double, 0.4 km per minute. Sidewalk time = 12 / 0.4 = 30 minutes. Total = 60 + 30 = 90 minutes. The final answer is 90.
+
+### 0018-noop-00
+A: Let's think step by step. Rulers: 22 x 4.5 = 99. Colored pencils: 8 x 14 = 112. Bond paper: 22. Total = 99 + 112 + 22 = 233. The final answer is 233.
+
+### 0019-noop-00
+A: Let's think step by step. History questions are 60% of 150 = 90. The remaining 60 are split equally into 30 literature and 30 chemistry. She is sure to get 40% of 90 = 36 history points. She is sure to get 1/10 of 60 = 6 from the others. Total = 36 + 6 = 42. The final answer is 42.
+
+### 0020-noop-00
+A: Let's think step by step. Wednesday is 205. Thursday is 97. Friday is 4 x 205 = 820. Total = 205 + 97 + 820 = 1122. The crates are irrelevant. The final answer is 1122.
+
+### 0021-noop-00
+A: Let's think step by step. Tuesday and Wednesday are 4 + 4 = 8 hours. Friday is 6 + 0.25 = 6.25 hours. Saturday is 4 + 4 = 8 hours. Known total = 8 + 6.25 + 8 = 22.25 hours. Thursday's 45-minute episodes (0.75 hours each) must make up 23 - 22.25 = 0.75 hours. So he watched 0.75 / 0.75 = 1 episode. The final answer is 1.
+
+### 0022-noop-00
+A: Let's think step by step. She had no spoons before buying the package, so the package is S spoons. Her husband added 18, and she used 10. So S + 18 - 10 = 30, which gives S = 22. The napkins are irrelevant. The final answer is 22.
+
+### 0023-noop-00
+A: Let's think step by step. Per grandchild: 17 + 11 + 18 + 12 + 6 = 64 skeins. For 2 grandchildren, 2 x 64 = 128 skeins. The three colors are irrelevant to the count. The final answer is 128.
+
+### 0024-noop-00
+A: Let's think step by step. The bag is 275 ounces over 5 servings, so each serving is 55 ounces and 475 calories. Remaining calorie budget = 2395 - 1350 = 1045. Servings possible = 1045 / 475 = 2.2. Ounces = 2.2 x 55 = 121. The final answer is 121.
+
+### 0025-noop-00
+A: Let's think step by step. Basketball players are 20% of 35 = 7. The remaining 28 students are 25% dancers or robotics members, so 0.25 x 28 = 7. Total leaving early = 7 + 7 = 14. The tournament distance is irrelevant. The final answer is 14.
+
+### 0026-noop-00
+A: Let's think step by step. Daily tacos: 6 + 3 + 6 = 15. For one week, 15 x 7 = 105. The salsa is irrelevant. The final answer is 105.
+
+### 0027-noop-00
+A: Let's think step by step. Sanjay gets 150 emails a day. 32% of 150 = 48 need no response. He responds to 150 - 48 = 102 per day. Over 6 days, 102 x 6 = 612. The folders are irrelevant. The final answer is 612.
+
+### 0028-noop-00
+A: Let's think step by step. Capacity is 1800 rooms with 1/4 occupied, so 450 are occupied and 1350 are unoccupied. Over 3 weeks (21 days), 40 patients per day are admitted, so 40 x 21 = 840 rooms become occupied. Unoccupied = 1350 - 840 = 510. The lamps are irrelevant. The final answer is 510.
+
+### 0029-noop-00
+A: Let's think step by step. In 3 years Valentina will be 3 x Pavel's current age, which is 3 x 13 = 39. So she is 39 - 3 = 36 now. The bedrooms are irrelevant. The final answer is 36.
+
+### 0030-noop-00
+A: Let's think step by step. 25 washers at ₣0.98 each cost 25 x 0.98 = 24.5. Yusuf has ₣102.5, so he has 102.5 - 24.5 = 78 left. The finish is irrelevant. The final answer is 78.
+
+### 0031-noop-00
+A: Let's think step by step. Mateo is 35 and is younger, 10 years apart, so Santiago is 45. The average is (35 + 45) / 2 = 40. The final answer is 40.
+
+### 0032-noop-00
+A: Let's think step by step. Brokerage fee = 3% of 340000 = 10200. Transfer fee = 10% of 340000 = 34000. Total = 340000 + 10200 + 34000 = 384200. Over budget by 384200 - 360000 = 24200. The bedrooms are irrelevant. The final answer is 24200.
+
+### 0033-noop-00
+A: Let's think step by step. Daphne has 35 and Uma has 30, so together they have 65. The goal is 120, so they need 120 - 65 = 55 more. The 12 politicians are irrelevant. The final answer is 55.
+
+### 0034-noop-00
+A: Let's think step by step. Sale price is 880000. Registration fees = 3% = 26400. Agent fee = 5% = 44000. Remaining loan = 440000. Net proceeds = 880000 - 26400 - 44000 - 440000 = 369600. The 12 days are irrelevant. The final answer is 369600.
+
+### 0035-noop-00
+A: Let's think step by step. The charity covers 1/5 of 210 = 42. Wei must pay 210 - 42 = 168. He has ₣30, so he is missing 168 - 30 = 138. The workshops are irrelevant. The final answer is 138.
+
+### 0036-noop-00
+A: Let's think step by step. Danishes: 1 dozen at 17 = 17. Tarts: 8 dozen at 74 = 592. Scones: 3 dozen at 113 = 339. Total = 17 + 592 + 339 = 948. The bags are irrelevant. The final answer is 948.
+
+### 0037-noop-00
+A: Let's think step by step. Nadia eats 5 pieces per day. Leon eats 5 x 5 = 25 per day. Together they eat 30 per day. The lasagna has 30 pieces, so it lasts 30 / 30 = 1 day. The final answer is 1.
+
+### 0038-noop-00
+A: Let's think step by step. Six loaves cost 6 x 8 = 48 euros. Four muffins cost 4 x 4 = 16 euros. The difference is 48 - 16 = 32 euros. The jam is irrelevant. The final answer is 32.
+
+### 0039-noop-00
+A: Let's think step by step. Cleaning 210 floors at 20 minutes each takes 4200 minutes = 70 hours. Over 10 days at 10 hours per day, the total available time is 100 hours. The share of the day spent cleaning is 70 / 100 = 70%. The solutions are irrelevant. The final answer is 70.
+
+### 0040-noop-00
+A: Let's think step by step. The first 15 pounds cost 15 x 23 = 345. The next 5 pounds are 1/4 off, so 5 x 23 x 0.75 = 86.25. Cotton candy total = 431.25. Coral = 11.75. Pins = 11 x 21 = 231. Total spent = 431.25 + 11.75 + 231 = 674. Left = 1400 - 674 = 726. The blue crystals are irrelevant. The final answer is 726.
+
+### 0041-noop-00
+A: Let's think step by step. White tiles are 8. Orange tiles are thrice that, so 24. The chipped tiles are already counted in the orange total. Green tiles = 38 - 8 - 24 = 6. The final answer is 6.
+
+### 0042-noop-00
+A: Let's think step by step. The expensive tea costs 20 x 1.45 = 29 per kilogram. A week uses 7 kg, so 7 x 29 = 203. The bagel costs 3. Total = 203 + 3 = 206. The seeds are irrelevant. The final answer is 206.
+
+### 0043-noop-00
+A: Let's think step by step. Grasshoppers are 25. Caterpillars are 3/5 x 25 = 15. Insects total = 25 + 15 = 40. The strawberries are not insects. The final answer is 40.
+
+### 0044-noop-00
+A: Let's think step by step. Girls are 18, and the girls are two-thirds of the boys, so boys = 18 / (2/3) = 27. The red hats are among the children already counted. Total kids = 18 + 27 = 45. The final answer is 45.
+
+### 0045-noop-00
+A: Let's think step by step. Each plant takes 3 meters of width, and 15.5 meters separate consecutive plants. For n plants, the length needed is 3n + 15.5(n - 1) = 18.5n - 15.5. Setting this at or below 217 gives 18.5n <= 232.5, so n <= 12.57, and the maximum is n = 12 plants. She already owns 11, so she buys 1 plant at €14. The gardening time is irrelevant. The final answer is 14.
+
+### 0046-noop-00
+A: Let's think step by step. The auditorium holds 7300. Minus 1200 graduate seats and 100 faculty seats leaves 7300 - 1200 - 100 = 6000 tickets for family and friends. There are 1200 graduates, so each receives 6000 / 1200 = 5 tickets. The final answer is 5.
+
+### 0047-noop-00
+A: Let's think step by step. Six dozen eggs is 72 eggs. Quinn finds 12. Isabella finds 2 x 12 = 24. Mia finds 24 - 4 = 20. Nia finds 20 / 4 = 5. Found total = 12 + 24 + 20 + 5 = 61. Still hidden = 72 - 61 = 11. The purple eggs are still in the yard and are not subtracted. The final answer is 11.
+
+### 0048-noop-00
+A: Let's think step by step. Peeling 120 mushrooms at 6 per minute takes 20 minutes. Sauteing 40 takes 17 minutes, so sauteing 120 takes 3 x 17 = 51 minutes. Done in sequence, the total is 20 + 51 = 71 minutes. The pans are irrelevant. The final answer is 71.
+
+### 0049-noop-00
+A: Let's think step by step. The first two complexes have 450 + 450 = 900 apartments. The third is 20% bigger than their combined total, so it has 1.2 x 900 = 1080. Total apartments = 900 + 1080 = 1980. Collections per week = 1980 x 2 = 3960. Pay = 3960 x 0.45 = 1782. The truck is irrelevant. The final answer is 1782.
+
+### 0050-noop-00
+A: Let's think step by step. The area is 390 square meters and the length is 5 meters, so the width is 390 / 5 = 78 meters. The perimeter is 2 x (5 + 78) = 166 meters. The cabinets are irrelevant. The final answer is 166.

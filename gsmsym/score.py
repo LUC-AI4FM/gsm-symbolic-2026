@@ -61,7 +61,7 @@ def grade_run(run, gold):
         ok = r["type"] == "succeeded"
         pred = paper_extract(r["text"]) if ok else None
         pred2 = final_answer_extract(r["text"]) if ok else None
-        graded.append({"id": int(t), "condition": cond, "instance": int(inst), "custom_id": cid,
+        graded.append({"id": int(t), "condition": cond, "instance": int(inst), "sample": int(inst), "custom_id": cid,
                        "status": r["type"], "pred": pred, "gold": gold[cid],
                        "pass": ok and correct(pred, gold[cid]), "pass_final_rule": ok and correct(pred2, gold[cid])})
     (ROOT / "runs" / run / "graded.json").write_text(json.dumps(graded, indent=0))
@@ -86,7 +86,7 @@ def table(graded, unanimous):
                 d = {t: v for t, v in d.items() if f"{t:04d}-noop-{inst:02d}" in unanimous}
                 if len(d) >= 10:
                     sets[inst] = d
-            elif len(d) >= 0.95 * ntempl[cond]:  # complete sets only
+            elif len(d) >= (0.85 if cond == "noop" else 0.95) * ntempl[cond]:  # complete sets only (noop: clauses without a number are dropped)
                 sets[inst] = d
         if not sets:
             continue

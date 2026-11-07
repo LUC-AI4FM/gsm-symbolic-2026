@@ -1,0 +1,149 @@
+### 0000-p2-00
+A: Let's think step by step. The first whale is 32 ft = 384 inches. Its 16 remoras at 12 inches each cover 192 inches. After half swim away, 8 remoras cover 96 inches, which is 96/384 = 25%. The second whale is 10 ft = 120 inches. Its 6 remoras at 8 inches each cover 48 inches, which is 48/120 = 40%. The average of the two whales is (25 + 40)/2 = 32.5. The final answer is 32.5.
+
+### 0001-p2-00
+A: Let's think step by step. The fog starts at 3 miles per 30 minutes, which is 6 miles per hour. A quarter of the 72-mile city is 18 miles. In the first hour it covers 6 miles. The wind is then halved, so the speed is 3 miles per hour. The remaining 12 miles take 12/3 = 4 hours, or 240 minutes. The total is 60 + 240 = 300 minutes. The final answer is 300.
+
+### 0002-p2-00
+A: Let's think step by step. On a d4, a number greater than 1 is 2, 3 or 4, so the probability is 3/4. Two in a row is (3/4)^2 = 9/16 = 56.25%. An odd number is 1 or 3, so the probability is 1/2. Four odd numbers in a row is (1/2)^4 = 1/16 = 6.25%. The difference is 56.25 - 6.25 = 50 percentage points. The final answer is 50.
+
+### 0003-p2-00
+A: Let's think step by step. Hikers are 2 × 39 - 5 = 73. The students who play video games or hike are 290 - 12 - 8 - 13 - 39 = 218. Video gamers are 218 - 73 = 145. The percentage is 145/290 = 50%. The final answer is 50.
+
+### 0004-p2-00
+A: Let's think step by step. In the first 10 seconds 80 pop. The next 10 seconds bring 4 × 80 = 320. The next 10 seconds bring 6 × 80 = 480. The final 10 seconds bring half of 480 = 240. The cooking total is 80 + 320 + 480 + 240 = 1120. The residual heat adds a quarter of 240 = 60, so the total is 1180. Jin gets 1/10 of 1180 = 118, and Andre keeps 1062. The difference is 1062 - 118 = 944. The final answer is 944.
+
+### 0005-p2-00
+A: Let's think step by step. Let the sugar be 51k teaspoons and the water 5k cups. The cream is 2 × 51k = 102k tablespoons. The milk is 7k tablespoons, since 7 tablespoons go with every 5 cups. The total is 51k + 5k + 102k + 7k = 165k = 220, so k = 4/3. The sugar is 51 × 4/3 = 68. The final answer is 68.
+
+### 0006-p2-00
+A: Let's think step by step. The apricot rate is 28 per 0.5 hectare, which is 56 per hectare. Each harvest gives 20 × 56 = 1120 apricots. Over 24 months at one harvest every 6 months there are 4 harvests, giving 4480. The grape harvest is 12 × 14 = 168 per harvest, every 4 months, so there are 6 harvests in 24 months, giving 1008. The difference is 4480 - 1008 = 3472. The final answer is 3472.
+
+### 0007-p2-00
+A: Let's think step by step. Corn is 4 × 6 = 24 pounds. Cucumbers are 14 × 8 = 112 pounds. Apples are 35 × 42 = 1470 pounds. Hay is 18 × 18 = 324 pounds. Groceries, tools and wood add 43 + 27 + 100 = 170 pounds. The total is 24 + 112 + 1470 + 324 + 170 = 2100 pounds. That is 2100/140 = 15 truckloads. Three trucks working in parallel each make 15/3 = 5 trips. The final answer is 5.
+
+### 0008-p2-00
+A: Let's think step by step. Golf balls are 480/10 = 48, and tennis balls are 432. Of the golf balls, 1/2 are purple, which is 24, and 1/6 of those are marked, which is 4. Of the tennis balls, 1/9 are indigo, which is 48, and two thirds of those are marked, which is 32. The total marked is 4 + 32 = 36. The final answer is 36.
+
+### 0009-p2-00
+A: Let's think step by step. Blocks are 33 and stuffed animals are 5. Action figures are 2 × (33 + 5) = 76. Crayons are 12. Stickers are 9 × 13 = 117. Rings are 28. The non-bouncy total is 33 + 5 + 76 + 12 + 117 + 28 = 271. The bouncy balls are 320 - 271 = 49. The final answer is 49.
+
+### 0010-p2-00
+A: Let's think step by step. The first 10 minutes cost 10 × 0.7 = 7. Minutes 10 to 30 cost 20 × 0.5 = 10. Minutes 30 to 90 are 60 minutes at 0.1 per 2 minutes, which is 0.05 per minute, so 60 × 0.05 = 3. The bill is 7 + 10 + 3 = 20. Since 20 is more than 15, the 15% discount gives 20 × 0.85 = 17. The final answer is 17.
+
+### 0011-p2-00
+A: Let's think step by step. Giant cubes use 9 × 14 = 126 ounces. Small cubes use 14 × 0.5 = 7 ounces. Medium cubes use 12 × 3 = 36 ounces. Tiny cubes number 47 - 9 - 14 - 12 = 12, and each uses half of 0.5 = 0.25 ounces, so they use 3 ounces. The total used is 126 + 7 + 36 + 3 = 172. The water left is 337 - 172 = 165. The final answer is 165.
+
+### 0012-p2-00
+A: Let's think step by step. Gabriel eats 675/5 = 135 almonds, leaving 540. Two bowls break, so one bowl remains. The bowl holds 4 × 20 = 80 almonds, and nine plates hold 9 × 20 = 180, so capacity is 260. The extra almonds are 540 - 260 = 280. At 20 per plate he needs 280/20 = 14 more plates. The final answer is 14.
+
+### 0013-p2-00
+A: Let's think step by step. The new plants are 49 + 100 = 149, and the 50% discount does not change the count. The ledgers hold 60 × 7 = 420 plants. The total is 149 + 420 = 569. She gives away 60 × 3 = 180. The remaining count is 569 - 180 = 389. The final answer is 389.
+
+### 0014-p2-00
+A: Let's think step by step. Walking home to the grocery store takes 26 + 18 = 44 minutes. They walk back home, which takes 44 minutes, and then return to the grocery store, which takes another 44 minutes. The total time used is 44 + 44 + 44 = 132 minutes. The time left before the gym deadline is 247 - 132 = 115 minutes. The final answer is 115.
+
+### 0015-p2-00
+A: Let's think step by step. Mateo has 149 puppies, 25 of them spotted, so 124 are unspotted. Half of those, 62, turn out to have spots, so Mateo has 25 + 62 = 87 spotted puppies. Mohammed has 12 spotted puppies. Ibrahim has 54 × 13 = 702 spotted puppies. The total puppies are 149 + 49 + 702 = 900. The total spotted puppies are 87 + 12 + 702 = 801. The percentage is 801/900 = 89%. The final answer is 89.
+
+### 0016-p2-00
+A: Let's think step by step. On Monday he sold 28 cupcake boxes and 27 - 19 = 8 plum pie boxes. On Tuesday he sold 28 + 14 = 42 cupcake boxes and 27 plum pie boxes. On Wednesday he sold the Monday and Tuesday totals, which are 70 cupcake boxes and 35 plum pie boxes. Monday earnings are 28 × 11 + 8 × 23 = 308 + 184 = 492. Tuesday earnings are 42 × 11 + 27 × 23 = 462 + 621 = 1083. Wednesday earnings are 70 × 11 + 35 × 23 = 770 + 805 = 1575. The total is 492 + 1083 + 1575 = 3150. The average over three days is 3150/3 = 1050. The final answer is 1050.
+
+### 0017-p2-00
+A: Let's think step by step. The 56 minutes on the beach covers 14 km at the halved speed, so the beach speed is 14/56 = 0.25 km per minute. The sidewalk speed is three times that, which is 0.75 km per minute. The 18 km of sidewalk takes 18/0.75 = 24 minutes. The total is 56 + 24 = 80 minutes. The final answer is 80.
+
+### 0018-p2-00
+A: Let's think step by step. Crayons cost 8 × 7 = 56. Notebooks cost 8 × 13.75 = 110. Bond paper costs 10. Folders cost 4 × 11 = 44. The subtotal is 220. As a member he pays 20 + 0.8 × 220 = 20 + 176 = 196. Without membership he pays 0.95 × 220 = 209. The least is 196. The final answer is 196.
+
+### 0019-p2-00
+A: Let's think step by step. Chemistry is 40 questions and geography is 20. History and algebra are 20 each, since the remaining 40 split equally. Sure points are 100% of 40 = 40 for chemistry, 25% of 20 = 5 for geography, and 10% of 20 = 2 each for history and algebra. The total is 40 + 5 + 2 + 2 = 49. The final answer is 49.
+
+### 0020-p2-00
+A: Let's think step by step. Wednesday is 67 and Thursday is 176. Friday is 5 × 67 = 335. Saturday is half of 67 + 176 + 335 = 578, which is 289. The total is 67 + 176 + 335 + 289 = 867. That is 867/17 = 51 boxes. Each box sells for $12, so the earnings are 51 × 12 = 612. The final answer is 612.
+
+### 0021-p2-00
+A: Let's think step by step. The total is 28 hours = 1680 minutes. Wednesday and Thursday are 240 + 240 = 480. Saturday is 300 + 15 = 315. Sunday is 4 × 180 = 720. Monday is 3 × 45 = 135. Those days total 480 + 315 + 720 + 135 = 1650. Friday therefore has 1680 - 1650 = 30 minutes, which is one 30-minute episode. The final answer is 1.
+
+### 0022-p2-00
+A: Let's think step by step. Let the package hold P forks. Valentina has P + 19 from her husband and 2 × 8 = 16 from the guests, so P + 35 in total. She used 6 forks for sampling and threw away 8, so she lost 14. The count is P + 35 - 14 = 49. Then P = 28. The final answer is 28.
+
+### 0023-p2-00
+A: Let's think step by step. Each grandchild needs 5 + 4 + 10 + 12 + 9 = 40 skeins. For four grandchildren that is 160 skeins. Two jackets need 2 × 4 = 8 more. The total is 168 skeins, which is 168/12 = 14 dozen. At $9 per dozen the cost is 126. The purchase is over $100, so the $20 discount gives 106. The final answer is 106.
+
+### 0024-p2-00
+A: Let's think step by step. A bag is 300 ounces with 5 servings, so each serving is 60 ounces and 225 calories. That is 225/60 = 3.75 calories per ounce. Carlos's target is 200 × 15 = 3000. He has consumed 900 and burned 150, so he still needs 3000 + 150 - 900 = 2250 calories, which is 2250/3.75 = 600 ounces. Zahra's target is 150 × 15 = 2250. She has consumed 900 + 225 = 1125, so she needs 1125 calories, which is 1125/3.75 = 300 ounces. The difference is 600 - 300 = 300 ounces. The final answer is 300.
+
+### 0025-p2-00
+A: Let's think step by step. There are 46 soccer players, and 54 others. Half of the soccer players are absent, so 23 soccer players leave. Robotics and dancers together are half of the 54 remaining, which is 27. The three groups are soccer players, robotics and dancers, so each group brings 3 cheerleaders, which is 9 in total. The total leaving is 23 + 27 + 9 = 59. The final answer is 59.
+
+### 0026-p2-00
+A: Let's think step by step. Assume 30-day months. The uncle and spouse eat 16 + 16 = 32 pizzas a day, and the grandchild eats half of 32, which is 16. The family eats 48 per day. The first month is 48 × 30 = 1440. In the second month the first half is 15 days at 75% of 48, which is 36 per day, so 15 × 36 = 540. The second half is 15 days at an additional 50% reduction from 36, which is 18 per day, so 15 × 18 = 270. The second month is 540 + 270 = 810. The two-month total is 1440 + 810 = 2250. The final answer is 2250.
+
+### 0027-p2-00
+A: Let's think step by step. Sanjay gets 32 emails a day. 25% of them, which is 8, need no response, leaving 24. Half of 24 is 12, minus 2, so he responds to 10 per day. Over 4 days that is 40 normally. On the last day he responds to 20% more, which is 10 × 1.2 = 12. The total is 10 + 10 + 10 + 12 = 42. The final answer is 42.
+
+### 0028-p2-00
+A: Let's think step by step. The capacity is 1700 rooms. One fifth, 340, is occupied. One fifth, 340, is out of service. That leaves 1700 - 340 - 340 = 1020 unoccupied rooms. Over 2 weeks, 20 × 14 = 280 patients are admitted. The unoccupied rooms are 1020 - 280 = 740. The final answer is 740.
+
+### 0029-p2-00
+A: Let's think step by step. Diego is 21. Priya in 5 years will be 2 × 21 = 42, so she is 37 now. Qasim is 21 - 9 = 12. Mia is 12 + 10 = 22. In 4 years they will be Diego 25, Priya 41, Qasim 16 and Mia 26. The sum is 108, and the average is 108/4 = 27. The final answer is 27.
+
+### 0030-p2-00
+A: Let's think step by step. Valeria pays 15 × 0.35 = 5.25 for anchors, 8 × 0.64 = 5.12 for nails, and 8 × 7 = 56 for paint, since she is not a member. Her total is 66.37, leaving 97.37 - 66.37 = 31.00. Viktor pays 10 × 7 = 70 for paint, less 10% for membership, which is 63. His pencils cost 4 × 2 = 8. His total is 71, leaving 90 - 71 = 19. The difference is 31 - 19 = 12. The final answer is 12.
+
+### 0031-p2-00
+A: Let's think step by step. Ravi will be 47 in 8 years, so he is 39 now. Pavel is 22 years older than Ravi, so he is 61. Leilani is 10 years younger than Ravi, so she is 29. The average of the three ages is (39 + 61 + 29)/3 = 43. Leilani is 43 - 29 = 14 years younger than the average. The final answer is 14.
+
+### 0032-p2-00
+A: Let's think step by step. The 20% discount gives a price of 500000 × 0.8 = 400000. The brokerage fee is 7% of that, which is 28000. The transfer fee is 12% of that, which is 48000. The total cost is 400000 + 28000 + 48000 = 476000. The budget is 410000, so the total is 476000 - 410000 = 66000 more. The final answer is 66000.
+
+### 0033-p2-00
+A: Let's think step by step. Together they have 29 + 37 = 66 signatures and need 130, so they need 64 more. Uma's earlier rate is 29/6, about 4.83 per week. Reducing it by 5 per week makes it negative, so it is taken as 0. Uma therefore collects nothing in the last 4 weeks. Zahra must collect all 64 in 4 weeks, which is 64/4 = 16 per week. The final answer is 16.
+
+### 0034-p2-00
+A: Let's think step by step. The sale is 490000. Legal fees are 1% = 4900. The realtor fee is 5% = 24500. The loan payoff is 390000 and closing costs are 10000. The net proceeds are 490000 - 4900 - 24500 - 390000 - 10000 = 60600. Stocks gain 10% per year for two years, a factor of 1.1 × 1.1 = 1.21. The result is 60600 × 1.21 = 73326. The final answer is 73326.
+
+### 0035-p2-00
+A: Let's think step by step. Each day costs 250 for the hotel and 30 for transportation, which is 280. Food is covered by friends. Over 3 days the total is 840. Thiago has 35, so the remaining cost is 840 - 35 = 805. The school covers 1/4 of 805, which is 201.25. The amount still missing is 805 - 201.25 = 603.75. The final answer is 603.75.
+
+### 0036-p2-00
+A: Let's think step by step. The donuts are 60 at $14 per dozen, which is 5 dozen, so 70. The mini cupcakes are 60 at $25 per dozen, which is 5 dozen, so 125. Cheesecakes are 2 dozen at an unknown price x per dozen, so 2x. Before the discount the total is 195 + 2x. After a 20% discount she paid 1540, so 0.8 × (195 + 2x) = 1540. Then 195 + 2x = 1925, so x = 865. The final answer is 865.
+
+### 0037-p2-00
+A: Let's think step by step. Aisha eats 3 per day. Amelia eats 6 per day. Ava eats 4 × 6 = 24 per day. For the first 2 days they eat 33 per day, which is 66 total, leaving 87 - 66 = 21. After that Ava halves to 12 per day, so the daily total is 3 + 6 + 12 = 21. The remaining 21 takes 1 day. The total is 2 + 1 = 3 days. The final answer is 3.
+
+### 0038-p2-00
+A: Let's think step by step. A muffin is 1/8 of $10, which is $1.25. Two loaves cost $20. Eight muffins cost 8 × 1.25 = 10, and the 10% promotion applies since 8 is at least 6, so they cost 9. The difference is 20 - 9 = 11. The final answer is 11.
+
+### 0039-p2-00
+A: Let's think step by step. Cleaning one room now takes 12 minutes. Eighty rooms take 960 minutes in total. Over 4 days that is 240 minutes per day. A working day is 10 hours, which is 600 minutes. The share is 240/600 = 40%. The final answer is 40.
+
+### 0040-p2-00
+A: Let's think step by step. Each taffy deal is 20 kg: 16 kg at €22 costs 352, and 4 kg at 1/4 off costs 4 × 16.5 = 66. One deal costs 418. Sakura's 22 kg is one deal plus 2 kg at €22, which is 44. The taffy total is 462. Starfish cost 11, and keychains cost 12 × 20 = 240. The charity donation is 5. Total spent is 462 + 11 + 240 + 5 = 718. Left is 1300 - 718 = 582. The final answer is 582.
+
+### 0041-p2-00
+A: Let's think step by step. Green cubes are 9 and white cubes are 18. Together they make 27. Pink cubes are 45 - 27 = 18. The percentage is 18/45 = 40%. The final answer is 40.
+
+### 0042-p2-00
+A: Let's think step by step. The expensive rice costs 15 × 1.2 = $18 per pound. A week is 7 × 2 = 14 pounds. The first 10 pounds get 20% off, costing 10 × 18 × 0.8 = 144. The remaining 4 pounds cost 4 × 18 = 72. The cookie costs 1. The total is 144 + 72 + 1 = 217. The final answer is 217.
+
+### 0043-p2-00
+A: Let's think step by step. Caterpillars are 13 and beetles are 9 × 13 = 117. White animals are 66, of which half are rabbits, so 33 rabbits. Bees are 24. The total animals are 117 + 13 + 24 + 66 = 220. The rabbit share is 33/220 = 15%. The final answer is 15.
+
+### 0044-p2-00
+A: Let's think step by step. Boys are 24/3 = 8. The total number of kids is 24 + 8 = 32. Girls are 24 of 32, which is 75%. The final answer is 75.
+
+### 0045-p2-00
+A: Let's think step by step. Each plant takes 14 feet including its width and the gap. The bed is 126 feet, so it holds 126/14 = 9 plants. Kimia owns 6, so she buys 3 at ₣4 each, which is 12. Buying more than 2 plants gives a ₣5 discount, so she pays 12 - 5 = 7. The final answer is 7.
+
+### 0046-p2-00
+A: Let's think step by step. From the 7500 seats, subtract 600 for graduates, 250 for faculty and 50 for staff. The seats left for tickets are 7500 - 600 - 250 - 50 = 6600. Split equally among 600 graduates, each gets 6600/600 = 11. The final answer is 11.
+
+### 0047-p2-00
+A: Let's think step by step. Viktor had 9 × 12 = 108 pancakes and ate 3, leaving 105. Liam finds 5. Yusuf finds 10. Pavel finds 10 - 4 = 6. Daphne finds 6/2 = 3. James finds 48 + 10 + 5 = 63. The total found is 5 + 10 + 6 + 3 + 63 = 87. The pancakes still hidden are 105 - 87 = 18. The final answer is 18.
+
+### 0048-p2-00
+A: Let's think step by step. Washing 180 clams at 19 seconds each takes 3420 seconds, which is 57 minutes. Peeling 180 clams at 12 per minute takes 15 minutes. Sauteing 180 clams at 30 per 9 minutes takes 54 minutes. The break is 11 minutes. Since Olga cannot work in parallel, the total is 57 + 15 + 11 + 54 = 137 minutes. The final answer is 137.
+
+### 0049-p2-00
+A: Let's think step by step. The fifth complex is 30% bigger than the other four combined, which is 400 × 1.3 = 520 apartments. The total is 400 + 520 = 920 apartments. Vacancies are 5 × 4 = 20, so 900 apartments are serviced. Each apartment is collected 2 times a week, giving 1800 collections. At ₣0.3 per collection the pay is 540. Tips add 10%, so the total is 540 × 1.1 = 594. The final answer is 594.

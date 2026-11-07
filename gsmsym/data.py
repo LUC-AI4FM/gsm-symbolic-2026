@@ -61,7 +61,7 @@ def _rows(name):
 def _noop():
     if not NOOP.exists():
         return {}
-    return {(r["id"], r["instance"]): r for r in map(json.loads, open(NOOP)) if r.get("keep", True)}
+    return {(r["id"], r["instance"]): r for r in map(json.loads, open(NOOP)) if r.get("keep", True) and r.get("has_number", True)}
 
 
 def insert_clause(question: str, clause: str) -> str:
