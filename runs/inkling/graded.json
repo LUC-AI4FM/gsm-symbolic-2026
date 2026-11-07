@@ -46526,6 +46526,42 @@
 {
 "id": 76,
 "condition": "symbolic",
+"instance": 0,
+"sample": 0,
+"custom_id": "0076-symbolic-00",
+"status": "succeeded",
+"pred": 135.0,
+"gold": 167.0,
+"pass": false,
+"pass_final_rule": false
+},
+{
+"id": 76,
+"condition": "symbolic",
+"instance": 2,
+"sample": 2,
+"custom_id": "0076-symbolic-02",
+"status": "succeeded",
+"pred": 126.0,
+"gold": 150.0,
+"pass": false,
+"pass_final_rule": false
+},
+{
+"id": 76,
+"condition": "symbolic",
+"instance": 4,
+"sample": 4,
+"custom_id": "0076-symbolic-04",
+"status": "succeeded",
+"pred": 38.0,
+"gold": 47.0,
+"pass": false,
+"pass_final_rule": false
+},
+{
+"id": 76,
+"condition": "symbolic",
 "instance": 5,
 "sample": 5,
 "custom_id": "0076-symbolic-05",
@@ -46534,6 +46570,42 @@
 "gold": 207.0,
 "pass": true,
 "pass_final_rule": true
+},
+{
+"id": 76,
+"condition": "symbolic",
+"instance": 6,
+"sample": 6,
+"custom_id": "0076-symbolic-06",
+"status": "succeeded",
+"pred": 140.0,
+"gold": 163.0,
+"pass": false,
+"pass_final_rule": false
+},
+{
+"id": 76,
+"condition": "symbolic",
+"instance": 9,
+"sample": 9,
+"custom_id": "0076-symbolic-09",
+"status": "succeeded",
+"pred": 219.0,
+"gold": 258.0,
+"pass": false,
+"pass_final_rule": false
+},
+{
+"id": 76,
+"condition": "symbolic",
+"instance": 10,
+"sample": 10,
+"custom_id": "0076-symbolic-10",
+"status": "succeeded",
+"pred": 256.0,
+"gold": 322.0,
+"pass": false,
+"pass_final_rule": false
 },
 {
 "id": 76,
@@ -46550,6 +46622,18 @@
 {
 "id": 76,
 "condition": "symbolic",
+"instance": 12,
+"sample": 12,
+"custom_id": "0076-symbolic-12",
+"status": "succeeded",
+"pred": 316.0,
+"gold": 394.0,
+"pass": false,
+"pass_final_rule": false
+},
+{
+"id": 76,
+"condition": "symbolic",
 "instance": 13,
 "sample": 13,
 "custom_id": "0076-symbolic-13",
@@ -46562,6 +46646,18 @@
 {
 "id": 76,
 "condition": "symbolic",
+"instance": 14,
+"sample": 14,
+"custom_id": "0076-symbolic-14",
+"status": "succeeded",
+"pred": 34.0,
+"gold": 49.0,
+"pass": false,
+"pass_final_rule": false
+},
+{
+"id": 76,
+"condition": "symbolic",
 "instance": 16,
 "sample": 16,
 "custom_id": "0076-symbolic-16",
@@ -46570,6 +46666,66 @@
 "gold": 279.0,
 "pass": true,
 "pass_final_rule": true
+},
+{
+"id": 76,
+"condition": "symbolic",
+"instance": 17,
+"sample": 17,
+"custom_id": "0076-symbolic-17",
+"status": "succeeded",
+"pred": 27.0,
+"gold": 35.0,
+"pass": false,
+"pass_final_rule": false
+},
+{
+"id": 76,
+"condition": "symbolic",
+"instance": 18,
+"sample": 18,
+"custom_id": "0076-symbolic-18",
+"status": "succeeded",
+"pred": 58.5,
+"gold": 90.0,
+"pass": false,
+"pass_final_rule": false
+},
+{
+"id": 76,
+"condition": "symbolic",
+"instance": 23,
+"sample": 23,
+"custom_id": "0076-symbolic-23",
+"status": "succeeded",
+"pred": 127.0,
+"gold": 127.0,
+"pass": true,
+"pass_final_rule": true
+},
+{
+"id": 76,
+"condition": "symbolic",
+"instance": 24,
+"sample": 24,
+"custom_id": "0076-symbolic-24",
+"status": "succeeded",
+"pred": 68.0,
+"gold": 68.0,
+"pass": true,
+"pass_final_rule": true
+},
+{
+"id": 76,
+"condition": "symbolic",
+"instance": 27,
+"sample": 27,
+"custom_id": "0076-symbolic-27",
+"status": "succeeded",
+"pred": 121.0,
+"gold": 205.0,
+"pass": false,
+"pass_final_rule": false
 },
 {
 "id": 77,
