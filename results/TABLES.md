@@ -12,9 +12,9 @@ Rebuilt by `python -m gsmsym.score` from `runs/*/raw.jsonl`. Accuracy in %, mean
 | kimi-k3.1 | bedrock | 96.0 | 98.0 [1] | 98.0 [1] | 96.0 [1] | 95.9 [1] | 96.6 [1] | – | – |
 | llama3-8b-instruct | bedrock_completion | 77.0 | 73.6 (±1.8) [5] | 55.8 (±3.3) [5] | 32.8 (±3.0) [5] | 61.6 (±1.3) [5] | 63.6 (±2.9) [5] | 24.7 (±3.0) [5] | 44.8 (±21.3) [5] |
 | mistral-large-3-alcf | alcf | 100.0 | – | – | – | – | – | – | – |
-| mistral-large-4-nvfp4 | alcf | 100.0 | – | – | – | – | – | – | – |
+| mistral-large-4-nvfp4 | alcf | 98.4 | – | – | – | – | – | – | – |
 | nemotron-3-ultra | alcf | 98.0 | 92.9 (±1.1) [10] | – | – | – | – | – | – |
-| nemotron-35-super-vl | alcf | 98.4 | – | – | – | – | – | – | – |
+| nemotron-35-super-vl | alcf | 98.0 | – | – | – | – | – | – | – |
 | nemotron-super-3-120b | bedrock | 95.0 | 95.0 (±0.7) [5] | 92.8 (±1.3) [5] | 85.2 (±3.6) [5] | 92.8 (±2.0) [5] | 96.9 (±1.3) [5] | – | – |
 
 Drops (points) with 95% CI:
@@ -90,10 +90,10 @@ The format-aware rule reads 'final answer is', \boxed{}, or 'Answer:' before fal
 | gpt-oss-120b | 80.0 / 89.0 | 77.8 / 86.2 | 77.3 / 84.2 | 78.0 / 86.0 | 70.3 / 79.5 |
 | kimi-k3.1 | 96.0 / 96.0 | 98.0 / 98.0 | 98.0 / 98.0 | 96.0 / 96.0 | 95.9 / 97.9 |
 | llama3-8b-instruct | 77.0 / 77.0 | 73.6 / 72.2 | 55.8 / 54.4 | 32.8 / 32.0 | 61.6 / 61.1 |
-| mistral-large-3-alcf | 100.0 / 66.7 | – | – | – | – |
-| mistral-large-4-nvfp4 | 100.0 / 100.0 | – | – | – | – |
+| mistral-large-3-alcf | 100.0 / 92.9 | – | – | – | – |
+| mistral-large-4-nvfp4 | 98.4 / 98.4 | – | – | – | – |
 | nemotron-3-ultra | 98.0 / 98.0 | 92.9 / 92.9 | – | – | – |
-| nemotron-35-super-vl | 98.4 / 98.4 | – | – | – | – |
+| nemotron-35-super-vl | 98.0 / 98.0 | – | – | – | – |
 | nemotron-super-3-120b | 95.0 / 95.0 | 95.0 / 95.0 | 92.8 / 93.0 | 85.2 / 86.0 | 92.8 / 93.0 |
 
 ## H1 check (pre-registered thresholds: Symbolic <= 2, P1 <= 5, P2 <= 10, NoOp <= 9.3 points)
