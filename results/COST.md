@@ -17,15 +17,15 @@ Token use per item is measured from our runs, per variant.
 | llama-3.1-8b-instruct-completion | alcf_completion | 18204 | 0.00 | 14.1 | 2.2 | 0.00 |
 | llama-3.1-70b-instruct | alcf | 18188 | 0.00 | 14.7 | 4.7 | 0.00 |
 | llama-4-scout | alcf | 18204 | 0.00 | 14.0 | 7.3 | 0.00 |
-| gemma-4-e4b-it | alcf | 5100 | 0.00 | 15.1 | 6.8 | 0.00 |
+| gemma-4-e4b-it | alcf | 6243 | 0.00 | 15.2 | 8.0 | 0.00 |
 | gpt-oss-20b | alcf | 18204 | 0.00 | 15.0 | 13.0 | 0.00 |
 | mistral-large-2407 | alcf | 18188 | 0.00 | 16.0 | 4.2 | 0.00 |
-| devstral-2-123b | alcf | 10964 | 0.00 | 15.0 | 7.6 | 0.00 |
-| mistral-large-3-alcf | alcf | 17036 | 0.00 | 24.1 | 6.3 | 0.00 |
+| devstral-2-123b | alcf | 11415 | 0.00 | 15.0 | 7.6 | 0.00 |
+| mistral-large-3-alcf | alcf | 17198 | 0.00 | 24.1 | 6.3 | 0.00 |
 | mistral-large-4-nvfp4 | alcf | 18204 | 0.00 | 14.4 | 27.2 | 0.00 |
 | nemotron-35-super-vl | alcf | 18204 | 0.00 | 15.2 | 18.7 | 0.00 |
 | inkling | alcf | 18204 | 0.00 | 14.1 | 11.9 | 0.00 |
-| muse-spark | alcf | 16856 | 0.00 | 16.4 | 19.7 | 0.00 |
+| muse-spark | alcf | 17243 | 0.00 | 16.3 | 19.7 | 0.00 |
 | beam-1.0 | alcf | 18204 | 0.00 | 15.8 | 13.0 | 0.00 |
 
 Moved to ALCF (same weights served there, no cash): nemotron-super-3-120b -> nemotron-3-super-120b-alcf.
