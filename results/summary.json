@@ -839,6 +839,38 @@
     ],
     "drop": 7.200000000000003
    },
+   "noop": {
+    "acc": 91.60365644854552,
+    "sd": 1.7649162852077256,
+    "sets": 50,
+    "templates_per_set": 93.18,
+    "acc_final_rule": 91.60365644854552,
+    "binomial_sd": 2.8730299391860683,
+    "binomial_sd_p975": 3.459530758841546,
+    "h2_consistent_with_binomial": true,
+    "drop_paired": 5.892992232353934,
+    "drop_ci95": [
+     2.8536271529888353,
+     9.47111424711727
+    ],
+    "drop": 6.396343551454478
+   },
+   "noop_unanimous": {
+    "acc": 98.18627450980392,
+    "sd": 2.2739310434233135,
+    "sets": 50,
+    "templates_per_set": 40.8,
+    "acc_final_rule": 98.51657031231163,
+    "binomial_sd": 2.089205149925681,
+    "binomial_sd_p975": 2.619041180901203,
+    "h2_consistent_with_binomial": true,
+    "drop_paired": 2.7770403476005048,
+    "drop_ci95": [
+     0.9595959595959666,
+     5.09738886095813
+    ],
+    "drop": -0.18627450980392268
+   },
    "_meta": {
     "id": "nemotron-35-super-vl",
     "route": "alcf",
@@ -858,12 +890,12 @@
     "templates_per_set": 100.0,
     "acc_final_rule": 95.0,
     "binomial_sd": 2.179449471770338,
-    "binomial_sd_p975": 3.7013511046643495,
+    "binomial_sd_p975": 3.6469165057620936,
     "h2_consistent_with_binomial": true,
     "drop_paired": 0.0,
     "drop_ci95": [
-     -3.4000000000000057,
-     3.5999999999999943
+     -3.3999999999999773,
+     3.6000000000000085
     ],
     "drop": 0.0
    },
@@ -874,12 +906,12 @@
     "templates_per_set": 100.0,
     "acc_final_rule": 93.0,
     "binomial_sd": 2.584879107424563,
-    "binomial_sd_p975": 4.43846820423443,
+    "binomial_sd_p975": 4.324349662087931,
     "h2_consistent_with_binomial": true,
     "drop_paired": 2.200000000000017,
     "drop_ci95": [
-     -2.3999999999999915,
-     7.0
+     -2.3999999999999773,
+     7.000000000000013
     ],
     "drop": 2.200000000000003
    },
@@ -890,12 +922,12 @@
     "templates_per_set": 50.0,
     "acc_final_rule": 86.0,
     "binomial_sd": 5.021872160857941,
-    "binomial_sd_p975": 8.294576541331088,
+    "binomial_sd_p975": 8.414273587185052,
     "h2_consistent_with_binomial": true,
     "drop_paired": 8.799999999999997,
     "drop_ci95": [
      -1.6000000000000085,
-     19.59999999999998
+     19.599999999999994
     ],
     "drop": 9.799999999999997
    },
@@ -906,12 +938,12 @@
     "templates_per_set": 94.2,
     "acc_final_rule": 93.00562757332051,
     "binomial_sd": 2.6633626637877725,
-    "binomial_sd_p975": 4.550904177916478,
+    "binomial_sd_p975": 4.475677439992051,
     "h2_consistent_with_binomial": true,
     "drop_paired": 1.9000000000000057,
     "drop_ci95": [
-     -2.1999999999999886,
-     6.050000000000025
+     -2.1499999999999773,
+     6.0
     ],
     "drop": 2.2005579936897988
    },
@@ -922,11 +954,11 @@
     "templates_per_set": 83.6,
     "acc_final_rule": 97.13517579980994,
     "binomial_sd": 1.8985400682887184,
-    "binomial_sd_p975": 3.194382824999698,
+    "binomial_sd_p975": 3.2164895443110213,
     "h2_consistent_with_binomial": true,
     "drop_paired": 0.7216494845361,
     "drop_ci95": [
-     -3.505154639175249,
+     -3.505154639175234,
      4.742268041237122
     ],
     "drop": -1.8899521531100447
