@@ -675,9 +675,9 @@
   },
   "mistral-large-3-alcf": {
    "gsm8k": {
-    "acc": 96.0,
-    "n": 25,
-    "acc_final_rule": 92.0
+    "acc": 92.0,
+    "n": 100,
+    "acc_final_rule": 91.0
    },
    "_meta": {
     "id": "Mistral-Large-3-675B-Instruct-2512",
@@ -687,9 +687,9 @@
   },
   "mistral-large-4-nvfp4": {
    "gsm8k": {
-    "acc": 98.91304347826087,
-    "n": 92,
-    "acc_final_rule": 98.91304347826087
+    "acc": 97.0,
+    "n": 100,
+    "acc_final_rule": 97.0
    },
    "_meta": {
     "id": "mistral-large-4-nvfp4",
