@@ -1555,6 +1555,22 @@
     "n": 100,
     "acc_final_rule": 94.0
    },
+   "symbolic": {
+    "acc": 82.84626262626263,
+    "sd": 2.216853478000788,
+    "sets": 50,
+    "templates_per_set": 99.68,
+    "acc_final_rule": 93.2177777777778,
+    "binomial_sd": 3.775824710184566,
+    "binomial_sd_p975": 4.482346324351631,
+    "h2_consistent_with_binomial": true,
+    "drop_paired": 5.1000000000000085,
+    "drop_ci95": [
+     -0.7800000000000011,
+     10.979999999999992
+    ],
+    "drop": 5.153737373737371
+   },
    "_meta": {
     "id": "muse-spark-bf16",
     "route": "alcf",
@@ -1574,12 +1590,12 @@
     "templates_per_set": 100.0,
     "acc_final_rule": 92.9,
     "binomial_sd": 2.568248430350926,
-    "binomial_sd_p975": 3.772709017845577,
+    "binomial_sd_p975": 3.7727090178455764,
     "h2_consistent_with_binomial": true,
     "drop_paired": 5.100000000000037,
     "drop_ci95": [
-     1.6999999999999886,
-     8.900000000000006
+     1.799999999999983,
+     9.0
     ],
     "drop": 5.099999999999994
    },
@@ -1602,12 +1618,12 @@
     "templates_per_set": 100.0,
     "acc_final_rule": 95.92,
     "binomial_sd": 1.9782659073036657,
-    "binomial_sd_p975": 2.398043420144422,
+    "binomial_sd_p975": 2.393954972041719,
     "h2_consistent_with_binomial": true,
     "drop_paired": 2.0800000000000125,
     "drop_ci95": [
-     0.35999999999999943,
-     4.440000000000012
+     0.37999999999999545,
+     4.480000000000004
     ],
     "drop": 2.0799999999999983
    },
@@ -1618,12 +1634,12 @@
     "templates_per_set": 100.0,
     "acc_final_rule": 94.86,
     "binomial_sd": 2.2121808244354706,
-    "binomial_sd_p975": 2.6726124191242446,
+    "binomial_sd_p975": 2.679399871887246,
     "h2_consistent_with_binomial": true,
     "drop_paired": 3.160000000000011,
     "drop_ci95": [
-     -0.12000000000000455,
-     6.760000000000019
+     -0.1599999999999966,
+     6.860000000000027
     ],
     "drop": 3.1599999999999966
    },
@@ -1634,7 +1650,7 @@
     "templates_per_set": 50.0,
     "acc_final_rule": 90.8,
     "binomial_sd": 4.0874441892214275,
-    "binomial_sd_p975": 4.898979485566356,
+    "binomial_sd_p975": 4.969293465978882,
     "h2_consistent_with_binomial": true,
     "drop_paired": 7.200000000000002,
     "drop_ci95": [
@@ -1650,12 +1666,12 @@
     "templates_per_set": 93.18,
     "acc_final_rule": 91.60365644854552,
     "binomial_sd": 2.8730299391860683,
-    "binomial_sd_p975": 3.467365545454507,
+    "binomial_sd_p975": 3.477422598299483,
     "h2_consistent_with_binomial": true,
     "drop_paired": 5.892992232353934,
     "drop_ci95": [
-     2.8296842283012467,
-     9.52297221016066
+     2.864142181695385,
+     9.617240555796798
     ],
     "drop": 6.396343551454478
    },
@@ -1666,12 +1682,12 @@
     "templates_per_set": 82.52,
     "acc_final_rule": 96.73217048963981,
     "binomial_sd": 1.9583887914490543,
-    "binomial_sd_p975": 2.367970192346967,
+    "binomial_sd_p975": 2.3669691480442117,
     "h2_consistent_with_binomial": true,
     "drop_paired": 2.806433840327004,
     "drop_ci95": [
-     1.2108089746394086,
-     4.761714929652855
+     1.2425781070360653,
+     4.751806043130246
     ],
     "drop": 1.271934076587499
    },
@@ -1682,12 +1698,12 @@
     "templates_per_set": 94.5,
     "acc_final_rule": 64.81021853246577,
     "binomial_sd": 4.91263076433321,
-    "binomial_sd_p975": 7.064662857822974,
+    "binomial_sd_p975": 7.166279761173975,
     "h2_consistent_with_binomial": true,
     "drop_paired": 33.4936507936508,
     "drop_ci95": [
-     27.970634920634936,
-     39.05714285714291
+     27.926190476190467,
+     39.19920634920639
     ],
     "drop": 33.18978146753423
    },
@@ -1698,7 +1714,7 @@
     "templates_per_set": 11.7,
     "acc_final_rule": 95.35030758714969,
     "binomial_sd": 6.448494324912148,
-    "binomial_sd_p975": 9.97682499781554,
+    "binomial_sd_p975": 10.243938285880985,
     "h2_consistent_with_binomial": true,
     "drop_paired": 4.5,
     "drop_ci95": [
@@ -1726,12 +1742,12 @@
     "templates_per_set": 100.0,
     "acc_final_rule": 95.0,
     "binomial_sd": 2.179449471770338,
-    "binomial_sd_p975": 3.7013511046643495,
+    "binomial_sd_p975": 3.63318042491699,
     "h2_consistent_with_binomial": true,
     "drop_paired": 0.0,
     "drop_ci95": [
-     -3.200000000000003,
-     3.5999999999999943
+     -3.3999999999999915,
+     3.6000000000000085
     ],
     "drop": 0.0
    },
@@ -1742,12 +1758,12 @@
     "templates_per_set": 100.0,
     "acc_final_rule": 93.0,
     "binomial_sd": 2.584879107424563,
-    "binomial_sd_p975": 4.277849927241488,
+    "binomial_sd_p975": 4.43846820423443,
     "h2_consistent_with_binomial": true,
     "drop_paired": 2.200000000000017,
     "drop_ci95": [
-     -2.3999999999999915,
-     7.0
+     -2.3999999999999773,
+     7.000000000000013
     ],
     "drop": 2.200000000000003
    },
@@ -1758,12 +1774,12 @@
     "templates_per_set": 50.0,
     "acc_final_rule": 86.0,
     "binomial_sd": 5.021872160857941,
-    "binomial_sd_p975": 8.318653737234168,
+    "binomial_sd_p975": 8.532291603080617,
     "h2_consistent_with_binomial": true,
     "drop_paired": 8.799999999999997,
     "drop_ci95": [
-     -1.9999999999999858,
-     19.200000000000003
+     -1.6000000000000085,
+     19.200000000000017
     ],
     "drop": 9.799999999999997
    },
@@ -1774,12 +1790,12 @@
     "templates_per_set": 94.2,
     "acc_final_rule": 93.00562757332051,
     "binomial_sd": 2.6633626637877725,
-    "binomial_sd_p975": 4.412008798580368,
+    "binomial_sd_p975": 4.513447539488604,
     "h2_consistent_with_binomial": true,
     "drop_paired": 1.9000000000000057,
     "drop_ci95": [
-     -2.1499999999999915,
-     5.949999999999989
+     -2.1500000000000057,
+     6.049999999999998
     ],
     "drop": 2.2005579936897988
    },
@@ -1790,7 +1806,7 @@
     "templates_per_set": 83.6,
     "acc_final_rule": 97.13517579980994,
     "binomial_sd": 1.8985400682887184,
-    "binomial_sd_p975": 3.216489544311021,
+    "binomial_sd_p975": 3.2164895443110213,
     "h2_consistent_with_binomial": true,
     "drop_paired": 0.7216494845361,
     "drop_ci95": [

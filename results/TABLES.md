@@ -20,7 +20,7 @@ Rebuilt by `python -m gsmsym.score` from `runs/*/raw.jsonl`. Accuracy in %, mean
 | mistral-large-2407 | alcf | 95.0 | 90.4 (±2.0) [50] | 89.3 (±2.4) [50] | 79.3 (±4.3) [50] | – | – | – | – |
 | mistral-large-3-alcf | alcf | 92.0 | 87.0 (±2.8) [50] | 80.6 (±2.5) [50] | – | – | – | – | – |
 | mistral-large-4-nvfp4 | alcf | 97.0 | 96.4 (±1.4) [50] | 95.7 (±1.7) [50] | 93.1 (±2.5) [50] | 92.7 (±1.8) [50] | 97.2 (±1.5) [50] | 71.8 (±3.3) [10] | 96.6 (±6.5) [10] |
-| muse-spark | alcf | 88.0 | – | – | – | – | – | – | – |
+| muse-spark | alcf | 88.0 | 82.8 (±2.2) [50] | – | – | – | – | – | – |
 | nemotron-3-ultra | alcf | 98.0 | 92.9 (±1.1) [10] | – | – | – | – | – | – |
 | nemotron-35-super-vl | alcf | 98.0 | 95.9 (±1.0) [50] | 94.8 (±1.4) [50] | 90.8 (±2.6) [50] | 91.6 (±1.8) [50] | 96.7 (±1.4) [50] | 64.8 (±4.9) [10] | 94.9 (±4.1) [10] |
 | nemotron-super-3-120b | bedrock | 95.0 | 95.0 (±0.7) [5] | 92.8 (±1.3) [5] | 85.2 (±3.6) [5] | 92.8 (±2.0) [5] | 96.9 (±1.3) [5] | – | – |
@@ -43,10 +43,10 @@ Drops (points) with 95% CI:
 | mistral-large-2407 | +4.6 [+0.6, +8.8] | +5.7 [+1.8, +9.7] | +14.6 [+7.1, +22.7] | – | – | – | – |
 | mistral-large-3-alcf | +5.0 [+0.7, +9.1] | +11.4 [+5.8, +17.3] | – | – | – | – | – |
 | mistral-large-4-nvfp4 | +0.6 [-1.7, +2.9] | +1.3 [-3.0, +5.2] | +4.9 [-1.9, +11.6] | +3.9 [+0.6, +7.8] | +0.6 [-2.3, +3.6] | +25.7 [+20.3, +31.2] | +5.0 [+0.0, +11.0] |
-| muse-spark | – | – | – | – | – | – | – |
-| nemotron-3-ultra | +5.1 [+1.7, +8.9] | – | – | – | – | – | – |
-| nemotron-35-super-vl | +2.1 [+0.4, +4.4] | +3.2 [-0.1, +6.8] | +7.2 [+0.1, +14.7] | +5.9 [+2.8, +9.5] | +2.8 [+1.2, +4.8] | +33.5 [+28.0, +39.1] | +4.5 [+0.5, +9.8] |
-| nemotron-super-3-120b | +0.0 [-3.2, +3.6] | +2.2 [-2.4, +7.0] | +8.8 [-2.0, +19.2] | +1.9 [-2.1, +5.9] | +0.7 [-3.5, +4.6] | – | – |
+| muse-spark | +5.1 [-0.8, +11.0] | – | – | – | – | – | – |
+| nemotron-3-ultra | +5.1 [+1.8, +9.0] | – | – | – | – | – | – |
+| nemotron-35-super-vl | +2.1 [+0.4, +4.5] | +3.2 [-0.2, +6.9] | +7.2 [+0.1, +14.7] | +5.9 [+2.9, +9.6] | +2.8 [+1.2, +4.8] | +33.5 [+27.9, +39.2] | +4.5 [+0.5, +9.8] |
+| nemotron-super-3-120b | +0.0 [-3.4, +3.6] | +2.2 [-2.4, +7.0] | +8.8 [-1.6, +19.2] | +1.9 [-2.2, +6.0] | +0.7 [-3.5, +4.6] | – | – |
 
 ## Claude models via Claude Code subagent (not API; default sampling, Claude Code system prompt, 50 problems per context)
 
@@ -118,15 +118,16 @@ Drops (points) with 95% CI:
 | mistral-large-4-nvfp4 | p1 | 50 | 1.69 | 2.02 | 2.44 | yes |
 | mistral-large-4-nvfp4 | p2 | 50 | 2.46 | 3.58 | 4.32 | yes |
 | mistral-large-4-nvfp4 | noop | 50 | 1.78 | 2.70 | 3.23 | yes |
+| muse-spark | symbolic | 50 | 2.22 | 3.78 | 4.48 | yes |
 | nemotron-3-ultra | symbolic | 10 | 1.10 | 2.57 | 3.77 | yes |
-| nemotron-35-super-vl | symbolic | 50 | 1.01 | 1.98 | 2.40 | yes |
-| nemotron-35-super-vl | p1 | 50 | 1.36 | 2.21 | 2.67 | yes |
-| nemotron-35-super-vl | p2 | 50 | 2.65 | 4.09 | 4.90 | yes |
-| nemotron-35-super-vl | noop | 50 | 1.76 | 2.87 | 3.47 | yes |
-| nemotron-super-3-120b | symbolic | 5 | 0.71 | 2.18 | 3.70 | yes |
-| nemotron-super-3-120b | p1 | 5 | 1.30 | 2.58 | 4.28 | yes |
-| nemotron-super-3-120b | p2 | 5 | 3.63 | 5.02 | 8.32 | yes |
-| nemotron-super-3-120b | noop | 5 | 1.98 | 2.66 | 4.41 | yes |
+| nemotron-35-super-vl | symbolic | 50 | 1.01 | 1.98 | 2.39 | yes |
+| nemotron-35-super-vl | p1 | 50 | 1.36 | 2.21 | 2.68 | yes |
+| nemotron-35-super-vl | p2 | 50 | 2.65 | 4.09 | 4.97 | yes |
+| nemotron-35-super-vl | noop | 50 | 1.76 | 2.87 | 3.48 | yes |
+| nemotron-super-3-120b | symbolic | 5 | 0.71 | 2.18 | 3.63 | yes |
+| nemotron-super-3-120b | p1 | 5 | 1.30 | 2.58 | 4.44 | yes |
+| nemotron-super-3-120b | p2 | 5 | 3.63 | 5.02 | 8.53 | yes |
+| nemotron-super-3-120b | noop | 5 | 1.98 | 2.66 | 4.51 | yes |
 
 ## Parser sensitivity: paper rule vs format-aware rule (accuracy %)
 
@@ -149,7 +150,7 @@ The format-aware rule reads 'final answer is', \boxed{}, or 'Answer:' before fal
 | mistral-large-2407 | 95.0 / 96.0 | 90.4 / 92.6 | 89.3 / 90.2 | 79.3 / 80.9 | – |
 | mistral-large-3-alcf | 92.0 / 91.0 | 87.0 / 89.3 | 80.6 / 87.4 | – | – |
 | mistral-large-4-nvfp4 | 97.0 / 97.0 | 96.4 / 96.5 | 95.7 / 95.7 | 93.1 / 93.2 | 92.7 / 92.7 |
-| muse-spark | 88.0 / 94.0 | – | – | – | – |
+| muse-spark | 88.0 / 94.0 | 82.8 / 93.2 | – | – | – |
 | nemotron-3-ultra | 98.0 / 98.0 | 92.9 / 92.9 | – | – | – |
 | nemotron-35-super-vl | 98.0 / 98.0 | 95.9 / 95.9 | 94.8 / 94.9 | 90.8 / 90.8 | 91.6 / 91.6 |
 | nemotron-super-3-120b | 95.0 / 95.0 | 95.0 / 95.0 | 92.8 / 93.0 | 85.2 / 86.0 | 92.8 / 93.0 |
