@@ -15,14 +15,14 @@ Token use per item is measured from our runs, per variant.
 | gpt-oss-120b | alcf | 18204 | 0.00 | 15.0 | 10.7 | 0.00 |
 | nemotron-3-ultra | alcf | 1481 | 0.00 | 15.2 | 21.0 | 0.00 |
 | llama-3.1-8b-instruct-completion | alcf_completion | 18204 | 0.00 | 14.1 | 2.2 | 0.00 |
-| llama-4-scout | alcf | 12037 | 0.00 | 14.0 | 7.6 | 0.00 |
+| llama-4-scout | alcf | 12140 | 0.00 | 14.0 | 7.6 | 0.00 |
 | gpt-oss-20b | alcf | 18204 | 0.00 | 15.0 | 13.0 | 0.00 |
-| mistral-large-2407 | alcf | 2703 | 0.00 | 15.8 | 3.7 | 0.00 |
-| mistral-large-3-alcf | alcf | 7479 | 0.00 | 24.1 | 5.7 | 0.00 |
+| mistral-large-2407 | alcf | 2776 | 0.00 | 15.8 | 3.6 | 0.00 |
+| mistral-large-3-alcf | alcf | 7514 | 0.00 | 24.1 | 5.7 | 0.00 |
 | mistral-large-4-nvfp4 | alcf | 18204 | 0.00 | 14.4 | 27.2 | 0.00 |
 | nemotron-35-super-vl | alcf | 18204 | 0.00 | 15.2 | 18.7 | 0.00 |
-| inkling | alcf | 12571 | 0.00 | 14.1 | 11.8 | 0.00 |
-| beam-1.0 | alcf | 12600 | 0.00 | 15.8 | 12.8 | 0.00 |
+| inkling | alcf | 12600 | 0.00 | 14.1 | 11.8 | 0.00 |
+| beam-1.0 | alcf | 12773 | 0.00 | 15.7 | 12.5 | 0.00 |
 
 Moved to ALCF (same weights served there, no cash): nemotron-super-3-120b -> nemotron-3-super-120b-alcf.
 Not on ALCF, so Bedrock-only: llama3-8b-instruct, deepseek-v3.2, kimi-k3.1 (ALCF serves Llama-3.1-8B-Instruct, a close relative of the Llama-3-8B anchor, which we run there too).
