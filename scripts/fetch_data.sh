@@ -9,3 +9,11 @@ if [ ! -d data/ml-gsm-symbolic ]; then
 fi
 git -C data/ml-gsm-symbolic checkout -q "$COMMIT"
 sha256sum data/ml-gsm-symbolic/generated_data/*.jsonl 2>/dev/null || shasum -a 256 data/ml-gsm-symbolic/generated_data/*.jsonl
+
+# Second, independent NoOp construction (Sturgeon 2026, "GSM-NoOp (audited)", license: apple-sample-code),
+# used only as an evaluation input and not redistributed here.
+mkdir -p data/sturgeon/distractors
+B=https://huggingface.co/datasets/Experimental-Orange/gsm-noop-audited/resolve/main
+for f in distractors/GSM_noop_100.jsonl distractors/GSM_noop_100_audit_gpt55.jsonl LICENSE; do
+  [ -f "data/sturgeon/$f" ] || curl -sfL "$B/$f" -o "data/sturgeon/$f"
+done

@@ -25,11 +25,12 @@ PAPER = {
 }
 SUBAGENT_NOTE = "via Claude Code subagent (not API; default sampling, Claude Code system prompt, 50 problems per context)"
 RNG = random.Random(20261106)
+IRREL = set()
 
 
 def gold_map():
     g = {}
-    for v in ("gsm8k", "symbolic", "p1", "p2", "noop"):
+    for v in ("gsm8k", "symbolic", "p1", "p2", "noop", "noop2"):
         for it in items(v):
             g[it["custom_id"]] = it["gold"]
     return g
@@ -44,6 +45,14 @@ def noop_unanimous():
         if len(j) >= 2 and all(x == "UNCHANGED" for x in j) and r.get("has_number"):
             out.add(f"{r['id']:04d}-noop-{r['instance']:02d}")
     return out
+
+
+def noop2_irrelevant():
+    p = ROOT / "data" / "sturgeon" / "distractors" / "GSM_noop_100_audit_gpt55.jsonl"
+    if not p.exists():
+        return set()
+    return {f"{r['id']:04d}-noop2-{r['instance']:02d}" for r in map(json.loads, open(p))
+            if r["verdict"] == "TRULY_IRRELEVANT"}
 
 
 def grade_run(run, gold):
@@ -74,25 +83,32 @@ def table(graded, unanimous):
         if g["status"] != "succeeded":
             continue
         by[g["condition"]][g["instance"]][g["id"]] = (g["pass"], g["pass_final_rule"])
-    ntempl = {"gsm8k": 100, "symbolic": 100, "p1": 100, "p2": 50, "noop": 100}
+    ntempl = {"gsm8k": 100, "symbolic": 100, "p1": 100, "p2": 50, "noop": 100, "noop2": 100}
     out = {}
     base = by.get("gsm8k", {}).get(0, {})
-    out["gsm8k"] = {"acc": 100 * sum(v[0] for v in base.values()) / len(base), "n": len(base)} if base else None
-    for cond in VARS + ("noop_unanimous",):
-        src = by.get("noop" if cond == "noop_unanimous" else cond, {})
+    out["gsm8k"] = ({"acc": 100 * sum(v[0] for v in base.values()) / len(base), "n": len(base),
+                     "acc_final_rule": 100 * sum(v[1] for v in base.values()) / len(base)} if base else None)
+    subsets = {"noop_unanimous": ("noop", unanimous), "noop2_irrelevant": ("noop2", IRREL)}
+    for cond in VARS + ("noop_unanimous", "noop2", "noop2_irrelevant"):
+        src = by.get(subsets[cond][0] if cond in subsets else cond, {})
         sets = {}
         for inst, d in src.items():
-            if cond == "noop_unanimous":
-                d = {t: v for t, v in d.items() if f"{t:04d}-noop-{inst:02d}" in unanimous}
-                if len(d) >= 10:
+            if cond in subsets:
+                base_cond, keep = subsets[cond]
+                full = len(d) >= 0.85 * ntempl[base_cond]
+                d = {t: v for t, v in d.items() if f"{t:04d}-{base_cond}-{inst:02d}" in keep}
+                if full and d:
                     sets[inst] = d
-            elif len(d) >= (0.85 if cond == "noop" else 0.95) * ntempl[cond]:  # complete sets only (noop: clauses without a number are dropped)
+            elif len(d) >= (0.85 if cond in ("noop", "noop2") else 0.95) * ntempl[cond]:  # complete sets only (noop: clauses without a number are dropped)
                 sets[inst] = d
         if not sets:
             continue
         accs = [100 * sum(v[0] for v in d.values()) / len(d) for d in sets.values()]
         accs2 = [100 * sum(v[1] for v in d.values()) / len(d) for d in sets.values()]
         mean = sum(accs) / len(accs)
+        if cond in subsets:  # subsets have few items per set: report the pooled item accuracy
+            pooled = [v[0] for d in sets.values() for v in d.values()]
+            mean = 100 * sum(pooled) / len(pooled)
         sd = statistics_sd(accs)
         n_items = sum(len(d) for d in sets.values()) / len(sets)
         p = mean / 100
@@ -144,6 +160,8 @@ def fmt(c, key="acc"):
 def main():
     gold = gold_map()
     unanimous = noop_unanimous()
+    global IRREL
+    IRREL = noop2_irrelevant()
     summary, spend = {}, {}
     for d in sorted((ROOT / "runs").iterdir()):
         if not d.is_dir() or d.name.startswith("_") or not (d / "raw.jsonl").exists():
@@ -164,19 +182,19 @@ def main():
          "over templates. Answers parsed with the paper's last-number rule.", ""]
 
     def section(title, names):
-        L.extend([f"## {title}", "", "| Model | Route | GSM8K-100 | Symbolic | P1 | P2 | NoOp | NoOp (unanimous) |",
-                  "|---|---|---|---|---|---|---|---|"])
+        L.extend([f"## {title}", "", "| Model | Route | GSM8K-100 | Symbolic | P1 | P2 | NoOp | NoOp (unanimous) | NoOp-S | NoOp-S (irrelevant) |",
+                  "|---|---|---|---|---|---|---|---|---|---|"])
         for n in names:
             s = summary[n]
             g = s.get("gsm8k")
             L.append(f"| {n} | {s['_meta'].get('route')} | {g['acc']:.1f} |" if g else f"| {n} | {s['_meta'].get('route')} | – |")
-            L[-1] += "".join(f" {fmt(s.get(v))} |" for v in VARS + ("noop_unanimous",))
-        L.extend(["", "Drops (points) with 95% CI:", "", "| Model | Symbolic | P1 | P2 | NoOp | NoOp (unanimous) |",
-                  "|---|---|---|---|---|---|"])
+            L[-1] += "".join(f" {fmt(s.get(v))} |" for v in VARS + ("noop_unanimous", "noop2", "noop2_irrelevant"))
+        L.extend(["", "Drops (points) with 95% CI:", "", "| Model | Symbolic | P1 | P2 | NoOp | NoOp (unanimous) | NoOp-S | NoOp-S (irrelevant) |",
+                  "|---|---|---|---|---|---|---|---|"])
         for n in names:
             s = summary[n]
             row = f"| {n} |"
-            for v in VARS + ("noop_unanimous",):
+            for v in VARS + ("noop_unanimous", "noop2", "noop2_irrelevant"):
                 c = s.get(v)
                 row += (f" {c['drop_paired']:+.1f} [{c['drop_ci95'][0]:+.1f}, {c['drop_ci95'][1]:+.1f}] |"
                         if c and "drop_paired" in c else " – |")
@@ -201,6 +219,26 @@ def main():
             if c and "binomial_sd_p975" in c:
                 L.append(f"| {n} | {v} | {c['sets']} | {c['sd']:.2f} | {c['binomial_sd']:.2f} | "
                          f"{c['binomial_sd_p975']:.2f} | {'yes' if c['h2_consistent_with_binomial'] else 'no'} |")
+    L.extend(["", "## Parser sensitivity: paper rule vs format-aware rule (accuracy %)", "",
+              "The format-aware rule reads 'final answer is', \\boxed{}, or 'Answer:' before falling back to the "
+              "paper's last-number rule. Large gaps mean the paper rule scores formatting, not arithmetic.", "",
+              "| Model | GSM8K-100 | Symbolic | P1 | P2 | NoOp |", "|---|---|---|---|---|---|"])
+    for n, s in summary.items():
+        row = f"| {n} |"
+        for v in ("gsm8k",) + VARS:
+            c = s.get(v)
+            row += f" {c['acc']:.1f} / {c['acc_final_rule']:.1f} |" if c else " – |"
+        L.append(row)
+    # Pre-registered H1 check (PREREGISTRATION.md): drops at most 2 / 5 / 10 / 9.3 points
+    TH = {"symbolic": 2.0, "p1": 5.0, "p2": 10.0, "noop": 9.3}
+    L.extend(["", "## H1 check (pre-registered thresholds: Symbolic <= 2, P1 <= 5, P2 <= 10, NoOp <= 9.3 points)", "",
+              "| Model | Symbolic | P1 | P2 | NoOp | meets H1 | sets (min) |", "|---|---|---|---|---|---|---|"])
+    for n, s in summary.items():
+        if n == "llama3-8b-instruct" or not all(v in s and "drop_paired" in s[v] for v in VARS):
+            continue
+        ok = {v: s[v]["drop_paired"] <= TH[v] for v in VARS}
+        L.append(f"| {n} |" + "".join(f" {s[v]['drop_paired']:+.1f} {'ok' if ok[v] else 'no'} |" for v in VARS)
+                 + f" {'yes' if all(ok.values()) else 'no'} | {min(s[v]['sets'] for v in VARS)} |")
     L.extend(["", "## Cash spend on Bedrock (from logged token usage x list price)", "",
               "| Model | USD |", "|---|---|"] + [f"| {k} | {v:.2f} |" for k, v in spend.items()]
              + [f"| total | {sum(spend.values()):.2f} |", ""])
@@ -219,18 +257,21 @@ def figures(summary):
     fig_dir = ROOT / "figures"
     fig_dir.mkdir(exist_ok=True)
     names = [n for n in summary if summary[n].get("gsm8k")]
-    xs = ["gsm8k"] + list(VARS)
-    fig, ax = plt.subplots(figsize=(8, 4.5))
+    fv = VARS + ("noop2",)
+    xs = ["gsm8k"] + list(fv)
+    fig, ax = plt.subplots(figsize=(9, 4.8))
     for n in names:
         s = summary[n]
-        ys = [s["gsm8k"]["acc"]] + [s[v]["acc"] if v in s else float("nan") for v in VARS]
-        es = [0] + [s[v]["sd"] if v in s and s[v]["sd"] == s[v]["sd"] else 0 for v in VARS]
+        ys = [s["gsm8k"]["acc"]] + [s[v]["acc"] if v in s else float("nan") for v in fv]
+        es = [0] + [s[v]["sd"] if v in s and s[v]["sd"] == s[v]["sd"] else 0 for v in fv]
         ax.errorbar(range(len(xs)), ys, yerr=es, marker="o", capsize=3, label=n)
     for n in ("GPT-4o", "o1-preview", "Llama3-8b-instruct"):
         g, *vs = PAPER[n]
-        ax.plot(range(len(xs)), [g] + [m for m, _ in vs], ls="--", color="grey", alpha=0.6)
-        ax.annotate(f"paper {n}", (4, vs[-1][0]), fontsize=7, color="grey")
-    ax.set_xticks(range(len(xs)), ["GSM8K-100", "Symbolic", "P1", "P2", "NoOp"])
+        # the paper's (Apple's) NoOp is plotted at the NoOp-S position, the construction calibrated to it
+        ax.plot([0, 1, 2, 3, 5], [g] + [m for m, _ in vs], ls="--", color="grey", alpha=0.6)
+        ax.annotate(f"paper {n}", (5.05, vs[-1][0]), fontsize=7, color="grey")
+    ax.set_xticks(range(len(xs)), ["GSM8K-100", "Symbolic", "P1", "P2", "NoOp (ours)", "NoOp-S /\npaper NoOp"])
+    ax.set_xlim(-0.3, 6.2)
     ax.set_ylabel("8-shot CoT accuracy (%)")
     ax.set_ylim(0, 100)
     ax.legend(fontsize=7, loc="lower left")

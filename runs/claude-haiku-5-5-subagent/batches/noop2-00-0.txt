@@ -1,0 +1,149 @@
+### 0000-noop2-00
+A: Let's think step by step. Seven 72-inch remoras total 504 inches, which is 42 feet. The whale is currently 210 feet long, so the remoras are 42 / 210 of its length. 42 / 210 = 0.2. The final answer is 20.
+
+### 0001-noop2-00
+A: Let's think step by step. The fog covers 77 miles in 50 minutes, and the city is 77 miles across. The 20 minutes spent over the ocean before reaching the oceanfront does not change how long it takes to cross the city. The final answer is 50.
+
+### 0002-noop2-00
+A: Let's think step by step. Assume a fair 4-sided die. The probability of a number greater than 2 is 2/4 = 1/2. The probability of two odd numbers in a row is 1/2 times 1/2 = 1/4. The difference relative to 1/4 is (1/2 - 1/4) / (1/4) = 1, which is 100%. The final answer is 100.
+
+### 0003-noop2-00
+A: Let's think step by step. Of 190 students, 19 paint and 7 play football, leaving 190 - 19 - 7 = 164 who bake or hike. Hiking is twice the football count, so 2 * 7 = 14 hike. Baking is 164 - 14 = 150. The final answer is 150.
+
+### 0004-noop2-00
+A: Let's think step by step. The first 30 seconds give 60 pops. The next 30 seconds give 4 * 60 = 240. The third interval has 6 * 60 = 360. The final interval has 360 / 2 = 180. Total popped while cooking is 60 + 240 + 360 + 180 = 840. A quarter of the final 180 pop from residual heat, which is 45. Total popped is 840 + 45 = 885. The 30 unpopped duds are not popcorn. The final answer is 885.
+
+### 0005-noop2-00
+A: Let's think step by step. The ratio 97:37 has 134 parts, and 1474 / 134 = 11 per part. Sugar used is 97 * 11 = 1067 teaspoons. The dissolution detail concerns how much dissolved, not how much she used. The final answer is 1067.
+
+### 0006-noop2-00
+A: Let's think step by step. The field has 30 * 94 = 2820 oranges per harvest. Pavel harvests once every 12 months, so within a year he harvests 2820 oranges. The blossom period does not change that count. The final answer is 2820.
+
+### 0007-noop2-00
+A: Let's think step by step. Oats weigh 5 * 3 = 15 kg. Cucumbers weigh 13 * 6 = 78 kg. Apples weigh 31 * 42 = 1302 kg, and with a 20% increase that is 1562.4 kg. Wheat weighs 15 * 15 = 225 kg. Total is 15 + 78 + 1562.4 + 225 = 1880.4 kg. Dividing by 180 kg per trip gives 10.45, so 11 trips are needed. The final answer is 11.
+
+### 0008-noop2-00
+A: Let's think step by step. One eighth of 640 is 80 tennis balls. One tenth of those is 8 white tennis balls. The bounce-loss detail does not change the count of white balls. The final answer is 8.
+
+### 0009-noop2-00
+A: Let's think step by step. The blocks, stuffed animals and rings total 71 + 45 + 29 = 145. The rings set aside are still her toys, so they stay in the count. The total of 204 minus 145 leaves 59 bouncy balls. The final answer is 59.
+
+### 0010-noop2-00
+A: Let's think step by step. The hotel room phone is the relevant rate, not the lobby plan. The first 20 minutes cost 20 * 0.9 = 18. The remaining 66 minutes cost 66 * 0.5 = 33. Total is 18 + 33 = 51. The final answer is 51.
+
+### 0012-noop2-00
+A: Let's think step by step. Seven trays hold 7 * 28 = 196 crackers. Ravi has 252 crackers in total, including the 20 already on two trays. Crackers that cannot be placed are 252 - 196 = 56. The final answer is 56.
+
+### 0013-noop2-00
+A: Let's think step by step. The 52 ledges hold 52 * 7 = 364 plants. Adding the 29 new plants gives 393, and the 8 still needing repotting are still plants. Giving away 52 * 6 = 312 leaves 393 - 312 = 81. The final answer is 81.
+
+### 0014-noop2-00
+A: Let's think step by step. The walk to the cinema corner takes 27 minutes and the walk to the bank takes another 31, for 58 minutes. They have 109 minutes in total, so 109 - 58 = 51 minutes remain. The Andre-alone comparison does not change their time. The final answer is 51.
+
+### 0015-noop2-00
+A: Let's think step by step. Spotted puppies are 270 + 140 = 410 out of 1000 + 640 = 1640 puppies. Adopted puppies still have spots and are still puppies in the litters, so the adoption detail does not change the percentage. 410 / 1640 = 0.25. The final answer is 25.
+
+### 0016-noop2-00
+A: Let's think step by step. Tuesday's orange pie sales equal Wednesday's 27 minus 18, which is 9. Wednesday's brownie sales equal Tuesday's 21 plus 13, which is 34. Tuesday earns 21 * 8 + 9 * 28 = 168 + 252 = 420. Wednesday earns 34 * 8 + 27 * 28 = 272 + 756 = 1028. Total is 420 + 1028 = 1448. The final answer is 1448.
+
+### 0017-noop2-00
+A: Let's think step by step. The current beach distance is 12 + 2 = 14 km and the sidewalk distance is 12 - 2 = 10 km. In 60 minutes Mia covers 14 km on the beach, so her beach speed is 14/60 km per minute. The sidewalk speed is double that, 28/60 km per minute. Sidewalk time is 10 / (28/60) = 600/28 = 150/7, about 21.43 minutes. Total time is 60 + 150/7 = 570/7, about 81.43 minutes. The final answer is 81.43.
+
+### 0018-noop2-00
+A: Let's think step by step. Rulers cost 22 * 4.5 = 99. Colored pencils cost 8 * 14 = 112. Bond paper costs 22. Total is 99 + 112 + 22 = 233. No individual item exceeds 50, so no discount applies. The final answer is 233.
+
+### 0019-noop2-00
+A: Let's think step by step. The 150-item quiz has 0.6 * 150 = 90 history questions. The remaining 60 split equally into 30 literature and 30 chemistry questions. Mia gets 40% of 90 history questions, which is 36. She gets 1/10 of the 60 literature and chemistry questions, which is 6. Total is 36 + 6 = 42. The final answer is 42.
+
+### 0020-noop2-00
+A: Let's think step by step. Wednesday's pick is 205. Thursday's pick is 97. Friday's pick is 4 * 205 = 820. The 12 overripe pineapples are set aside but still belong to Liam. Total is 205 + 97 + 820 = 1122. The final answer is 1122.
+
+### 0021-noop2-00
+A: Let's think step by step. Tuesday and Wednesday are 4 hours each, for 8 hours. Friday is 6 hours plus 15 minutes, which is 6.25 hours. Saturday is two 4-hour episodes, and he finished the last one, so that is 8 hours. The known total is 8 + 6.25 + 8 = 22.25 hours. Thursday must be 23 - 22.25 = 0.75 hours, which is 45 minutes. That is one 45-minute episode. The final answer is 1.
+
+### 0022-noop2-00
+A: Let's think step by step. Emma had no spoons before buying the package. The husband added 18 spoons, which are still spoons. Ten were used for sampling, so the package size x satisfies x + 18 - 10 = 30. Therefore x = 22. The final answer is 22.
+
+### 0023-noop2-00
+A: Let's think step by step. One set for one child needs 17 + 11 + 18 + 12 + 6 = 64 skeins. Two grandchildren need 2 * 64 = 128 skeins. The 4 skeins of a different color cannot be used for this project. Amelia must buy 128 skeins. The final answer is 128.
+
+### 0024-noop2-00
+A: Let's think step by step. Each serving is 275 / 5 = 55 ounces and has an actual 460 calories, since the label's 475 is rounded up. Remaining calories are 2395 - 1350 = 1045. Calories per ounce are 460 / 55. Ounces allowed are 1045 * 55 / 460 = 57475 / 460, which is about 124.95. The final answer is 124.95.
+
+### 0025-noop2-00
+A: Let's think step by step. Basketball players are 20% of 35 = 7. The remaining 28 students include 25% of 28 = 7 dancers or robotics members. Two basketball players are also robotics members, so they are counted in both groups and are subtracted once. Students leaving are 7 + 7 - 2 = 12. The final answer is 12.
+
+### 0026-noop2-00
+A: Let's think step by step. The grandfather, partner and son eat 6 + 3 + 6 = 15 tacos per day. Over 7 days that is 15 * 7 = 105. The grandchildren bring their own tacos, so they are not counted in the family's supply. The final answer is 105.
+
+### 0027-noop2-00
+A: Let's think step by step. On weekdays he receives 150 emails and responds to 68%, which is 102 emails. Over 5 weekdays that is 510. On the weekend day he receives 40 emails and responds to 68% of them, which is 27.2. Total responses are 510 + 27.2 = 537.2. The final answer is 537.2.
+
+### 0028-noop2-00
+A: Let's think step by step. Initially 1/4 of 1800 rooms is occupied, which is 450. Over 21 days there are 40 * 21 = 840 admissions. The transfers are still new admissions to this clinic and occupy rooms. Occupied rooms are 450 + 840 = 1290. Unoccupied rooms are 1800 - 1290 = 510. The final answer is 510.
+
+### 0029-noop2-00
+A: Let's think step by step. Pavel is 13. In 3 years Valentina will be 3 * 13 = 39, so she is 36 now. Dmitri's age is not needed. The final answer is 36.
+
+### 0030-noop2-00
+A: Let's think step by step. Twenty-five washers at ₣0.98 each cost 25 * 0.98 = 24.5. Yusuf had ₣102.5, so he has 102.5 - 24.5 = 78 left. The bulk pack is not used. The final answer is 78.
+
+### 0031-noop2-00
+A: Let's think step by step. Mateo is 35 and is younger, so Santiago is 35 + 10 = 45. The average of their ages is (35 + 45) / 2 = 40. The cousin detail is not needed. The final answer is 40.
+
+### 0032-noop2-00
+A: Let's think step by step. The selling price is $340000. The brokerage fee is 3% of that, which is $10200. The transfer fee is 10%, which is $34000. Total cost is 340000 + 10200 + 34000 = 384200. The budget is 360000, so the excess is 384200 - 360000 = 24200. The final answer is 24200.
+
+### 0033-noop2-00
+A: Let's think step by step. Daphne and Uma have 35 + 30 = 65 signatures. Eight signatures are duplicates, so they have 65 - 8 = 57 unique signatures. The goal is 120, so they need 120 - 57 = 63 more. The final answer is 63.
+
+### 0034-noop2-00
+A: Let's think step by step. The sale price is $880000. Registration fees are 3% of that, which is $26400. The agent fee is 5%, which is $44000. The remaining loan payment is $440000. Net proceeds are 880000 - 26400 - 44000 - 440000 = 369600. The purchase price is not needed. The final answer is 369600.
+
+### 0035-noop2-00
+A: Let's think step by step. The conference costs ₣210. The charity covers a fifth, which is ₣42. Wei has ₣30. The amount he is missing is 210 - 42 - 30 = 138. The final answer is 138.
+
+### 0036-noop2-00
+A: Let's think step by step. Danishes cost 1 * 17 = 17. Tarts cost 8 * 74 = 592. Scones cost 3 * 113 = 339. The subtotal is 17 + 592 + 339 = 948. This is Ava's 4th visit, not her 5th, so no discount applies. The final answer is 948.
+
+### 0037-noop2-00
+A: Let's think step by step. Nadia and Leon together eat 5 + 25 = 30 pieces per day. The lasagna has 30 pieces in total, and the 2 leftovers were eaten too, so the total eaten is still 30. The lasagna lasts 30 / 30 = 1 day. The final answer is 1.
+
+### 0038-noop2-00
+A: Let's think step by step. Six loaves of sourdough cost 6 * 8 = 48 euros. Four muffins cost 4 * 4 = 16 euros. The difference is 48 - 16 = 32 euros. Buying four muffins does not reach the 5 needed for a free muffin. The final answer is 32.
+
+### 0039-noop2-00
+A: Let's think step by step. Cleaning 210 floors at 20 minutes each takes 4200 minutes, which is 70 hours. The 5-minute walking savings is not cleaning time, so it does not change this total. The workers have 10 days * 10 hours = 100 hours. Cleaning is 70 / 100 = 70% of their time. The final answer is 70.
+
+### 0040-noop2-00
+A: Let's think step by step. Fifteen pounds at ₣23 cost 345. The next 5 pounds at 1/4 off cost 5 * 17.25 = 86.25. The remaining 22 - 20 = 2 pounds are at full price, costing 46. Cotton candy totals 345 + 86.25 + 46 = 477.25. Coral costs 11.75. Eleven pins at ₣21 cost 231, and the retail price of the limited-edition pins elsewhere is irrelevant. Total spent is 477.25 + 11.75 + 231 = 720. Money left is 1400 - 720 = 680. The final answer is 680.
+
+### 0041-noop2-00
+A: Let's think step by step. Orange tiles are 3 * 8 = 24. The flipped tiles are still in the stack, so they still count. Green tiles are 38 - 8 - 24 = 6. The final answer is 6.
+
+### 0042-noop2-00
+A: Let's think step by step. The favorite brand was sold out, so he buys the expensive brand at 20 * 1.45 = ₺29 per kilogram. A week needs 7 kg, costing 7 * 29 = ₺203. The loyalty discount applies only to the usual brand, so it does not apply. Adding the bagel gives 203 + 3 = ₺206. The final answer is 206.
+
+### 0043-noop2-00
+A: Let's think step by step. There are 25 grasshoppers in the garden, including the 8 that migrated in. Caterpillars are 3/5 * 25 = 15. The total insect count is 25 + 15 = 40. The strawberries are not insects. The final answer is 40.
+
+### 0044-noop2-00
+A: Let's think step by step. Girls are 18, and the number of boys is 18 * 3/2 = 27, since girls are two-thirds of the boys. Total kids are 18 + 27 = 45. The sibling detail does not change the count. The final answer is 45.
+
+### 0046-noop2-00
+A: Let's think step by step. The auditorium has 7300 seats. Subtracting 1200 graduate seats and 100 faculty seats leaves 6000 guest seats. Those are split among 1200 graduates, giving 6000 / 1200 = 5 tickets each. The after-party attendance does not reduce the tickets allocated to each graduate. The final answer is 5.
+
+### 0047-noop2-00
+A: Let's think step by step. Six dozen eggs equal 72. Quinn finds 12. Isabella finds 2 * 12 = 24. Mia finds 24 - 4 = 20. Nia finds 20 / 4 = 5. The total found is 12 + 24 + 20 + 5 = 61. Eggs still hidden are 72 - 61 = 11. The 8 cracked eggs are still in the yard and are included in those 11. The final answer is 11.
+
+### 0048-noop2-00
+A: Let's think step by step. Kayla peels 6 mushrooms per minute, so 120 mushrooms take 120 / 6 = 20 minutes. She sautés 40 mushrooms in 17 minutes, so 120 mushrooms take 120 * 17 / 40 = 51 minutes. Shrinkage does not change the time. Peeling then sautéing takes 20 + 51 = 71 minutes. The final answer is 71.
+
+### 0049-noop2-00
+A: Let's think step by step. The first two complexes have 450 * 2 = 900 apartments. The third has 1.2 * 900 = 1080 apartments. The total is 900 + 1080 = 1980. After removing 15% vacancies, 85% remain occupied, which is 1980 * 0.85 = 1683. Each apartment yields 2 collections per week at ₣0.45, so earnings are 1683 * 2 * 0.45 = ₣1514.7. The final answer is 1514.7.
+
+### 0050-noop2-00
+A: Let's think step by step. The rectangular floor area is 390 square meters, excluding the pantry. With a length of 5 meters, the width is 390 / 5 = 78 meters. The perimeter is 2 * (5 + 78) = 166 meters. The pantry is not part of the rectangle. The final answer is 166.
+
+### 0051-noop2-00
+A: Let's think step by step. Rounded prices are tulips €2, roses €5, and sunflowers €5. Yesterday's sales are irrelevant. Today's tulips earn 12 * 2 = 24. Roses earn 29 * 5 = 145. Sunflowers earn 37 * 5 = 185. Total is 24 + 145 + 185 = 354. The final answer is 354.

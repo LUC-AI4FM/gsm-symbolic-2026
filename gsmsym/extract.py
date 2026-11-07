@@ -22,10 +22,24 @@ def paper_extract(resp: str):
 
 
 def final_answer_extract(resp: str):
-    """Sensitivity check: the number after the last 'final answer is', else the paper rule."""
+    """Format-aware parser (sensitivity check; exploratory beyond the pre-registered 'final answer is' rule).
+
+    In order: the number after the last 'final answer is'; the last \\boxed{...}; the first number after the
+    last 'Answer:'; otherwise the paper rule. Catches chat models that restate the question after answering.
+    """
     t = truncate(resp).replace(",", "")
     m = re.findall(r"final answer is[^0-9\-]*(-?\d+\.?\d*)", t, flags=re.I)
-    return float(m[-1]) if m else paper_extract(resp)
+    if m:
+        return float(m[-1])
+    m = re.findall(r"\\boxed\{[^0-9\-}]*(-?\d+\.?\d*)", t)
+    if m:
+        return float(m[-1])
+    i = max(t.rfind("Answer:"), t.rfind("answer:"), t.rfind("Answer**"))
+    if i != -1:
+        m = re.search(r"-?\d+\.?\d*", t[i:])
+        if m:
+            return float(m.group())
+    return paper_extract(resp)
 
 
 def correct(pred, gold) -> bool:

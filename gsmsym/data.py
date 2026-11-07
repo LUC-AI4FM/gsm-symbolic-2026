@@ -12,7 +12,8 @@ DATA = ROOT / "data" / "ml-gsm-symbolic" / "generated_data"
 NOOP = ROOT / "noop" / "clauses.jsonl"
 
 FILES = {"symbolic": "GSM_symbolic.jsonl", "p1": "GSM_p1.jsonl", "p2": "GSM_p2.jsonl"}
-VARIANTS = ("gsm8k", "symbolic", "p1", "p2", "noop")
+VARIANTS = ("gsm8k", "symbolic", "p1", "p2", "noop", "noop2")
+STURGEON = ROOT / "data" / "sturgeon" / "distractors"
 
 # The common GSM8K 8-shot chain-of-thought exemplars (Wei et al. 2022), verbatim from
 # lm-evaluation-harness commit c0745fec, lm_eval/tasks/gsm8k/gsm8k-cot.yaml, which the
@@ -84,6 +85,14 @@ def items(variant: str, instances=None):
             if r["instance"] == 0:
                 yield dict(custom_id=f"{r['id']:04d}-gsm8k-00", id=r["id"], instance=0,
                            question=r["original_question"], gold=gold(r["original_answer"]))
+        return
+    if variant == "noop2":
+        # Second NoOp construction: Sturgeon (2026) clauses by Claude Opus 4.6 on 100 templates x 10 instances.
+        for r in map(json.loads, open(STURGEON / "GSM_noop_100.jsonl")):
+            if instances is not None and r["instance"] not in instances:
+                continue
+            yield dict(custom_id=f"{r['id']:04d}-noop2-{r['instance']:02d}", id=r["id"], instance=r["instance"],
+                       question=r["question"], gold=gold(r["answer"]) if "answer" in r else float(r["gold_answer"]))
         return
     if variant == "noop":
         clauses = _noop()

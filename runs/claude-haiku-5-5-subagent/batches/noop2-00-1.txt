@@ -1,0 +1,134 @@
+### 0052-noop2-00
+A: Let's think step by step. Qasim starts with 5 x 50 = 250. The 6 coloring books cost 8 each (the 2 on clearance are at the stated price of 8), so 6 x 8 = 48. The 5 trading card packs cost 5 x 4 = 20. He spends 48 + 20 = 68. Left: 250 - 68 = 182. The final answer is 182.
+
+### 0053-noop2-00
+A: Let's think step by step. Oliver scored 354. Camila scored 2/4 of 354 = 177, plus 42 = 219. The triple-ring detail has no base values to recompute, so Camila's score stays 219. Total: 354 + 219 = 573. The final answer is 573.
+
+### 0054-noop2-00
+A: Let's think step by step. Yara ate 4 slices. Her sister ate 4 + 6 = 10. Her cousin ate 10 + 3 = 13. Total: 4 + 10 + 13 = 27. Mom's kiwi is not counted. The final answer is 27.
+
+### 0055-noop2-00
+A: Let's think step by step. The alphabet has 26 letters. Two full writings give 52. Two-fourths of the alphabet is 13 letters. So far she has written 52 + 13 = 65. She re-writes everything already written, adding 65 more. Total: 65 + 65 = 130. The final answer is 130.
+
+### 0056-noop2-00
+A: Let's think step by step. Each carton is 13 oz. Pavel drank 4 cartons, so 4 x 13 = 52 oz. At 8 calories per oz, 52 x 8 = 416. The final answer is 416.
+
+### 0057-noop2-00
+A: Let's think step by step. Viktor has 18 black and 16 magenta tubes. Alejandro has 1/3 of 18 = 6 black tubes and 8 x 16 = 128 magenta tubes. The 5 magenta tubes were lent out and all returned, so no change. Total: 6 + 128 = 134. The final answer is 134.
+
+### 0058-noop2-00
+A: Let's think step by step. A basic shovel troll mines 5 kg/day. A bronze pickaxe doubles that to 10 kg/day. A titanium pickaxe is 60% more than bronze: 10 x 1.6 = 16 kg/day. Twenty trolls for 31 days: 20 x 16 x 31 = 9920. The rest-day rule applies only to shovel trolls. The final answer is 9920.
+
+### 0060-noop2-00
+A: Let's think step by step. Sanjay works 7 hours x 3 days = 21 hours per week at 17 per hour, which is 357. Adding the 582 weekly bonus gives 939 per week. June is taken as 4 weeks. Total: 939 x 4 = 3756. The old rate of 14 is not used. The final answer is 3756.
+
+### 0061-noop2-00
+A: Let's think step by step. Mohammed started with 62 pebbles and dropped 2/4 = 31, leaving 31 in the bag. He found 18, so he has 31 + 18 = 49. Five of the found items were beads and were removed: 49 - 5 = 44. The 12 heavier stones are still pebbles, so they stay counted. The final answer is 44.
+
+### 0062-noop2-00
+A: Let's think step by step. There are 30 purple cards. Yellow is 50% more: 45. Blue equals purple plus yellow: 75. Total: 30 + 45 + 75 = 150. Duplicates are still cards in the set. The final answer is 150.
+
+### 0063-noop2-00
+A: Let's think step by step. The student has 20 marbles and his sister has 15. The trade swaps 3 for 3, so the total is unchanged. Together: 20 + 15 = 35. The final answer is 35.
+
+### 0064-noop2-00
+A: Let's think step by step. Nine jars each decorate 11 muffins, so 9 x 11 = 99 muffins are needed. The 2 taste-test muffins per jar were replaced when the jars were refilled to their original amount, so the total is unchanged. Each rack holds 11 muffins: 99 / 11 = 9 racks. The final answer is 9.
+
+### 0066-noop2-00
+A: Let's think step by step. White spools: 47 light + 73 dark = 120. Total spools: 47 + 73 + 32 + 88 = 240. The partial use does not change the count. Percent white: 120 / 240 = 50%. The final answer is 50.
+
+### 0067-noop2-00
+A: Let's think step by step. The van weighs 2000 kg. Groceries weigh 250 kg, taken at their current weight. Two friends weigh 2 x 75 = 150 kg. Total weight: 2000 + 250 + 150 = 2400 kg. Force is 3% of that: 0.03 x 2400 = 72 (kg-force). The final answer is 72.
+
+### 0068-noop2-00
+A: Let's think step by step. Sakura spent 28 minutes on each brain teaser, 4 brain teasers = 112 minutes. She spent 4 minutes on each chess puzzle, 7 puzzles = 28 minutes. The two repeat brain teasers still took time during vacation. Total: 112 + 28 = 140. The final answer is 140.
+
+### 0069-noop2-00
+A: Let's think step by step. Monday's session was 55 minutes including a 10-minute break, so he exercised 45 minutes. Sunday was 23 minutes. Monday plus Sunday is 45 + 23 = 68. Tuesday's goal is 7 x 68 = 476 minutes. The final answer is 476.
+
+### 0070-noop2-00
+A: Let's think step by step. He works 2 weeks per month, 12 months per year, so 24 weeks. At 6 days per week that is 24 x 6 = 144 working days. Each day he earns 150 and spends 40 on supplies, a net of 110. Total: 144 x 110 = 15840. The final answer is 15840.
+
+### 0071-noop2-00
+A: Let's think step by step. Each alpaca needs 9 kg, so 35 alpacas need 315 kg. Each horse needs 2 x 9 - 6 = 12 kg, so 22 horses need 264 kg. Total need: 315 + 264 = 579 kg. He has 80 kg, so he needs 579 - 80 = 499. The final answer is 499.
+
+### 0072-noop2-00
+A: Let's think step by step. Diego keeps 7 - 3 = 4 pen pals. Each sends 3 letters of 9 pages, and each page is written on both sides, so 18 sides per letter. They send 4 x 3 x 18 = 216 sides per week. He responds in kind, writing 216 sides at 5 minutes each: 216 x 5 = 1080 minutes = 18 hours. The final answer is 18.
+
+### 0073-noop2-00
+A: Let's think step by step. The uncle saw the comet at age 46, and Diego saw it a second time at age 2 x 46 = 92. The comet orbits every 75 years, so Diego's first sighting was 75 years earlier: 92 - 75 = 17. The final answer is 17.
+
+### 0074-noop2-00
+A: Let's think step by step. There are 172 fourth-graders and 83 are girls, so 172 - 83 = 89 boys. Four fourth-grade boys were absent: 89 - 4 = 85. The third-graders are not fourth-graders and are irrelevant. The final answer is 85.
+
+### 0075-noop2-00
+A: Let's think step by step. The current stock is 19 red at 13, 29 green at 7, and 48 yellow at 6. Red: 19 x 13 = 247. Green: 29 x 7 = 203. Yellow: 48 x 6 = 288. Total: 247 + 203 + 288 = 738. The pre-restock counts are not used. The final answer is 738.
+
+### 0076-noop2-00
+A: Let's think step by step. The three listed trout weigh 70 + 33 + 32 = 135 kg. The fourth trout's weight is not given, so the calculation uses the three weights provided. The market price is 1.5 per kg at the time of sale: 135 x 1.5 = 202.5. The final answer is 202.5.
+
+### 0077-noop2-00
+A: Let's think step by step. The thesis is 160 pages. One-fifth of it is 32 pages, but 8 of those must be rewritten, so 32 - 8 = 24 usable pages remain. Pages left: 160 - 24 = 136. The final answer is 136.
+
+### 0078-noop2-00
+A: Let's think step by step. Liam takes 6 + 1 = 7 classes of 60 minutes each. Over 6 days, that is 7 x 60 x 6 = 2520 minutes. He spends 1/7 of that on each of Saturday and Sunday: 2 x 2520 / 7 = 720 minutes. Total: 2520 + 720 = 3240 minutes = 54 hours. The final answer is 54.
+
+### 0079-noop2-00
+A: Let's think step by step. Elena placed the 481-piece puzzle within the hour, so she placed all 481 pieces. The 15 pieces laid out by her sister were still placed by Elena. The 1/3 of the 315-piece puzzle happened earlier, not during the hour. The final answer is 481.
+
+### 0081-noop2-00
+A: Let's think step by step. The Lopez twins found 43 x 2 = 86 coins. The rare-collectible detail does not change the coin count. Of the 180 coins, 17 were not found by friends. The friends found 180 - 86 - 17 = 77. The final answer is 77.
+
+### 0082-noop2-00
+A: Let's think step by step. There were 63 nurses and 63 engineers, 126 people total. Half left, so 63 left. 22 nurses stayed, so 63 - 22 = 41 nurses left. That leaves 63 - 41 = 22 engineers who left. Engineers remaining: 63 - 22 = 41. The temporary breaks are not counted as leaving. The final answer is 41.
+
+### 0083-noop2-00
+A: Let's think step by step. Total brownies made: 7000. Lemon: 1027. Strawberry: 2009. Peanut butter: 7000 - 1027 - 2009 = 3964. The 450 packaged brownies are already included in the peanut butter total. The final answer is 3964.
+
+### 0084-noop2-00
+A: Let's think step by step. Kayla buys 10 shares at 56 each, so 560. Year one at +30%: 56 x 1.3 = 72.8. Year two at -25%: 72.8 x 0.75 = 54.6 per share. The 2-for-1 split and the 1-for-2 reverse split cancel out, leaving 10 shares at 54.6. Value: 10 x 54.6 = 546. The final answer is 546.
+
+### 0085-noop2-00
+A: Let's think step by step. Kai and Mateo have 860 yards. Mateo gets 100 more than Kai, so 2 x Kai + 100 = 860, giving Kai 380 and Mateo 480. Kai's 50 yards used last season were replaced, so his share is intact. The final answer is 380.
+
+### 0086-noop2-00
+A: Let's think step by step. The jersey costs 21. The leggings cost 21 + 4 = 25. The cleats cost 32 / 8 = 4 on sale. The headbands cost 9 - 3 = 6 with the coupon. She did not buy the swim cap. Total: 21 + 25 + 4 + 6 = 56. The final answer is 56.
+
+### 0087-noop2-00
+A: Let's think step by step. The biggest slide takes 330 / 55 = 6 minutes. The second slide takes 240 / 80 = 3 minutes. The 15-meter splash zone is treated as not part of the timed slide. Difference: 6 - 3 = 3 minutes. The final answer is 3.
+
+### 0088-noop2-00
+A: Let's think step by step. Let walking speed be w. Running is 8w. Skipping is 3/4 of running, 6w, which equals 3 mph, so w = 0.5 mph and running is 4 mph. The skipping speed is not used in the travel. Half of 8 hours is 4 hours running: 4 x 4 = 16 miles. Four hours walking: 4 x 0.5 = 2 miles. Total: 18. The final answer is 18.
+
+### 0089-noop2-00
+A: Let's think step by step. The rental runs 1 PM to 5 PM, which is 4 hours. Two hours are free, so 2 hours are paid. The first paid hour is 10 and the second is 2 x 10 = 20. Subtotal: 30. The booking does not fall after 6 PM, so no surcharge applies. The final answer is 30.
+
+### 0090-noop2-00
+A: Let's think step by step. Amelia's listed 45 friends include 12 deactivated accounts that no longer appear anywhere, so her active count is 45 - 12 = 33. Zahra has 33 / 3 = 11. Mei has 10 x 11 = 110. The final answer is 110.
+
+### 0091-noop2-00
+A: Let's think step by step. Seven times as many apples as bananas, so 7 x 53 = 371 apples. Kai has 53 bananas and buys 60 more, giving 113 bananas. The 15 unripe bananas are still in the house. The 36-fewer detail conflicts with the 7x ratio, so the apple count stays 371. Total: 371 + 113 = 484. The final answer is 484.
+
+### 0092-noop2-00
+A: Let's think step by step. Jin slew 150. DeShawn slew 5/6 x 150 = 125. Gabriel slew 2 x 125 = 250. Oscar slew 3/6 x 250 = 125. The 15 revived goblins were slain again by Jin, so Oscar's count does not change. The final answer is 125.
+
+### 0093-noop2-00
+A: Let's think step by step. On a cold day, Wei swims a mile in 26 minutes, so 6 miles take 156 minutes. On a warm day, a mile takes 2 x 26 + 5 = 57 minutes, so 6 miles take 342 minutes. The difference: 342 - 156 = 186. The final answer is 186.
+
+### 0094-noop2-00
+A: Let's think step by step. 40% of 1000 get interviews: 400. 49% of 400 get offers: 196. Two-fourths, which is 1/2, accept: 98. The budget of 150 does not change the number who accept. The final answer is 98.
+
+### 0095-noop2-00
+A: Let's think step by step. Football has 15 students. Badminton has 2 x 15 = 30. Table tennis has 19 boys + 28 girls = 47. The 7 players who considered badminton stayed in table tennis, so the count is unchanged. Total: 15 + 30 + 47 = 92. The final answer is 92.
+
+### 0096-noop2-00
+A: Let's think step by step. Each person needs laser tag at 10, pinball at 5, and 7 coaster rides at 5 = 35 (the pre-renovation price of 3 is not used). Per person: 10 + 5 + 35 = 50. The budget of 300 covers 300 / 50 = 6 people, including Mia. Friends invited: 6 - 1 = 5. The final answer is 5.
+
+### 0097-noop2-00
+A: Let's think step by step. Nia works three times as fast as Sakura, so 3 x 55 = 165 customers per day on weekdays. Combined weekday output is 55 + 165 = 220. On weekends each transaction takes 20% longer, so the rate is divided by 1.2. Combined weekend output: 220 / 1.2 = 183.33 per day. Weekly total: 5 x 220 + 2 x 183.33 = 1100 + 366.67 = 1466.67 (exactly 4400/3). The final answer is 1466.67.
+
+### 0098-noop2-00
+A: Let's think step by step. The 16 original people are all infected, including the 2 without symptoms. Each infected person infects 3 others per day, so the total multiplies by 4 each day. Day 1: 16 x 4 = 64. Day 2: 64 x 4 = 256. Day 3: 256 x 4 = 1024. The final answer is 1024.
+
+### 0099-noop2-00
+A: Let's think step by step. Five eggs per day for 84 days is 420 eggs. Seven eggs per day for 24 days is 168 eggs. Total for 108 days: 588 eggs, which is 588 / 12 = 49 dozen. She already has 2 dozen stored, so she needs 49 - 2 = 47 more dozen. The final answer is 47.

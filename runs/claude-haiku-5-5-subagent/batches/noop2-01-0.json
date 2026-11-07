@@ -1,0 +1,16 @@
+{
+ "batch_id": "noop2-01-0",
+ "model": "claude-haiku-5-5",
+ "route": "claude-code-subagent",
+ "tool_uses": 1,
+ "non_handoff_tools": [],
+ "valid": true,
+ "usage": {
+  "input": 4,
+  "cache_creation": 49698,
+  "cache_read": 78746,
+  "output": 32842
+ },
+ "total_tokens": 161290,
+ "date_utc": "2026-11-07T01:00:17.529Z"
+}
