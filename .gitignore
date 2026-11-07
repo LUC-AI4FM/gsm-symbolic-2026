@@ -4,3 +4,4 @@ __pycache__/
 .env
 batches/noop-*
 batches/noop2-*
+.publish.lock/

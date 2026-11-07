@@ -97,15 +97,22 @@ _TOKEN = _AlcfToken()
 ALCF = "https://inference-api.alcf.anl.gov/resource_server/{cluster}/v1/chat/completions"
 
 
-def alcf(model_id, prompt, *, cluster, max_tokens, temperature=0.0, stop=("\nQ:",), seed=42):
-    body = {"model": model_id, "messages": [{"role": "user", "content": prompt}],
-            "max_tokens": max_tokens, "temperature": temperature, "seed": seed}
+def alcf(model_id, prompt, *, cluster, max_tokens, temperature=0.0, stop=("\nQ:",), seed=42, completion=False):
+    """Chat completions, or with completion=True raw text completion (/v1/completions, no chat template)."""
+    if completion:
+        body = {"model": model_id, "prompt": prompt, "max_tokens": max_tokens, "temperature": temperature, "seed": seed}
+    else:
+        body = {"model": model_id, "messages": [{"role": "user", "content": prompt}],
+                "max_tokens": max_tokens, "temperature": temperature, "seed": seed}
     if stop:
         body["stop"] = list(stop)
     data = json.dumps(body).encode()
     refreshed = False
     for attempt in range(8):
-        req = urllib.request.Request(ALCF.format(cluster=cluster), data=data, method="POST",
+        url = ALCF.format(cluster=cluster)
+        if completion:
+            url = url.replace("/chat/completions", "/completions")
+        req = urllib.request.Request(url, data=data, method="POST",
                                      headers={"Content-Type": "application/json",
                                               "Authorization": "Bearer " + _TOKEN.get()})
         try:
@@ -113,14 +120,15 @@ def alcf(model_id, prompt, *, cluster, max_tokens, temperature=0.0, stop=("\nQ:"
                 d = json.loads(resp.read())
             ch = d["choices"][0]
             u = d.get("usage") or {}
-            return (ch["message"].get("content") or "", ch.get("finish_reason"),
+            text = ch.get("text", "") if completion else (ch["message"].get("content") or "")
+            return (text, ch.get("finish_reason"),
                     {"input": u.get("prompt_tokens"), "output": u.get("completion_tokens")}, d.get("model"))
         except urllib.error.HTTPError as e:
             if e.code == 401 and not refreshed:
                 _TOKEN.get(refresh=True)
                 refreshed = True
                 continue
-            if e.code in (429, 500, 502, 503, 504):
+            if e.code in (408, 429, 500, 502, 503, 504):
                 time.sleep(min(120, 5 * 2 ** attempt))
                 continue
             raise RouteError(f"ALCF HTTP {e.code}") from None

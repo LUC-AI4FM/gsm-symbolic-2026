@@ -96,7 +96,8 @@ def main(argv=None):
             elif m["route"] == "bedrock_completion":
                 text, stop, usage, ver = routes.bedrock_completion(m["id"], prompt, **kw)
             else:
-                text, stop, usage, ver = routes.alcf(m["id"], prompt, cluster=m["cluster"], stop=m.get("stop"), **kw)
+                text, stop, usage, ver = routes.alcf(m["id"], prompt, cluster=m["cluster"], stop=m.get("stop"),
+                                                     completion=m["route"] == "alcf_completion", **kw)
             rec = {"custom_id": it["custom_id"], "type": "succeeded", "text": text, "stop_reason": stop,
                    "usage": usage, "model": m["id"], "model_version": ver}
         except routes.RouteError as e:
