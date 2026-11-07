@@ -71,9 +71,11 @@ def load():
 
 def save(rows):
     NOOP.parent.mkdir(parents=True, exist_ok=True)
-    with open(NOOP, "w") as f:
+    tmp = NOOP.with_suffix(".tmp")
+    with open(tmp, "w") as f:
         for k in sorted(rows):
             f.write(json.dumps(rows[k]) + "\n")
+    tmp.replace(NOOP)  # atomic, so concurrent runs never read a half-written file
 
 
 def main():

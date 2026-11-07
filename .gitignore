@@ -5,3 +5,4 @@ __pycache__/
 batches/noop-*
 batches/noop2-*
 .publish.lock/
+noop/*.tmp

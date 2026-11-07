@@ -17,6 +17,9 @@ FULL = {"gsm8k": 100, "symbolic": 5000, "p1": 5000, "p2": 2500, "noop": 4700}
 # with token use assumed equal to the median measured non-reasoning model.
 EXTRA = {"claude-opus-4-6 (Bedrock)": (5.5, 27.5), "claude-sonnet-4-6 (Bedrock)": (3.3, 16.5)}
 
+# Bedrock models whose exact weights ALCF also serves: their full protocol runs on ALCF instead.
+MOVED_TO_ALCF = {"nemotron-super-3-120b": "nemotron-3-super-120b-alcf"}
+
 rows, spent = [], 0.0
 med_in = med_out = None
 for name, m in MODELS.items():
@@ -51,9 +54,15 @@ L = ["# Cost", "", f"Bedrock cash spent so far (logged usage x list price): **${
      "|---|---|---|---|---|---|---|"]
 for r in rows:
     L.append(f"| {r[0]} | {r[1]} | {r[2]} | {r[3]:.2f} | {r[4]:.1f} | {r[5]:.1f} | {r[6]:.2f} |")
-bed = [r for r in rows if r[1].startswith("bedrock")]
-L += ["", f"Full run on all {len(bed)} Bedrock models: **${sum(r[6] for r in bed):.2f}** "
-      f"(remaining after spend so far: ${sum(r[6] for r in bed) - spent:.2f}).",
+bed = [r for r in rows if r[1].startswith("bedrock") and r[0] not in MOVED_TO_ALCF]
+rem = sum(r[6] - r[3] for r in bed)
+L += ["", "Moved to ALCF (same weights served there, no cash): "
+      + ", ".join(f"{k} -> {v}" for k, v in MOVED_TO_ALCF.items()) + ".",
+      "Not on ALCF, so Bedrock-only: " + ", ".join(r[0] for r in bed)
+      + " (ALCF serves Llama-3.1-8B-Instruct, a close relative of the Llama-3-8B anchor, which we run there too).",
+      "", f"Full-run quote for the Bedrock-only models: **${sum(r[6] for r in bed):.2f}**, "
+      f"of which ${rem:.2f} is beyond what is already spent; without Kimi K3.1: "
+      f"${sum(r[6] for r in bed if r[0] != 'kimi-k3.1'):.2f}.",
       "ALCF and Claude Code subagent routes cost no cash."]
 (ROOT / "results").mkdir(exist_ok=True)
 (ROOT / "results" / "COST.md").write_text("\n".join(L) + "\n")
