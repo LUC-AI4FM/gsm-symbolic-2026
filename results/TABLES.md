@@ -15,7 +15,7 @@ Rebuilt by `python -m gsmsym.score` from `runs/*/raw.jsonl`. Accuracy in %, mean
 | mistral-large-3-alcf | alcf | 92.0 | – | – | – | – | – | – | – |
 | mistral-large-4-nvfp4 | alcf | 97.0 | 96.4 (±1.4) [50] | – | – | – | – | – | – |
 | nemotron-3-ultra | alcf | 98.0 | 92.9 (±1.1) [10] | – | – | – | – | – | – |
-| nemotron-35-super-vl | alcf | 98.0 | 95.9 (±1.0) [50] | 94.8 (±1.4) [50] | 90.8 (±2.6) [50] | 91.6 (±1.8) [50] | 98.3 (±2.1) [50] | – | – |
+| nemotron-35-super-vl | alcf | 98.0 | 95.9 (±1.0) [50] | 94.8 (±1.4) [50] | 90.8 (±2.6) [50] | 91.6 (±1.8) [50] | 98.3 (±2.1) [50] | 64.8 (±4.9) [10] | 94.9 (±4.1) [10] |
 | nemotron-super-3-120b | bedrock | 95.0 | 95.0 (±0.7) [5] | 92.8 (±1.3) [5] | 85.2 (±3.6) [5] | 92.8 (±2.0) [5] | 96.9 (±1.3) [5] | – | – |
 
 Drops (points) with 95% CI:
@@ -31,8 +31,8 @@ Drops (points) with 95% CI:
 | mistral-large-3-alcf | – | – | – | – | – | – | – |
 | mistral-large-4-nvfp4 | +0.6 [-1.7, +3.0] | – | – | – | – | – | – |
 | nemotron-3-ultra | +5.1 [+1.7, +9.0] | – | – | – | – | – | – |
-| nemotron-35-super-vl | +2.1 [+0.4, +4.5] | +3.2 [-0.2, +6.9] | +7.2 [-0.1, +14.6] | +5.9 [+2.8, +9.5] | +2.8 [+1.0, +5.1] | – | – |
-| nemotron-super-3-120b | +0.0 [-3.4, +3.6] | +2.2 [-2.4, +7.0] | +8.8 [-1.6, +19.2] | +1.9 [-2.2, +6.0] | +0.7 [-3.4, +4.7] | – | – |
+| nemotron-35-super-vl | +2.1 [+0.4, +4.5] | +3.2 [-0.2, +6.9] | +7.2 [-0.1, +14.6] | +5.9 [+2.8, +9.5] | +2.8 [+1.0, +5.1] | +33.5 [+27.9, +39.1] | +4.5 [+0.5, +10.0] |
+| nemotron-super-3-120b | +0.0 [-3.4, +3.6] | +2.2 [-2.4, +7.0] | +8.8 [-1.6, +19.6] | +1.9 [-2.2, +5.9] | +0.7 [-3.5, +4.7] | – | – |
 
 ## Claude models via Claude Code subagent (not API; default sampling, Claude Code system prompt, 50 problems per context)
 
@@ -83,10 +83,10 @@ Drops (points) with 95% CI:
 | nemotron-35-super-vl | p1 | 50 | 1.36 | 2.21 | 2.69 | yes |
 | nemotron-35-super-vl | p2 | 50 | 2.65 | 4.09 | 4.94 | yes |
 | nemotron-35-super-vl | noop | 50 | 1.76 | 2.87 | 3.47 | yes |
-| nemotron-super-3-120b | symbolic | 5 | 0.71 | 2.18 | 3.63 | yes |
-| nemotron-super-3-120b | p1 | 5 | 1.30 | 2.58 | 4.32 | yes |
-| nemotron-super-3-120b | p2 | 5 | 3.63 | 5.02 | 8.44 | yes |
-| nemotron-super-3-120b | noop | 5 | 1.98 | 2.66 | 4.41 | yes |
+| nemotron-super-3-120b | symbolic | 5 | 0.71 | 2.18 | 3.78 | yes |
+| nemotron-super-3-120b | p1 | 5 | 1.30 | 2.58 | 4.21 | yes |
+| nemotron-super-3-120b | p2 | 5 | 3.63 | 5.02 | 8.37 | yes |
+| nemotron-super-3-120b | noop | 5 | 1.98 | 2.66 | 4.54 | yes |
 
 ## Parser sensitivity: paper rule vs format-aware rule (accuracy %)
 
