@@ -1,0 +1,38 @@
+[
+{
+"id": 0,
+"condition": "gsm8k",
+"instance": 0,
+"sample": 0,
+"custom_id": "0000-gsm8k-00",
+"status": "succeeded",
+"pred": 10.0,
+"gold": 10.0,
+"pass": true,
+"pass_final_rule": true
+},
+{
+"id": 2,
+"condition": "gsm8k",
+"instance": 0,
+"sample": 0,
+"custom_id": "0002-gsm8k-00",
+"status": "succeeded",
+"pred": 25.0,
+"gold": 25.0,
+"pass": true,
+"pass_final_rule": false
+},
+{
+"id": 7,
+"condition": "gsm8k",
+"instance": 0,
+"sample": 0,
+"custom_id": "0007-gsm8k-00",
+"status": "succeeded",
+"pred": 2.0,
+"gold": 2.0,
+"pass": true,
+"pass_final_rule": true
+}
+]

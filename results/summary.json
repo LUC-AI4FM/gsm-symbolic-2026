@@ -673,6 +673,30 @@
     "released": "2024-04"
    }
   },
+  "mistral-large-3-alcf": {
+   "gsm8k": {
+    "acc": 100.0,
+    "n": 3,
+    "acc_final_rule": 66.66666666666667
+   },
+   "_meta": {
+    "id": "Mistral-Large-3-675B-Instruct-2512",
+    "route": "alcf",
+    "released": "2025-12"
+   }
+  },
+  "mistral-large-4-nvfp4": {
+   "gsm8k": {
+    "acc": 100.0,
+    "n": 21,
+    "acc_final_rule": 100.0
+   },
+   "_meta": {
+    "id": "mistral-large-4-nvfp4",
+    "route": "alcf",
+    "released": "2026"
+   }
+  },
   "nemotron-3-ultra": {
    "gsm8k": {
     "acc": 98.0,
@@ -697,6 +721,18 @@
    },
    "_meta": {
     "id": "nemotron-3-ultra",
+    "route": "alcf",
+    "released": "2026"
+   }
+  },
+  "nemotron-35-super-vl": {
+   "gsm8k": {
+    "acc": 98.36065573770492,
+    "n": 61,
+    "acc_final_rule": 98.36065573770492
+   },
+   "_meta": {
+    "id": "nemotron-35-super-vl",
     "route": "alcf",
     "released": "2026"
    }
@@ -800,7 +836,10 @@
   "gpt-oss-120b": 0.0,
   "kimi-k3.1": 5.515497900000005,
   "llama3-8b-instruct": 1.2257618999999984,
+  "mistral-large-3-alcf": 0.0,
+  "mistral-large-4-nvfp4": 0.0,
   "nemotron-3-ultra": 0.0,
+  "nemotron-35-super-vl": 0.0,
   "nemotron-super-3-120b": 0.8518252499999996
  }
 }

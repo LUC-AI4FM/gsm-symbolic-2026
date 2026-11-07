@@ -11,7 +11,10 @@ Rebuilt by `python -m gsmsym.score` from `runs/*/raw.jsonl`. Accuracy in %, mean
 | gpt-oss-120b | alcf | 80.0 | 77.8 (±3.6) [10] | 77.3 (±2.5) [10] | 78.0 (±4.3) [10] | 70.3 (±2.1) [10] | 73.3 (±2.4) [10] | 54.1 (±3.0) [10] | 81.2 (±8.3) [10] |
 | kimi-k3.1 | bedrock | 96.0 | 98.0 [1] | 98.0 [1] | 96.0 [1] | 95.9 [1] | 96.6 [1] | – | – |
 | llama3-8b-instruct | bedrock_completion | 77.0 | 73.6 (±1.8) [5] | 55.8 (±3.3) [5] | 32.8 (±3.0) [5] | 61.6 (±1.3) [5] | 63.6 (±2.9) [5] | 24.7 (±3.0) [5] | 44.8 (±21.3) [5] |
+| mistral-large-3-alcf | alcf | 100.0 | – | – | – | – | – | – | – |
+| mistral-large-4-nvfp4 | alcf | 100.0 | – | – | – | – | – | – | – |
 | nemotron-3-ultra | alcf | 98.0 | 92.9 (±1.1) [10] | – | – | – | – | – | – |
+| nemotron-35-super-vl | alcf | 98.4 | – | – | – | – | – | – | – |
 | nemotron-super-3-120b | bedrock | 95.0 | 95.0 (±0.7) [5] | 92.8 (±1.3) [5] | 85.2 (±3.6) [5] | 92.8 (±2.0) [5] | 96.9 (±1.3) [5] | – | – |
 
 Drops (points) with 95% CI:
@@ -23,7 +26,10 @@ Drops (points) with 95% CI:
 | gpt-oss-120b | +2.2 [-4.2, +8.7] | +2.7 [-4.8, +10.1] | +0.0 [-10.8, +10.2] | +8.2 [+1.4, +15.1] | +7.2 [+0.2, +14.1] | +26.3 [+18.8, +33.8] | +5.2 [-2.1, +12.6] |
 | kimi-k3.1 | -2.0 [-6.0, +2.0] | -2.0 [-6.0, +2.0] | +0.0 [-8.0, +8.0] | +0.0 [-6.2, +5.2] | +0.0 [-5.7, +5.7] | – | – |
 | llama3-8b-instruct | +3.4 [-4.0, +10.8] | +21.2 [+13.2, +29.2] | +43.2 [+29.6, +56.4] | +15.2 [+6.9, +23.4] | +13.8 [+5.1, +22.3] | +53.1 [+44.0, +61.5] | +53.3 [+33.3, +71.4] |
+| mistral-large-3-alcf | – | – | – | – | – | – | – |
+| mistral-large-4-nvfp4 | – | – | – | – | – | – | – |
 | nemotron-3-ultra | +5.1 [+1.7, +9.0] | – | – | – | – | – | – |
+| nemotron-35-super-vl | – | – | – | – | – | – | – |
 | nemotron-super-3-120b | +0.0 [-3.4, +3.6] | +2.2 [-2.4, +7.0] | +8.8 [-1.6, +19.2] | +1.9 [-2.2, +5.9] | +0.7 [-3.5, +4.7] | – | – |
 
 ## Claude models via Claude Code subagent (not API; default sampling, Claude Code system prompt, 50 problems per context)
@@ -84,7 +90,10 @@ The format-aware rule reads 'final answer is', \boxed{}, or 'Answer:' before fal
 | gpt-oss-120b | 80.0 / 89.0 | 77.8 / 86.2 | 77.3 / 84.2 | 78.0 / 86.0 | 70.3 / 79.5 |
 | kimi-k3.1 | 96.0 / 96.0 | 98.0 / 98.0 | 98.0 / 98.0 | 96.0 / 96.0 | 95.9 / 97.9 |
 | llama3-8b-instruct | 77.0 / 77.0 | 73.6 / 72.2 | 55.8 / 54.4 | 32.8 / 32.0 | 61.6 / 61.1 |
+| mistral-large-3-alcf | 100.0 / 66.7 | – | – | – | – |
+| mistral-large-4-nvfp4 | 100.0 / 100.0 | – | – | – | – |
 | nemotron-3-ultra | 98.0 / 98.0 | 92.9 / 92.9 | – | – | – |
+| nemotron-35-super-vl | 98.4 / 98.4 | – | – | – | – |
 | nemotron-super-3-120b | 95.0 / 95.0 | 95.0 / 95.0 | 92.8 / 93.0 | 85.2 / 86.0 | 92.8 / 93.0 |
 
 ## H1 check (pre-registered thresholds: Symbolic <= 2, P1 <= 5, P2 <= 10, NoOp <= 9.3 points)
@@ -107,6 +116,9 @@ The format-aware rule reads 'final answer is', \boxed{}, or 'Answer:' before fal
 | gpt-oss-120b | 0.00 |
 | kimi-k3.1 | 5.52 |
 | llama3-8b-instruct | 1.23 |
+| mistral-large-3-alcf | 0.00 |
+| mistral-large-4-nvfp4 | 0.00 |
 | nemotron-3-ultra | 0.00 |
+| nemotron-35-super-vl | 0.00 |
 | nemotron-super-3-120b | 0.85 |
 | total | 9.15 |
