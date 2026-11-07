@@ -467,6 +467,18 @@
     "released": "2025-08"
    }
   },
+  "gpt-oss-20b": {
+   "gsm8k": {
+    "acc": 77.0,
+    "n": 100,
+    "acc_final_rule": 87.0
+   },
+   "_meta": {
+    "id": "openai/gpt-oss-20b",
+    "route": "alcf",
+    "released": "2025-08"
+   }
+  },
   "inkling": {
    "gsm8k": {
     "acc": 97.0,
@@ -871,6 +883,22 @@
     ],
     "drop": 1.2800000000000011
    },
+   "p2": {
+    "acc": 93.12,
+    "sd": 2.463115664257406,
+    "sets": 50,
+    "templates_per_set": 50.0,
+    "acc_final_rule": 93.16,
+    "binomial_sd": 3.579568689102082,
+    "binomial_sd_p975": 4.340788981232772,
+    "h2_consistent_with_binomial": true,
+    "drop_paired": 4.88000000000001,
+    "drop_ci95": [
+     -1.8799999999999955,
+     11.680000000000007
+    ],
+    "drop": 3.8799999999999955
+   },
    "_meta": {
     "id": "mistral-large-4-nvfp4",
     "route": "alcf",
@@ -890,12 +918,12 @@
     "templates_per_set": 100.0,
     "acc_final_rule": 92.9,
     "binomial_sd": 2.568248430350926,
-    "binomial_sd_p975": 3.794733192202055,
+    "binomial_sd_p975": 3.7431418769679454,
     "h2_consistent_with_binomial": true,
     "drop_paired": 5.100000000000037,
     "drop_ci95": [
-     1.700000000000017,
-     8.999999999999986
+     1.5999999999999943,
+     8.900000000000006
     ],
     "drop": 5.099999999999994
    },
@@ -918,12 +946,12 @@
     "templates_per_set": 100.0,
     "acc_final_rule": 95.92,
     "binomial_sd": 1.9782659073036657,
-    "binomial_sd_p975": 2.3959148906556145,
+    "binomial_sd_p975": 2.4095896847761424,
     "h2_consistent_with_binomial": true,
     "drop_paired": 2.0800000000000125,
     "drop_ci95": [
      0.37999999999999545,
-     4.460000000000008
+     4.4199999999999875
     ],
     "drop": 2.0799999999999983
    },
@@ -934,12 +962,12 @@
     "templates_per_set": 100.0,
     "acc_final_rule": 94.86,
     "binomial_sd": 2.2121808244354706,
-    "binomial_sd_p975": 2.6896627510313844,
+    "binomial_sd_p975": 2.6600598428131152,
     "h2_consistent_with_binomial": true,
     "drop_paired": 3.160000000000011,
     "drop_ci95": [
-     -0.13999999999997215,
-     6.780000000000016
+     -0.14000000000000057,
+     6.880000000000024
     ],
     "drop": 3.1599999999999966
    },
@@ -950,12 +978,12 @@
     "templates_per_set": 50.0,
     "acc_final_rule": 90.8,
     "binomial_sd": 4.0874441892214275,
-    "binomial_sd_p975": 4.884962348151432,
+    "binomial_sd_p975": 4.987494565492409,
     "h2_consistent_with_binomial": true,
     "drop_paired": 7.200000000000002,
     "drop_ci95": [
-     0.1600000000000108,
-     14.879999999999981
+     0.1599999999999966,
+     14.799999999999981
     ],
     "drop": 7.200000000000003
    },
@@ -966,12 +994,12 @@
     "templates_per_set": 93.18,
     "acc_final_rule": 91.60365644854552,
     "binomial_sd": 2.8730299391860683,
-    "binomial_sd_p975": 3.4679099155882422,
+    "binomial_sd_p975": 3.459530758841546,
     "h2_consistent_with_binomial": true,
     "drop_paired": 5.892992232353934,
     "drop_ci95": [
-     2.8013441404930717,
-     9.55716818642351
+     2.893095238095242,
+     9.590371254884914
     ],
     "drop": 6.396343551454478
    },
@@ -982,12 +1010,12 @@
     "templates_per_set": 54.24,
     "acc_final_rule": 97.94986844725601,
     "binomial_sd": 1.9643321756407681,
-    "binomial_sd_p975": 2.448769622308177,
+    "binomial_sd_p975": 2.4191526962231396,
     "h2_consistent_with_binomial": true,
     "drop_paired": 2.9237604004671103,
     "drop_ci95": [
-     1.1107343118948567,
-     5.30683748051388
+     1.1031769435200056,
+     5.302652063046735
     ],
     "drop": 0.1386430678466013
    },
@@ -998,12 +1026,12 @@
     "templates_per_set": 94.5,
     "acc_final_rule": 64.81021853246577,
     "binomial_sd": 4.91263076433321,
-    "binomial_sd_p975": 7.337084243136763,
+    "binomial_sd_p975": 7.093085050982103,
     "h2_consistent_with_binomial": true,
     "drop_paired": 33.4936507936508,
     "drop_ci95": [
-     27.94523809523811,
-     39.09206349206351
+     27.98492063492064,
+     39.03174603174604
     ],
     "drop": 33.18978146753423
    },
@@ -1014,12 +1042,12 @@
     "templates_per_set": 11.7,
     "acc_final_rule": 95.35030758714969,
     "binomial_sd": 6.448494324912148,
-    "binomial_sd_p975": 9.97682499781554,
+    "binomial_sd_p975": 9.662515072736715,
     "h2_consistent_with_binomial": true,
     "drop_paired": 4.5,
     "drop_ci95": [
      0.5,
-     9.833333333333329
+     9.833333333333343
     ],
     "drop": 3.128205128205124
    },
@@ -1042,12 +1070,12 @@
     "templates_per_set": 100.0,
     "acc_final_rule": 95.0,
     "binomial_sd": 2.179449471770338,
-    "binomial_sd_p975": 3.63318042491699,
+    "binomial_sd_p975": 3.646916505762094,
     "h2_consistent_with_binomial": true,
     "drop_paired": 0.0,
     "drop_ci95": [
      -3.3999999999999915,
-     3.6000000000000085
+     3.5999999999999943
     ],
     "drop": 0.0
    },
@@ -1062,7 +1090,7 @@
     "h2_consistent_with_binomial": true,
     "drop_paired": 2.200000000000017,
     "drop_ci95": [
-     -2.3999999999999915,
+     -2.399999999999963,
      7.000000000000013
     ],
     "drop": 2.200000000000003
@@ -1078,7 +1106,7 @@
     "h2_consistent_with_binomial": true,
     "drop_paired": 8.799999999999997,
     "drop_ci95": [
-     -2.0,
+     -1.6000000000000085,
      19.200000000000003
     ],
     "drop": 9.799999999999997
@@ -1090,12 +1118,12 @@
     "templates_per_set": 94.2,
     "acc_final_rule": 93.00562757332051,
     "binomial_sd": 2.6633626637877725,
-    "binomial_sd_p975": 4.41200879858037,
+    "binomial_sd_p975": 4.475677439992053,
     "h2_consistent_with_binomial": true,
     "drop_paired": 1.9000000000000057,
     "drop_ci95": [
      -2.1499999999999915,
-     6.099999999999994
+     5.950000000000002
     ],
     "drop": 2.2005579936897988
    },
@@ -1106,12 +1134,12 @@
     "templates_per_set": 83.6,
     "acc_final_rule": 97.13517579980994,
     "binomial_sd": 1.8985400682887184,
-    "binomial_sd_p975": 3.2602533184831297,
+    "binomial_sd_p975": 3.2164895443110213,
     "h2_consistent_with_binomial": true,
     "drop_paired": 0.7216494845361,
     "drop_ci95": [
      -3.4020618556701003,
-     4.742268041237122
+     4.536082474226824
     ],
     "drop": -1.8899521531100447
    },
@@ -1126,6 +1154,7 @@
   "deepseek-v3.2": 1.55546121,
   "gemma-4-31b-it": 0.0,
   "gpt-oss-120b": 0.0,
+  "gpt-oss-20b": 0.0,
   "inkling": 0.0,
   "kimi-k3.1": 5.515497900000005,
   "llama-3.1-8b-instruct-completion": 0.0,
