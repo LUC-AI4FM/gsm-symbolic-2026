@@ -12,11 +12,11 @@ Token use per item is measured from our runs, per variant.
 | nemotron-super-3-120b | bedrock | 2122 | 0.85 | 15.2 | 6.7 | 6.64 |
 | kimi-k3.1 | bedrock | 447 | 5.52 | 15.3 | 10.8 | 227.91 |
 | gemma-4-31b-it | alcf | 15747 | 0.00 | 15.4 | 3.4 | 0.00 |
-| gpt-oss-120b | alcf | 5496 | 0.00 | 15.1 | 10.7 | 0.00 |
+| gpt-oss-120b | alcf | 5590 | 0.00 | 15.1 | 10.6 | 0.00 |
 | nemotron-3-ultra | alcf | 1481 | 0.00 | 15.2 | 21.0 | 0.00 |
-| mistral-large-3-alcf | alcf | 269 | 0.00 | 23.7 | 4.6 | 0.00 |
-| mistral-large-4-nvfp4 | alcf | 992 | 0.00 | 14.3 | 16.3 | 0.00 |
-| nemotron-35-super-vl | alcf | 2155 | 0.00 | 15.1 | 11.9 | 0.00 |
+| mistral-large-3-alcf | alcf | 277 | 0.00 | 23.7 | 4.6 | 0.00 |
+| mistral-large-4-nvfp4 | alcf | 1049 | 0.00 | 14.3 | 16.4 | 0.00 |
+| nemotron-35-super-vl | alcf | 2312 | 0.00 | 15.1 | 11.8 | 0.00 |
 
 Moved to ALCF (same weights served there, no cash): nemotron-super-3-120b -> nemotron-3-super-120b-alcf.
 Not on ALCF, so Bedrock-only: llama3-8b-instruct, deepseek-v3.2, kimi-k3.1 (ALCF serves Llama-3.1-8B-Instruct, a close relative of the Llama-3-8B anchor, which we run there too).
