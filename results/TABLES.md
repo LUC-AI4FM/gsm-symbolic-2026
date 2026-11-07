@@ -10,7 +10,7 @@ Rebuilt by `python -m gsmsym.score` from `runs/*/raw.jsonl`. Accuracy in %, mean
 | gemma-4-31b-it | alcf | 98.0 | 96.2 (±1.1) [50] | 95.4 (±1.4) [50] | 94.7 (±1.5) [50] | 94.4 (±1.6) [50] | 98.8 (±1.3) [50] | 77.3 (±3.3) [10] | 94.9 (±4.7) [10] |
 | gpt-oss-120b | alcf | 80.0 | 77.5 (±3.1) [50] | 77.3 (±2.5) [10] | 78.0 (±4.3) [10] | 70.3 (±2.1) [10] | 73.3 (±2.4) [10] | 54.1 (±3.0) [10] | 81.2 (±8.3) [10] |
 | kimi-k3.1 | bedrock | 96.0 | 98.0 [1] | 98.0 [1] | 96.0 [1] | 95.9 [1] | 96.6 [1] | – | – |
-| llama-3.1-8b-instruct-completion | alcf_completion | 81.0 | – | – | – | – | – | – | – |
+| llama-3.1-8b-instruct-completion | alcf_completion | 81.0 | 74.3 (±3.1) [50] | – | – | – | – | – | – |
 | llama3-8b-instruct | bedrock_completion | 77.0 | 73.6 (±1.8) [5] | 55.8 (±3.3) [5] | 32.8 (±3.0) [5] | 61.6 (±1.3) [5] | 63.6 (±2.9) [5] | 24.7 (±3.0) [5] | 44.8 (±21.3) [5] |
 | mistral-large-3-alcf | alcf | 92.0 | – | – | – | – | – | – | – |
 | mistral-large-4-nvfp4 | alcf | 97.0 | 96.4 (±1.4) [50] | – | – | – | – | – | – |
@@ -26,13 +26,13 @@ Drops (points) with 95% CI:
 | gemma-4-31b-it | +1.8 [-0.3, +4.4] | +2.6 [-1.1, +6.2] | +3.3 [-3.2, +10.2] | +3.2 [+0.6, +6.3] | +2.2 [-0.4, +5.4] | +21.0 [+16.1, +26.1] | +2.5 [+0.0, +7.0] |
 | gpt-oss-120b | +2.5 [-3.8, +8.9] | +2.7 [-4.6, +10.1] | +0.0 [-11.0, +10.2] | +8.2 [+1.4, +15.0] | +7.2 [+0.2, +14.2] | +26.3 [+18.9, +33.8] | +5.2 [-1.9, +12.7] |
 | kimi-k3.1 | -2.0 [-6.0, +2.0] | -2.0 [-6.0, +2.0] | +0.0 [-8.0, +8.0] | +0.0 [-6.2, +6.2] | +0.0 [-5.7, +5.7] | – | – |
-| llama-3.1-8b-instruct-completion | – | – | – | – | – | – | – |
-| llama3-8b-instruct | +3.4 [-4.2, +10.8] | +21.2 [+13.4, +29.2] | +43.2 [+29.2, +56.4] | +15.2 [+7.1, +23.6] | +13.8 [+5.2, +22.5] | +53.1 [+44.2, +61.6] | +53.3 [+34.3, +71.4] |
+| llama-3.1-8b-instruct-completion | +6.7 [+0.4, +12.9] | – | – | – | – | – | – |
+| llama3-8b-instruct | +3.4 [-4.2, +10.8] | +21.2 [+13.2, +29.2] | +43.2 [+29.6, +56.8] | +15.2 [+7.1, +23.3] | +13.8 [+5.2, +22.2] | +53.1 [+44.3, +61.4] | +53.3 [+33.3, +71.4] |
 | mistral-large-3-alcf | – | – | – | – | – | – | – |
-| mistral-large-4-nvfp4 | +0.6 [-1.7, +3.0] | – | – | – | – | – | – |
+| mistral-large-4-nvfp4 | +0.6 [-1.6, +2.9] | – | – | – | – | – | – |
 | nemotron-3-ultra | +5.1 [+1.7, +9.0] | – | – | – | – | – | – |
-| nemotron-35-super-vl | +2.1 [+0.4, +4.5] | +3.2 [-0.2, +6.8] | – | – | – | – | – |
-| nemotron-super-3-120b | +0.0 [-3.4, +3.6] | +2.2 [-2.4, +7.0] | +8.8 [-2.0, +19.2] | +1.9 [-2.2, +6.0] | +0.7 [-3.4, +4.7] | – | – |
+| nemotron-35-super-vl | +2.1 [+0.4, +4.5] | +3.2 [-0.3, +6.7] | – | – | – | – | – |
+| nemotron-super-3-120b | +0.0 [-3.4, +3.6] | +2.2 [-2.4, +7.0] | +8.8 [-2.0, +19.2] | +1.9 [-2.1, +6.0] | +0.7 [-3.5, +4.7] | – | – |
 
 ## Claude models via Claude Code subagent (not API; default sampling, Claude Code system prompt, 50 problems per context)
 
@@ -70,17 +70,18 @@ Drops (points) with 95% CI:
 | gpt-oss-120b | p1 | 10 | 2.50 | 4.19 | 6.14 | yes |
 | gpt-oss-120b | p2 | 10 | 4.32 | 5.86 | 8.64 | yes |
 | gpt-oss-120b | noop | 10 | 2.10 | 4.73 | 6.88 | yes |
+| llama-3.1-8b-instruct-completion | symbolic | 50 | 3.11 | 4.37 | 5.25 | yes |
 | llama3-8b-instruct | symbolic | 5 | 1.82 | 4.41 | 7.40 | yes |
-| llama3-8b-instruct | p1 | 5 | 3.27 | 4.97 | 8.26 | yes |
-| llama3-8b-instruct | p2 | 5 | 3.03 | 6.64 | 11.37 | yes |
-| llama3-8b-instruct | noop | 5 | 1.30 | 5.01 | 8.34 | yes |
-| mistral-large-4-nvfp4 | symbolic | 50 | 1.37 | 1.85 | 2.23 | yes |
-| nemotron-3-ultra | symbolic | 10 | 1.10 | 2.57 | 3.84 | yes |
-| nemotron-35-super-vl | symbolic | 50 | 1.01 | 1.98 | 2.40 | yes |
-| nemotron-35-super-vl | p1 | 50 | 1.36 | 2.21 | 2.66 | yes |
+| llama3-8b-instruct | p1 | 5 | 3.27 | 4.97 | 8.34 | yes |
+| llama3-8b-instruct | p2 | 5 | 3.03 | 6.64 | 11.08 | yes |
+| llama3-8b-instruct | noop | 5 | 1.30 | 5.01 | 8.43 | yes |
+| mistral-large-4-nvfp4 | symbolic | 50 | 1.37 | 1.85 | 2.27 | yes |
+| nemotron-3-ultra | symbolic | 10 | 1.10 | 2.57 | 3.75 | yes |
+| nemotron-35-super-vl | symbolic | 50 | 1.01 | 1.98 | 2.39 | yes |
+| nemotron-35-super-vl | p1 | 50 | 1.36 | 2.21 | 2.69 | yes |
 | nemotron-super-3-120b | symbolic | 5 | 0.71 | 2.18 | 3.65 | yes |
-| nemotron-super-3-120b | p1 | 5 | 1.30 | 2.58 | 4.39 | yes |
-| nemotron-super-3-120b | p2 | 5 | 3.63 | 5.02 | 8.53 | yes |
+| nemotron-super-3-120b | p1 | 5 | 1.30 | 2.58 | 4.32 | yes |
+| nemotron-super-3-120b | p2 | 5 | 3.63 | 5.02 | 8.20 | yes |
 | nemotron-super-3-120b | noop | 5 | 1.98 | 2.66 | 4.49 | yes |
 
 ## Parser sensitivity: paper rule vs format-aware rule (accuracy %)
@@ -94,7 +95,7 @@ The format-aware rule reads 'final answer is', \boxed{}, or 'Answer:' before fal
 | gemma-4-31b-it | 98.0 / 98.0 | 96.2 / 96.2 | 95.4 / 95.4 | 94.7 / 94.7 | 94.4 / 94.4 |
 | gpt-oss-120b | 80.0 / 89.0 | 77.5 / 85.2 | 77.3 / 84.2 | 78.0 / 86.0 | 70.3 / 79.5 |
 | kimi-k3.1 | 96.0 / 96.0 | 98.0 / 98.0 | 98.0 / 98.0 | 96.0 / 96.0 | 95.9 / 97.9 |
-| llama-3.1-8b-instruct-completion | 81.0 / 80.0 | – | – | – | – |
+| llama-3.1-8b-instruct-completion | 81.0 / 80.0 | 74.3 / 73.9 | – | – | – |
 | llama3-8b-instruct | 77.0 / 77.0 | 73.6 / 72.2 | 55.8 / 54.4 | 32.8 / 32.0 | 61.6 / 61.1 |
 | mistral-large-3-alcf | 92.0 / 91.0 | – | – | – | – |
 | mistral-large-4-nvfp4 | 97.0 / 97.0 | 96.4 / 96.5 | – | – | – |
