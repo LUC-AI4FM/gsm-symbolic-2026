@@ -89774,6 +89774,18 @@
 {
 "id": 49,
 "condition": "p2",
+"instance": 31,
+"sample": 31,
+"custom_id": "0049-p2-31",
+"status": "succeeded",
+"pred": 1155.0,
+"gold": 1155.0,
+"pass": true,
+"pass_final_rule": false
+},
+{
+"id": 49,
+"condition": "p2",
 "instance": 32,
 "sample": 32,
 "custom_id": "0049-p2-32",
@@ -89913,6 +89925,78 @@
 "pred": 10.0,
 "gold": 1166.0,
 "pass": false,
+"pass_final_rule": false
+},
+{
+"id": 49,
+"condition": "p2",
+"instance": 44,
+"sample": 44,
+"custom_id": "0049-p2-44",
+"status": "succeeded",
+"pred": 1243.0,
+"gold": 1243.0,
+"pass": true,
+"pass_final_rule": false
+},
+{
+"id": 49,
+"condition": "p2",
+"instance": 45,
+"sample": 45,
+"custom_id": "0049-p2-45",
+"status": "succeeded",
+"pred": 1110.0,
+"gold": 1221.0,
+"pass": false,
+"pass_final_rule": true
+},
+{
+"id": 49,
+"condition": "p2",
+"instance": 46,
+"sample": 46,
+"custom_id": "0049-p2-46",
+"status": "succeeded",
+"pred": 1353.0,
+"gold": 1353.0,
+"pass": true,
+"pass_final_rule": true
+},
+{
+"id": 49,
+"condition": "p2",
+"instance": 47,
+"sample": 47,
+"custom_id": "0049-p2-47",
+"status": "succeeded",
+"pred": 10.0,
+"gold": 1276.0,
+"pass": false,
+"pass_final_rule": false
+},
+{
+"id": 49,
+"condition": "p2",
+"instance": 48,
+"sample": 48,
+"custom_id": "0049-p2-48",
+"status": "succeeded",
+"pred": 1331.0,
+"gold": 1331.0,
+"pass": true,
+"pass_final_rule": false
+},
+{
+"id": 49,
+"condition": "p2",
+"instance": 49,
+"sample": 49,
+"custom_id": "0049-p2-49",
+"status": "succeeded",
+"pred": 550.0,
+"gold": 550.0,
+"pass": true,
 "pass_final_rule": false
 },
 {
